@@ -11,6 +11,7 @@
     "preview": "vite preview",
     "vendor": "node ./scripts/vendor.mjs",
     "demo-no-access": "node ./scripts/demo-no-access.mjs",
+    "sync-gh-pages": "git subtree push --prefix dist origin gh-pages",
     "deploy-dev": "pnpm build-dev && aws s3 sync ./dist/ s3://plus-yle-fi-prod/dev/2026-04-gaza-vite --profile='plus-yle-fi' --cache-control='max-age=60' --acl='public-read' --delete",
     "deploy-prod": "pnpm build-prod && aws s3 sync ./dist/ s3://plus-yle-fi-prod/2026-04-gaza-vite --profile='plus-yle-fi' --cache-control='max-age=60' --acl='public-read' --delete",
     "fetch-articles": "node --env-file=.env scripts/fetchArticles.js"
