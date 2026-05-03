@@ -1,6 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 import Image from './Image.jsx';
 
 function InfoCard({ opacity, cx, cy, scrollProgress }) {
