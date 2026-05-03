@@ -9,6 +9,7 @@
     "build-dev": "vite build --mode dev-build && node ./scripts/writeConfJson.mjs",
     "build-prod": "vite build && node ./scripts/writeConfJson.mjs",
     "preview": "vite preview",
+    "push": "git push",
     "vendor": "node ./scripts/vendor.mjs",
     "demo-no-access": "node ./scripts/demo-no-access.mjs",
     "sync-gh-pages": "git subtree push --prefix dist origin gh-pages",
