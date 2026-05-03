@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Yle Design System
+  v2.x.x
+-->
+<resources>
+  <color name="yds_channel_tv_yle_1">#3311aa</color>
+  <color name="yds_channel_tv_yle_2">#cb0fd0</color>
+  <color name="yds_channel_tv_yle_teema">#fe8300</color>
+  <color name="yds_channel_tv_yle_fem">#a3bd2f</color>
+  <color name="yds_channel_tv_lastenareena">#feb500</color>
+  <color name="yds_channel_radio_yle_1">#dc006a</color>
+  <color name="yds_channel_radio_yle_x">#fd2b77</color>
+  <color name="yds_channel_radio_yle_suomi">#0000e6</color>
+  <color name="yds_channel_radio_yle_puhe">#ffff0b</color>
+  <color name="yds_channel_radio_yle_sami">#0049bf</color>
+  <color name="yds_channel_radio_yle_klassinen">#0f7b87</color>
+  <color name="yds_channel_radio_yle_vega">#169bd4</color>
+  <color name="yds_channel_radio_yle_x3m">#ff4c20</color>
+  <color name="yds_channel_radio_yle_suomi_2">#00b9eb</color>
+  
+</resources>

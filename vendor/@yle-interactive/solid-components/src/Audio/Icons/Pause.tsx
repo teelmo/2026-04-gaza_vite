@@ -1,0 +1,22 @@
+import styles from "../AudioWithSubtitles.module.css";
+
+const Pause = (props) => {
+  return (
+    <svg
+      class="audioPlayerPauseIcon"
+      xmlns="http://www.w3.org/2000/svg"
+      width="32"
+      height="32"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
+      <path
+        class={styles.audioIconPath + " audioIconPath"}
+        style={props.fill}
+        d="M13 4a1 1 0 011-1h4a1 1 0 011 1v16a1 1 0 01-1 1h-4a1 1 0 01-1-1V4zM5 4a1 1 0 011-1h4a1 1 0 011 1v16a1 1 0 01-1 1H6a1 1 0 01-1-1V4z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+};
+export default Pause;

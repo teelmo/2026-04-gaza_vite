@@ -1,0 +1,85 @@
+.interactiveDSbutton {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-weight: 700;
+    outline: none;
+    line-height: 1.5;
+    font-family: var(--yds-typography-font-family-default), sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px 2px;
+    min-height: 32px;
+    border: 2px solid transparent;
+    cursor: pointer; 
+    margin: auto;
+    background-color: #131415;
+    color: #ffffff;
+    width: auto;
+}
+
+
+.xs {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 32px;
+    min-width: 32px;
+    font-size: 12px;
+}
+
+.sm {
+    padding-left: 14px;
+    padding-right: 14px;
+    min-height: 40px;
+    min-width: 40px;
+    font-size: 12px;
+}
+
+.md {
+    padding-left: 16px;
+    padding-right: 16px;
+    min-height: 48px;
+    min-width: 48px;
+    font-size: 14px;
+}
+
+.lg {
+    padding-left: 24px;
+    padding-right: 24px;
+    min-height: 56px;
+    min-width: 56px;
+    font-size: 18px;
+}
+
+@keyframes rotateOpen {
+    from {
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes rotateClosed {
+    from {
+        transform: rotate(180deg);
+    }
+    
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+.open {
+    transform-origin: center;
+    animation: rotateClosed ease-in-out 250ms forwards;
+}
+
+.closed {
+    transform-origin: center;
+    animation: rotateOpen ease-in-out 250ms forwards;
+}

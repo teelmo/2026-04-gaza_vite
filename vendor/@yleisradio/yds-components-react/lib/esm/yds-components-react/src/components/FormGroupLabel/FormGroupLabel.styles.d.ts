@@ -1,0 +1,2 @@
+export declare const FormGroupLabelStyle: import("styled-components/dist/types.js").IStyledComponentBase<"web", import("styled-components").FastOmit<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLLegendElement>, HTMLLegendElement>, never>> & string;
+export declare const FormGroupOptionalLabel: import("styled-components/dist/types.js").IStyledComponentBase<"web", import("styled-components").FastOmit<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, never>> & string;

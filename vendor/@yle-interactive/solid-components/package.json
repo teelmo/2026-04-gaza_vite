@@ -1,0 +1,39 @@
+{
+  "name": "@yle-interactive/solid-components",
+  "plusname": "solid-components",
+  "version": "0.2.119",
+  "description": "SolidJS Components for development",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yle-interactive/solid-components.git"
+  },
+  "exports": {
+    "./style": "./build/style.css",
+    "./webcomponents/*": "./build/webcomponents/*",
+    "./*": "./publishing/solid-js/*"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.ts",
+    "build-webcomponents": "for file in publishing/webcomponents/*; do vite build --config vite.webcomponents.config.js --mode $file; done",
+    "build-all": "rm -rf ./build && npm run build-webcomponents"
+  },
+  "author": "Joel Kanerva <joel.kanerva@yle.fi>",
+  "license": "ISC",
+  "dependencies": {
+    "@solid-primitives/intersection-observer": "^2.2.2",
+    "@solid-primitives/media": "^2.3.3",
+    "@solid-primitives/resize-observer": "^2.1.3",
+    "@yle-interactive/js-helperfunctions": "^0.0.60",
+    "@yleisradio/yds-core": "^1.4.3",
+    "@yleisradio/yle-design-system": "^0.2.12",
+    "bowser": "^2.13.1",
+    "eslint": "^8.57.1",
+    "eslint-plugin-solid": "^0.3.1",
+    "prettier": "^2.8.8",
+    "solid-element": "^1.9.1",
+    "solid-js": "^1.9.11",
+    "vite": "^4.5.14",
+    "vite-plugin-solid": "^2.11.10"
+  }
+}

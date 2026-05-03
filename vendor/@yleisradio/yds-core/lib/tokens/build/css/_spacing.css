@@ -1,0 +1,19 @@
+/**
+ * Yle Design System
+ * v2.x.x
+ */
+
+:root {
+  --yds-spacing-2: 2px;
+  --yds-spacing-4: 4px;
+  --yds-spacing-8: 8px;
+  --yds-spacing-12: 12px;
+  --yds-spacing-16: 16px;
+  --yds-spacing-24: 24px;
+  --yds-spacing-32: 32px;
+  --yds-spacing-40: 40px;
+  --yds-spacing-48: 48px;
+  --yds-spacing-56: 56px;
+  --yds-spacing-64: 64px;
+  --yds-spacing-72: 72px;
+}

@@ -1,0 +1,352 @@
+{
+  "weather icon": {
+    "weather cloud light": {
+      "value": "#ffffffd9",
+      "type": "color",
+      "comment": "white-opacity-70"
+    },
+    "weather cloud mid": {
+      "value": "#ffffff87",
+      "type": "color",
+      "comment": "white-opacity-50"
+    },
+    "weather cloud dark": {
+      "value": "#ffffff36",
+      "type": "color",
+      "comment": "white-opacity-30"
+    },
+    "weather moon": {
+      "value": "#95c6ffff",
+      "type": "color",
+      "comment": "info-blue-20"
+    },
+    "weather droplet": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "white"
+    },
+    "weather sun": {
+      "value": "#ffc400ff",
+      "type": "color",
+      "comment": "info-yellow-50"
+    }
+  },
+  "base": {
+    "text default": {
+      "value": "#f8f9faff",
+      "type": "color",
+      "comment": "default-text"
+    },
+    "background": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "background"
+    },
+    "tooltip background": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "negative-background"
+    },
+    "gridline": {
+      "value": "#4a4f54ff",
+      "type": "color",
+      "comment": "gray-60"
+    },
+    "text negative": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "negative-text"
+    },
+    "text secondary": {
+      "value": "#b4b6b7ff",
+      "type": "color",
+      "comment": "gray-40"
+    },
+    "text dark": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "dark-text"
+    },
+    "text light": {
+      "value": "#f8f9faff",
+      "type": "color",
+      "comment": "light-text"
+    },
+    "text plus": {
+      "value": "#29ccdeff",
+      "type": "color",
+      "comment": "turquoise-40"
+    },
+    "text minus": {
+      "value": "#f26659ff",
+      "type": "color",
+      "comment": "news-orange-50"
+    }
+  },
+  "news default": {
+    "news default 1": {
+      "value": "#7c59faff",
+      "type": "color",
+      "comment": "news-violet-40"
+    },
+    "news default 2": {
+      "value": "#29ccdeff",
+      "type": "color",
+      "comment": "turquoise-40"
+    },
+    "news default 3": {
+      "value": "#ffe387ff",
+      "type": "color",
+      "comment": "info-yellow-20"
+    },
+    "news default 4": {
+      "value": "#ff8f33ff",
+      "type": "color",
+      "comment": "info-orange-50"
+    },
+    "news default 5": {
+      "value": "#9436b5ff",
+      "type": "color",
+      "comment": "info-purple-50"
+    },
+    "news default 6": {
+      "value": "#fff3e2ff",
+      "type": "color",
+      "comment": "info-orange-5"
+    }
+  },
+  "news monochrome": {
+    "news monochrome 1": {
+      "value": "#e6e5ffff",
+      "type": "color",
+      "comment": "news-violet-5"
+    },
+    "news monochrome 2": {
+      "value": "#d3cbfbff",
+      "type": "color",
+      "comment": "news-violet-10"
+    },
+    "news monochrome 3": {
+      "value": "#b7a8faff",
+      "type": "color",
+      "comment": "news-violet-20"
+    },
+    "news monochrome 4": {
+      "value": "#9479fbff",
+      "type": "color",
+      "comment": "news-violet-30"
+    },
+    "news monochrome 5": {
+      "value": "#694bd7ff",
+      "type": "color",
+      "comment": "news-violet-50"
+    },
+    "news monochrome 6": {
+      "value": "#413091ff",
+      "type": "color",
+      "comment": "news-violet-70"
+    }
+  },
+  "sports default": {
+    "sports default 1": {
+      "value": "#5541edff",
+      "type": "color",
+      "comment": "sports-violet-50"
+    },
+    "sports default 2": {
+      "value": "#ea3e85ff",
+      "type": "color",
+      "comment": "sports-pink-40"
+    },
+    "sports default 3": {
+      "value": "#d4ff42ff",
+      "type": "color",
+      "comment": "sports-lime-30"
+    },
+    "sports default 4": {
+      "value": "#8578f2ff",
+      "type": "color",
+      "comment": "sports-violet-30"
+    },
+    "sports default 5": {
+      "value": "#f7abcbff",
+      "type": "color",
+      "comment": "sports-pink-20"
+    },
+    "sports default 6": {
+      "value": "#ebfe8dff",
+      "type": "color",
+      "comment": "sports-lime-20"
+    }
+  },
+  "sports monochrome": {
+    "sports monochrome 1": {
+      "value": "#eeeeffff",
+      "type": "color",
+      "comment": "sports-violet-5"
+    },
+    "sports monochrome 2": {
+      "value": "#ddd9fcff",
+      "type": "color",
+      "comment": "sports-violet-10"
+    },
+    "sports monochrome 3": {
+      "value": "#b3abf7ff",
+      "type": "color",
+      "comment": "sports-violet-20"
+    },
+    "sports monochrome 4": {
+      "value": "#8578f2ff",
+      "type": "color",
+      "comment": "sports-violet-30"
+    },
+    "sports monochrome 5": {
+      "value": "#5541edff",
+      "type": "color",
+      "comment": "sports-violet-50"
+    },
+    "sports monochrome 6": {
+      "value": "#372bb1ff",
+      "type": "color",
+      "comment": "sports-violet-60"
+    }
+  },
+  "accent": {
+    "news accent": {
+      "value": "#f26659ff",
+      "type": "color",
+      "comment": "news-orange-50"
+    }
+  },
+  "political party fi": {
+    "kok primary": {
+      "value": "#096de3ff",
+      "type": "color"
+    },
+    "kok secondary": {
+      "value": "#0d4e9bff",
+      "type": "color"
+    },
+    "ps primary": {
+      "value": "#6fb4fcff",
+      "type": "color"
+    },
+    "ps secondary": {
+      "value": "#146498ff",
+      "type": "color"
+    },
+    "sdp primary": {
+      "value": "#ff5a5aff",
+      "type": "color"
+    },
+    "sdp secondary": {
+      "value": "#a13e3fff",
+      "type": "color"
+    },
+    "vihr primary": {
+      "value": "#8fce29ff",
+      "type": "color"
+    },
+    "vihr secondary": {
+      "value": "#5e8421ff",
+      "type": "color"
+    },
+    "kesk primary": {
+      "value": "#099327ff",
+      "type": "color"
+    },
+    "kesk secondary": {
+      "value": "#0d6020ff",
+      "type": "color"
+    },
+    "vas primary": {
+      "value": "#e22a73ff",
+      "type": "color"
+    },
+    "vas secondary": {
+      "value": "#8f214dff",
+      "type": "color"
+    },
+    "rkp primary": {
+      "value": "#ffdc5dff",
+      "type": "color"
+    },
+    "rkp secondary": {
+      "value": "#a1914aff",
+      "type": "color"
+    },
+    "kd primary": {
+      "value": "#923de8ff",
+      "type": "color"
+    },
+    "kd secondary": {
+      "value": "#5f2c94ff",
+      "type": "color"
+    },
+    "liik primary": {
+      "value": "#cf83c8ff",
+      "type": "color"
+    },
+    "liik secondary": {
+      "value": "#7a5177ff",
+      "type": "color"
+    },
+    "others primary": {
+      "value": "#aeb0b1ff",
+      "type": "color"
+    },
+    "others secondary": {
+      "value": "#616263ff",
+      "type": "color"
+    }
+  },
+  "scale": {
+    "scale strongly agree": {
+      "value": "#29ccdeff",
+      "type": "color",
+      "comment": "turquoise-40"
+    },
+    "scale agree": {
+      "value": "#9cebf4ff",
+      "type": "color",
+      "comment": "turquoise-20"
+    },
+    "scale neutral": {
+      "value": "#e8e9ebff",
+      "type": "color",
+      "comment": "gray-20"
+    },
+    "scale disagree": {
+      "value": "#f79c94ff",
+      "type": "color",
+      "comment": "news-orange-30"
+    },
+    "scale strongly disagree": {
+      "value": "#f26659ff",
+      "type": "color",
+      "comment": "news-orange-50"
+    }
+  },
+  "survey": {
+    "survey yes": {
+      "value": "#29ccdeff",
+      "type": "color",
+      "comment": "turquoise-40"
+    },
+    "survey no": {
+      "value": "#f26659ff",
+      "type": "color",
+      "comment": "news-orange-50"
+    },
+    "survey empty": {
+      "value": "#e8e9ebff",
+      "type": "color",
+      "comment": "gray-20"
+    },
+    "survey neutral": {
+      "value": "#b4b6b7ff",
+      "type": "color",
+      "comment": "gray-40"
+    }
+  }
+}

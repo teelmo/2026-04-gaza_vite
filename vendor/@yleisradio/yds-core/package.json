@@ -1,0 +1,45 @@
+{
+  "name": "@yleisradio/yds-core",
+  "version": "2.0.7",
+  "sideEffects": false,
+  "module": "./lib/esm/index.js",
+  "main": "./lib/cjs/yds-core/src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yleisradio/yle-design-system.git"
+  },
+  "exports": {
+    "./tokens/": "./lib/tokens/",
+    ".": {
+      "import": {
+        "types": "./lib/esm/yds-core/src/index.d.ts",
+        "default": "./lib/esm/index.js"
+      },
+      "require": "./lib/cjs/yds-core/src/index.js"
+    }
+  },
+  "types": "./lib/esm/yds-core/src/index.d.ts",
+  "files": [
+    "lib",
+    "README.md",
+    "!**/*.tsbuildinfo"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && yarn build:esm && yarn build:cjs && yarn build:tokens",
+    "build:cjs": "rm -rf lib/cjs && tsc --project tsconfig.build.cjs.json && tsc-alias --project tsconfig.build.cjs.json && cp .package.cjs.json lib/cjs/package.json",
+    "build:esm": "rm -rf lib/esm && yarn rollup --config ./rollup.config-esm.mjs && mkdir -p lib/esm/yds-core/src/tokens/build && cp -r ./src/tokens/build/js lib/esm/yds-core/src/tokens/build && cp .package.esm.json lib/esm/package.json",
+    "build:tokens": "rm -rf lib/tokens && cp -r ./src/tokens lib/tokens",
+    "generate-token-jsons": "node scripts/fix-token-jsons.mjs && node scripts/generate-token-jsons.mjs",
+    "generate-tokens": "node scripts/generate-tokens.mjs",
+    "lint": "eslint .",
+    "type-check:cjs": "tsc --project tsconfig.build.cjs.json && tsc-alias --project tsconfig.build.cjs.json",
+    "type-check:esm": "tsc --project tsconfig.build.esm.json && tsc-alias --project tsconfig.build.esm.json",
+    "type-check": "yarn type-check:cjs && yarn type-check:esm"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.21.1",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.7.2"
+  }
+}

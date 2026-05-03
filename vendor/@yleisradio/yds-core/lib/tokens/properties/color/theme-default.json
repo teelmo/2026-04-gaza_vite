@@ -1,0 +1,510 @@
+{
+  "background": {
+    "background": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "white"
+    },
+    "background variant": {
+      "value": "#f8f9faff",
+      "type": "color",
+      "comment": "gray-5"
+    },
+    "negative background": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "gray-95"
+    },
+    "navigation background": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "white"
+    },
+    "control background": {
+      "value": "#00000078",
+      "type": "color",
+      "comment": "black-opacity-50"
+    },
+    "control background disabled": {
+      "value": "#00000026",
+      "type": "color",
+      "comment": "black-opacity-30"
+    },
+    "input background": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "white"
+    },
+    "highlight background": {
+      "value": "#e8e9ebff",
+      "type": "color",
+      "comment": "gray-20"
+    },
+    "background interactive": {
+      "value": "#f1f2f4ff",
+      "type": "color",
+      "comment": "gray-10"
+    },
+    "dialog background": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "white"
+    },
+    "dialog overlay": {
+      "value": "#00000078",
+      "type": "color",
+      "comment": "black-opacity-50"
+    },
+    "info primary background": {
+      "value": "#9fc8eeff",
+      "type": "color",
+      "comment": "blue-20"
+    },
+    "info secondary background": {
+      "value": "#f1f2f4ff",
+      "type": "color",
+      "comment": "gray-10"
+    },
+    "success background": {
+      "value": "#62f9c2ff",
+      "type": "color",
+      "comment": "green-20"
+    },
+    "warning background": {
+      "value": "#ffd199ff",
+      "type": "color",
+      "comment": "info-orange-20"
+    },
+    "error background": {
+      "value": "#f99fb5ff",
+      "type": "color",
+      "comment": "red-20"
+    },
+    "opinion article background": {
+      "value": "#3d5483ff",
+      "type": "color",
+      "comment": "info-deep-blue-60"
+    },
+    "background list": {
+      "value": "#f8f9faff",
+      "type": "color",
+      "comment": "gray-5"
+    },
+    "background dropdown": {
+      "value": "#f8f9faff",
+      "type": "color",
+      "comment": "gray-5"
+    }
+  },
+  "text": {
+    "default text": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "gray-95"
+    },
+    "negative text": {
+      "value": "#f8f9faff",
+      "type": "color",
+      "comment": "gray-5"
+    },
+    "input placeholder text": {
+      "value": "#4a4f54ff",
+      "type": "color",
+      "comment": "gray-60"
+    },
+    "high emphasis text": {
+      "value": "#000000c9",
+      "type": "color",
+      "comment": "black-opacity-70"
+    },
+    "medium emphasis text": {
+      "value": "#000000b3",
+      "type": "color",
+      "comment": "black-opacity-60"
+    },
+    "disabled text": {
+      "value": "#0000004a",
+      "type": "color",
+      "comment": "black-opacity-40"
+    },
+    "light text": {
+      "value": "#f8f9faff",
+      "type": "color",
+      "comment": "gray-5"
+    },
+    "dark text": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "gray-95"
+    },
+    "light high contrast text": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "white"
+    },
+    "feedback live text": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "light-high-contrast-text"
+    }
+  },
+  "action": {
+    "primary action": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "gray-95"
+    },
+    "primary action variant": {
+      "value": "#000000b3",
+      "type": "color",
+      "comment": "black-opacity-60"
+    },
+    "secondary action": {
+      "value": "#0000000d",
+      "type": "color",
+      "comment": "black-opacity-10"
+    },
+    "secondary action variant": {
+      "value": "#00000017",
+      "type": "color",
+      "comment": "black-opacity-20"
+    },
+    "disabled action": {
+      "value": "#00000026",
+      "type": "color",
+      "comment": "black-opacity-30"
+    },
+    "danger primary action": {
+      "value": "#d10b3dff",
+      "type": "color",
+      "comment": "red-60"
+    },
+    "danger primary action variant": {
+      "value": "#e90e43ff",
+      "type": "color",
+      "comment": "red-50"
+    },
+    "selected": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "gray-95"
+    },
+    "unselected": {
+      "value": "#e8e9ebff",
+      "type": "color",
+      "comment": "gray-20"
+    }
+  },
+  "border": {
+    "border": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "gray-95"
+    },
+    "disabled border": {
+      "value": "#0000004a",
+      "type": "color",
+      "comment": "black-opacity-40"
+    },
+    "primary focus border": {
+      "value": "#009cb5ff",
+      "type": "color",
+      "comment": "turquoise-60"
+    },
+    "secondary focus border": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "gray-95"
+    },
+    "separator": {
+      "value": "#00000017",
+      "type": "color",
+      "comment": "black-opacity-20"
+    },
+    "negative border": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "background"
+    }
+  },
+  "illustrative icons": {
+    "illustrative icon primary": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "gray-95"
+    },
+    "illustrative icon secondary": {
+      "value": "#5ddbe9ff",
+      "type": "color",
+      "comment": "turquoise-30"
+    }
+  },
+  "player": {
+    "player progress bar": {
+      "value": "#ffffff4d",
+      "type": "color",
+      "comment": "white-opacity-40"
+    },
+    "player progress indicator": {
+      "value": "#29ccdeff",
+      "type": "color",
+      "comment": "turquoise-40"
+    }
+  },
+  "spinner": {
+    "default": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "gray-95"
+    },
+    "negative": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "white"
+    },
+    "highlight default": {
+      "value": "#009cb5ff",
+      "type": "color",
+      "comment": "turquoise-60"
+    },
+    "highlight negative": {
+      "value": "#29ccdeff",
+      "type": "color",
+      "comment": "turquoise-40"
+    },
+    "background default": {
+      "value": "#d8d9dbff",
+      "type": "color",
+      "comment": "gray-30"
+    },
+    "background negative": {
+      "value": "#323639ff",
+      "type": "color",
+      "comment": "gray-70"
+    },
+    "error": {
+      "value": "#d10b3dff",
+      "type": "color",
+      "comment": "error"
+    },
+    "success": {
+      "value": "#058657ff",
+      "type": "color",
+      "comment": "success"
+    },
+    "background error": {
+      "value": "#fcc5d3ff",
+      "type": "color",
+      "comment": "red-10"
+    }
+  },
+  "feedback": {
+    "highlight": {
+      "value": "#009cb5ff",
+      "type": "color",
+      "comment": "turquoise-60"
+    },
+    "error": {
+      "value": "#d10b3dff",
+      "type": "color",
+      "comment": "red-60"
+    },
+    "warning": {
+      "value": "#f1722aff",
+      "type": "color",
+      "comment": "orange-60"
+    },
+    "success": {
+      "value": "#058657ff",
+      "type": "color",
+      "comment": "green-70"
+    },
+    "live": {
+      "value": "#e90e43ff",
+      "type": "color",
+      "comment": "red-50"
+    }
+  },
+  "logo": {
+    "yle logo background brand": {
+      "value": "#00b4c8ff",
+      "type": "color",
+      "comment": "turquoise-50"
+    },
+    "tv1 logo": {
+      "value": "#3311aaff",
+      "type": "color",
+      "comment": "yle-tv-1"
+    },
+    "tv 2 logo": {
+      "value": "#cb0fd0ff",
+      "type": "color",
+      "comment": "yle-tv-2"
+    },
+    "yle teema logo": {
+      "value": "#fe8300ff",
+      "type": "color",
+      "comment": "yle-teema"
+    },
+    "yle fem logo": {
+      "value": "#a3bd2fff",
+      "type": "color",
+      "comment": "yle-fem"
+    },
+    "lastenareena logo": {
+      "value": "#feb500ff",
+      "type": "color",
+      "comment": "lastenareena"
+    },
+    "yle radio 1 logo": {
+      "value": "#dc006aff",
+      "type": "color",
+      "comment": "yle-radio-1"
+    },
+    "yle radio suomi logo": {
+      "value": "#0000e6ff",
+      "type": "color",
+      "comment": "yle-radio-suomi"
+    },
+    "yle x logo": {
+      "value": "#fd2b77ff",
+      "type": "color",
+      "comment": "yle-x"
+    },
+    "yle x3m logo": {
+      "value": "#ff4c20ff",
+      "type": "color",
+      "comment": "yle-x3m"
+    },
+    "yle vega logo": {
+      "value": "#169bd4ff",
+      "type": "color",
+      "comment": "yle-vega"
+    },
+    "yle klassinen logo": {
+      "value": "#0f7b87ff",
+      "type": "color",
+      "comment": "yle-klassinen"
+    },
+    "yle sami radio logo": {
+      "value": "#0049bfff",
+      "type": "color",
+      "comment": "yle-sami-radio"
+    },
+    "areena logo": {
+      "value": "#29ccdeff",
+      "type": "color",
+      "comment": "turquoise-40"
+    },
+    "yle logo background default": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "default-text"
+    },
+    "yle logo text": {
+      "value": "#f8f9faff",
+      "type": "color",
+      "comment": "negative-text"
+    },
+    "logo background": {
+      "value": "#000000ff",
+      "type": "color",
+      "comment": "black"
+    },
+    "logo nega": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "white"
+    },
+    "logo text": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "white"
+    }
+  },
+  "brand": {
+    "yle brand": {
+      "value": "#00b4c8ff",
+      "type": "color",
+      "comment": "turquoise-50"
+    }
+  },
+  "tag": {
+    "live tag": {
+      "value": "#e90e43ff",
+      "type": "color",
+      "comment": "red-50"
+    },
+    "default tag": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "gray-95"
+    },
+    "opinion tag": {
+      "value": "#3d5483ff",
+      "type": "color",
+      "comment": "info-deep-blue-60"
+    },
+    "yle corporate tag": {
+      "value": "#00809cff",
+      "type": "color",
+      "comment": "turquoise-70"
+    },
+    "primary action tag": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "gray-95"
+    },
+    "primary action variant tag": {
+      "value": "#000000b3",
+      "type": "color",
+      "comment": "black-opacity-60"
+    },
+    "secondary action tag": {
+      "value": "#0000000d",
+      "type": "color",
+      "comment": "black-opacity-10"
+    },
+    "secondary action variant tag": {
+      "value": "#00000005",
+      "type": "color",
+      "comment": "black-opacity-5"
+    },
+    "neutral tag": {
+      "value": "#e8e9ebff",
+      "type": "color",
+      "comment": "gray-20"
+    }
+  },
+  "shadow": {
+    "s": {
+      "value": "#00000026",
+      "type": "color"
+    },
+    "m": {
+      "value": "#00000026",
+      "type": "color"
+    },
+    "l": {
+      "value": "#00000069",
+      "type": "color"
+    }
+  },
+  "tietaja": {
+    "background player card": {
+      "value": "#00000026",
+      "type": "color",
+      "comment": "black-opacity-30"
+    },
+    "text score": {
+      "value": "#009cb5ff",
+      "type": "color",
+      "comment": "highlight"
+    },
+    "border highlight": {
+      "value": "#009cb5ff",
+      "type": "color",
+      "comment": "highlight"
+    }
+  }
+}

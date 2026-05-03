@@ -1,0 +1,113 @@
+.plusRecommendationBlock {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    position: relative;
+    color: var(--yds-color-text-default);
+    font-family: var(--yds-typography-font-family-default), sans-serif;
+}
+
+.plusRecommendationBlockHeader {
+    font-size: var(--yds-typography-font-size-lg);
+    letter-spacing: 0px;
+    line-height: 25.2px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    padding-top: 16px;
+}
+
+
+.plusRecommendationList {
+    justify-content: space-between;
+    position: relative;
+
+    @media screen and (max-width: 767px) {
+        font-size: 16px;
+    }
+}
+
+.plusRecommendationListItem {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 12px 0;
+    justify-content: space-between;
+}
+
+.plusRecommendationListItemTexts {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+    margin-right: 16px;
+}
+
+.plusRecommendationTagLink {
+    color: var(--yds-color-text-default);
+    font-size: var(--yds-typography-font-size-xs);
+    letter-spacing: 0px;
+    line-height: 18px;
+    font-weight: var(--yds-typography-font-weight-bold);
+    text-decoration: none;
+
+    @media screen and (min-width: 768px) {
+        font-size: var(--yds-typography-font-size-sm);
+    }
+}
+
+.plusRecommendationTagLink::first-letter {
+    text-transform: uppercase;
+}
+
+.plusRecommendationHeader {
+    font-size: var(--yds-typography-font-size-lg);
+    letter-spacing: 0px;
+    line-height: 27px;
+    font-weight: var(--yds-typography-font-weight-bold);
+    margin: 8px 0;
+
+    @media screen and (max-width: 767px) {
+        font-size: var(--yds-typography-font-size-md);
+        letter-spacing: 0px;
+        line-height: 24px
+    }
+}
+
+.plusRecommendationHeader a {
+    color: var(--yds-color-text-default);
+    text-decoration: none;
+}
+
+.plusRecommendationTime {
+    font-size: var(--yds-typography-font-size-xs);
+    letter-spacing: 0px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-top: 8px;
+    display: block;
+}
+
+
+.plusRecommendationListItemPicture {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+    max-width: 196px;
+    min-width: 104px;
+    flex-shrink: 0;
+    max-height: 110px;
+
+    @media screen and (max-width: 767px) {
+        max-width: 30%;
+        max-height: initial;
+    }
+}
+
+.plusRecommendationListItemPicture picture {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.plusRecommendationListItemPicture img {
+    width: 100%;
+    display: block;
+}

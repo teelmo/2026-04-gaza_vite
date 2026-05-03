@@ -1,0 +1,10 @@
+.tagLinkStyle {
+    text-decoration: none;
+    color: inherit; 
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: var(--yds-typography-font-size-sm);
+    font-weight: var(--yds-typography-font-weight-bold);
+    color: var(--yds-color-text-default);
+}

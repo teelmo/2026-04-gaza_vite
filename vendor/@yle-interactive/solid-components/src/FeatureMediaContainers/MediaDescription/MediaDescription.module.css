@@ -1,0 +1,21 @@
+.mediaDescriptionHeader {
+    color: var(--yds-color-text-default);
+    font-family: var(--yds-typography-font-family-default), sans-serif;
+    left: 12px;
+    margin: 0;
+    padding: 4px;
+    position: absolute;
+    text-align: right;
+    top: 12px;
+}
+
+.mediaDescription {
+    color: var(--yds-color-text-default);
+    font-family: var(--yds-typography-font-family-default), sans-serif;
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    text-align: right;
+    padding: 4px;
+    margin-left: 16px;
+}

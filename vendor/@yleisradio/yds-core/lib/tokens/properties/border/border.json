@@ -1,0 +1,19 @@
+{
+  "border": {
+    "sm": {
+      "value": 1,
+      "unit": "pixels",
+      "type": "border"
+    },
+    "md": {
+      "value": 2,
+      "unit": "pixels",
+      "type": "border"
+    },
+    "lg": {
+      "value": 3,
+      "unit": "pixels",
+      "type": "border"
+    }
+  }
+}

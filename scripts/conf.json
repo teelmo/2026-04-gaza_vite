@@ -1,0 +1,8 @@
+{
+  "mainfile": "index.html",
+  "js": ["js/script.js"],
+  "css": ["css/styles.css", "css/variables.light.css"],
+  "supports": ["darkmode"],
+  "darkModeCss": ["css/variables.dark.css"],
+  "darkMode": true
+}

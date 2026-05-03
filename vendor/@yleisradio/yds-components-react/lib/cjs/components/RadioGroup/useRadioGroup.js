@@ -1,0 +1,10 @@
+'use strict';
+
+var React = require('react');
+var RadioGroupContext = require('./RadioGroupContext.js');
+
+function useRadioGroup() {
+  return React.useContext(RadioGroupContext.RadioGroupContext);
+}
+
+exports.useRadioGroup = useRadioGroup;

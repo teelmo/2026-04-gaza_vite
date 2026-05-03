@@ -1,0 +1,48 @@
+.carousel-controls {
+    all: unset;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    z-index: 20;
+    pointer-events: none;
+}
+
+.carousel-controls button {
+    all: unset;
+    position: absolute;
+    pointer-events: all;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.carousel-controls svg {
+    filter: drop-shadow(1px 0px 2px rgb(0 0 0 / 0.5));
+    position: relative;
+    display: block;
+    margin: auto;
+    justify-items: center;
+}
+
+.carousel-controls .animate {
+    animation: pulse-animation 2s infinite;
+
+}
+
+@keyframes pulse-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }

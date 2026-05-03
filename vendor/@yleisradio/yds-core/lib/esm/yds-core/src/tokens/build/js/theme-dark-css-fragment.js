@@ -1,0 +1,102 @@
+/**
+ * Yle Design System
+ * v2.x.x
+ */
+
+export default `--yds-color-background: #131415; /* gray-95 */
+  --yds-color-background-variant: #1f2123; /* gray-90 */
+  --yds-color-background-negative: #ffffff; /* white */
+  --yds-color-background-navigation: #000000; /* black */
+  --yds-color-background-control: rgba(255, 255, 255, 0.53); /* white-opacity-50 */
+  --yds-color-background-control-disabled: rgba(255, 255, 255, 0.21); /* white-opacity-30 */
+  --yds-color-background-input: #131415; /* gray-95 */
+  --yds-color-background-highlight: #0b3f4b; /* turquoise-95 */
+  --yds-color-background-interactive: #292b2d; /* gray-80 */
+  --yds-color-background-dialog: #1f2123; /* gray-90 */
+  --yds-color-background-dialog-overlay: rgba(0, 0, 0, 0.7); /* black-opacity-60 */
+  --yds-color-background-info-primary: #d8d9db; /* gray-30 */
+  --yds-color-background-info-secondary: #292b2d; /* gray-80 */
+  --yds-color-background-success: #33d59b; /* info-green-40 */
+  --yds-color-background-warning: #feb054; /* info-orange-40 */
+  --yds-color-background-error: #f5517a; /* red-40 */
+  --yds-color-background-opinion-article: #3d5483; /* info-deep-blue-60 */
+  --yds-color-background-list: #131415; /* gray-95 */
+  --yds-color-background-dropdown: #292b2d; /* gray-80 */
+  --yds-color-text-default: #f8f9fa; /* gray-5 */
+  --yds-color-text-negative: #131415; /* gray-95 */
+  --yds-color-text-input-placeholder: #878a8b; /* gray-50 */
+  --yds-color-text-high-emphasis: rgba(255, 255, 255, 0.85); /* white-opacity-70 */
+  --yds-color-text-medium-emphasis: rgba(255, 255, 255, 0.71); /* white-opacity-60 */
+  --yds-color-text-disabled: rgba(255, 255, 255, 0.3); /* white-opacity-40 */
+  --yds-color-text-light: #f8f9fa; /* gray-5 */
+  --yds-color-text-dark: #131415; /* gray-95 */
+  --yds-color-text-light-high-contrast: #ffffff; /* white */
+  --yds-color-text-feedback-live: #ffffff; /* light-high-contrast-text */
+  --yds-color-action-primary: #f8f9fa; /* gray-5 */
+  --yds-color-action-primary-variant: rgba(255, 255, 255, 0.71); /* white-opacity-60 */
+  --yds-color-action-secondary: rgba(255, 255, 255, 0.08); /* white-opacity-5 */
+  --yds-color-action-secondary-variant: rgba(255, 255, 255, 0.17); /* white-opacity-20 */
+  --yds-color-action-disabled: rgba(255, 255, 255, 0.21); /* white-opacity-30 */
+  --yds-color-action-danger-primary: #f77898; /* red-30 */
+  --yds-color-action-danger-primary-variant: #f5517a; /* red-40 */
+  --yds-color-action-selected: #f8f9fa; /* gray-5 */
+  --yds-color-action-unselected: #323639; /* gray-70 */
+  --yds-color-border: #f8f9fa; /* gray-5 */
+  --yds-color-border-disabled: rgba(255, 255, 255, 0.3); /* white-opacity-40 */
+  --yds-color-border-primary-focus: #29ccde; /* turquoise-40 */
+  --yds-color-border-secondary-focus: #f8f9fa; /* gray-5 */
+  --yds-color-border-separator: rgba(255, 255, 255, 0.13); /* white-opacity-10 */
+  --yds-color-border-negative: #131415; /* background */
+  --yds-color-illustrative-icons-icon-primary: #f8f9fa; /* gray-5 */
+  --yds-color-illustrative-icons-icon-secondary: #009cb5; /* turquoise-60 */
+  --yds-color-player-progress-bar: rgba(255, 255, 255, 0.3); /* white-opacity-40 */
+  --yds-color-player-progress-indicator: #29ccde; /* turquoise-40 */
+  --yds-color-spinner-default: #ffffff; /* white */
+  --yds-color-spinner-negative: #131415; /* gray-95 */
+  --yds-color-spinner-highlight-default: #29ccde; /* turquoise-40 */
+  --yds-color-spinner-highlight-negative: #009cb5; /* turquoise-60 */
+  --yds-color-spinner-background-default: #323639; /* gray-70 */
+  --yds-color-spinner-background-negative: #d8d9db; /* gray-30 */
+  --yds-color-spinner-error: #f5517a; /* error */
+  --yds-color-spinner-success: #03e592; /* success */
+  --yds-color-spinner-background-error: #740722; /* red-80 */
+  --yds-color-feedback-highlight: #29ccde; /* turquoise-40 */
+  --yds-color-feedback-error: #f5517a; /* red-40 */
+  --yds-color-feedback-warning: #ff9c31; /* orange-40 */
+  --yds-color-feedback-success: #03e592; /* green-40 */
+  --yds-color-feedback-live: #e90e43; /* red-50 */
+  --yds-color-logo-yle-background-brand: #f8f9fa; /* gray-5 */
+  --yds-color-logo-tv1: #3311aa; /* yle-tv-1 */
+  --yds-color-logo-tv-2: #cb0fd0; /* yle-tv-2 */
+  --yds-color-logo-yle-teema: #fe8300; /* yle-teema */
+  --yds-color-logo-yle-fem: #a3bd2f; /* yle-fem */
+  --yds-color-logo-lastenareena: #feb500; /* lastenareena */
+  --yds-color-logo-yle-radio-1: #dc006a; /* yle-radio-1 */
+  --yds-color-logo-yle-radio-suomi: #00b9eb; /* yle-radio-suomi-2 */
+  --yds-color-logo-yle-x: #fd2b77; /* yle-x */
+  --yds-color-logo-yle-x3m: #ff4c20; /* yle-x3m */
+  --yds-color-logo-yle-vega: #169bd4; /* yle-vega */
+  --yds-color-logo-yle-klassinen: #0f7b87; /* yle-klassinen */
+  --yds-color-logo-yle-sami-radio: #0049bf; /* yle-sami-radio */
+  --yds-color-logo-areena: #29ccde; /* turquoise-40 */
+  --yds-color-logo-yle-background-default: #f8f9fa; /* default-text */
+  --yds-color-logo-yle-text: #131415; /* negative-text */
+  --yds-color-logo-background: #ffffff; /* white */
+  --yds-color-logo-nega: #ffffff; /* white */
+  --yds-color-logo-text: #000000; /* black */
+  --yds-color-brand-yle: #00b4c8; /* turquoise-50 */
+  --yds-color-tag-live: #e90e43; /* red-50 */
+  --yds-color-tag-default: #ffffff; /* white */
+  --yds-color-tag-opinion: #3d5483; /* info-deep-blue-60 */
+  --yds-color-tag-yle-corporate: #00809c; /* turquoise-70 */
+  --yds-color-tag-primary-action: #f8f9fa; /* gray-5 */
+  --yds-color-tag-primary-action-variant: rgba(255, 255, 255, 0.71); /* white-opacity-60 */
+  --yds-color-tag-secondary-action: rgba(255, 255, 255, 0.13); /* white-opacity-10 */
+  --yds-color-tag-secondary-action-variant: rgba(255, 255, 255, 0.08); /* white-opacity-5 */
+  --yds-color-tag-neutral: #323639; /* gray-70 */
+  --yds-color-shadow-s: rgba(0, 0, 0, 0.7);
+  --yds-color-shadow-m: rgba(0, 0, 0, 0.7);
+  --yds-color-shadow-l: rgba(0, 0, 0, 0.87);
+  --yds-color-tietaja-background-player-card: rgba(0, 0, 0, 0.29); /* black-opacity-40 */
+  --yds-color-tietaja-text-score: #29ccde; /* highlight */
+  --yds-color-tietaja-border-highlight: #29ccde; /* highlight */`;

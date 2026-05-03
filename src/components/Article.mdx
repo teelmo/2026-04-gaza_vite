@@ -1,0 +1,261 @@
+import AreenaVideoBlock from '~/components/AreenaVideoBlock';
+import Factbox from '~/components/Factbox';
+import LueMyos from '~/components/LueMyos';
+import SisaltoVaroitus from '~/components/SisaltoVaroitus';
+import VideoTagBlock from '~/components/VideoTagBlock';
+
+{/*Custom*/}
+import Visualisation from '~/components/custom/Visualisation.jsx';
+import Visualisation2 from '~/components/custom/Visualisation2.jsx';
+import Mosaic from '~/components/custom/Mosaic.jsx';
+import Image from '~/components/custom/Image.jsx';
+import Video from '~/components/custom/Video.jsx';
+import Map from '~/components/custom/Map.jsx';
+
+<section className="plus-app-feature-paragraph-container" id="plusArticleContent">
+
+<header-template
+  className="full-width"
+  media={{
+    type: 'image',
+    url: 'assets/img/Rital_Abu_Asi.jpg',
+  }}
+  text={{
+    title: 'Hoitoa ei turvaa',
+    tag: 'Gaza',
+    taglink: 'https://yle.fi/t/18-184091/fi',
+    lead: 'Gazan terveydenhuolto on romahtanut, ja kymmenet tuhannet lapset ovat haavoittuneet. Jordania tarjoaa lapsille hoidon, mutta edessä on paluu kotiin, jota ei ole enää olemassa.',
+    background: 'var(--plus-background)',
+    backgrounddark: 'var(--plus-background)',
+    textcolor: 'var(--plus-foreground)',
+    textcolordark: 'var(--plus-foreground)',
+    time: '9.5.2026 09:00',
+  }}
+/>
+
+<div className="leipis fi">
+  Neljävuotias Rital Abu Asi makaa hotellihuoneen sängyllä. Hänen jalkansa näyttää siltä kuin se olisi valettu sulasta vahasta, joka on jähmettynyt kesken valumisen. Ihosta on tullut paksua, kireää arpikudosta, joka kuroo yhteen reiden ja pohkeen välisen matkan.
+
+  Tytön äiti Riham Abu Asi levittää hitaasti vaseliinia arpikudoksen päälle.
+
+  – En raapinut itseäni aamulla, Rital vakuuttaa hänelle.
+
+  Palestilainen Riham Abu Asi asuu väliaikaisesti Jordanian pääkaupungissa Ammanissa viiden lapsensa kanssa, joista kahdelle hän on tullut hakemaan hoitoa. Heidät on majoitettu hotelliin.
+
+  Rital haavoittui Israelin ilmaiskussa, joita tehtiin Gazan kaistalle sodan tuossa vaiheessa lähes taukoamatta. Kaksivuotias Lolla puolestaan sairastaa silmäsyöpää.
+
+  Rital on yksi Gazan sodan lapsiuhreista. Unicefin mukaan sodassa on loukkaantunut lähes 45 000 lasta.
+
+  Sodan seurauksena Gazan terveydenhuoltojärjestelmä on romahtanut täydellisesti. Ennen sodan alkua Gazassa oli 36 sairaalaa, mutta nyt niistä jokainen on osittain vaurioitunut tai täysin tuhoutunut. Viimeiset toiminnassa olevat sairaalat ovat äärirajoillaan.
+
+  Jordania on harvoja maita, joka on ottanut lapsipotilaita hoitoon tuhotusta Gazasta.
+</div>
+
+<div className="full-width">
+  <Visualisation />
+</div>
+
+<div className="leipis fi" >
+  ## Iho suli kiinni vaatteisiin
+  – Iskun voimasta päällemme lensi kauheasti romua, palestiinalaisäiti Riham Abu Asi muistelee hetkeä, jolloin hänen tyttärensä haavoittui. Hän kertoo tyttären huutaneen, että jalkaan tuli ”iso pipi”.
+
+  Lapsen jalkojen iho irtosi, kun Riham Abu Asi riisui tyttäreltään housut nähdäkseen, mitä oli tapahtunut.
+
+  Ohjuksen lämpöaalto oli polttanut kudoksen niin syvältä, että iho oli sulanut kiinni kankaaseen.
+
+  Hätääntynyt äiti juoksi tytär sylissään sairaalaan, mutta saarretussa Gazassa Ritalille pystyttiin antamaan ainoastaan alkeellista ensiapua.
+
+  Tyttären kunto oli lopulta niin huono, että hän ei kyennyt kunnolla edes kävelemään.
+
+  Riham Abu Asin mukaan iskussa kuoli 14 ihmistä, jotka makaavat yhä betonimurskan alla. Rital itse ei muista tapahtuneesta mitään; kysyttäessä hän hokee vain hämmentyneenä unohtaneensa kaiken.
+</div>
+
+<div className="full-width">
+  <Video background="#111" path="assets/vid/UL_Gazan_lapset_SAIPPUKUPLAT_1_.mp4" poster="assets/img/UL_Gazan_lapset_SAIPPUKUPLAT_1_.jpg" />
+</div>
+
+<div className="leipis fi">
+  ## Kuningas Abdullahin lääketieteellinen käytävä
+
+  Vuonna 2025 Jordania päätti ottaa 2 000 lapsipotilasta Gazasta hoitoon.
+
+  Kyse on kuningas Abdullah II:n aloitteesta, joka tunnetaan nimellä Jordanian lääketieteellinen käytävä.
+
+  Kuningas ilmoitti tästä puheessaan Washingtonin-vierailunsa yhteydessä helmikuussa 2025. Toiminta käynnistyi nopeasti: ensimmäiset pienet potilaat saapuivat Jordaniaan jo maaliskuun alussa.
+ </div>
+
+<div className="full-width">
+  <Map
+    map1="/assets/img/Gaza-01v-karttapohja.png"
+    map2="/assets/img/Gaza-01-karttapohja.png"
+    map3="/assets/img/Gaza-02-karttapohja.png"
+    texts={[
+      "Gazan kaista sijaitsee Israelista länteen",
+      "Gazan kaupungista matkaa Ammaniin tulee 200km",
+      "Yöpyminen 1.–2.7.2025. Punaisen Ristin (ICRC) keskus, jossa hoidetaan lupa-asiat ja varmistetaan turvallinen siirtyminen rajanylityspaikalle.",
+      "Rajanylitys 2.7.2025. Gazan ja Israelin välinen tarkastuspiste. Ainoa reitti lääketieteellisille potilassiirroille Gazasta ulos",
+      "Rajanylitys Jordaniaan 2.7.2025. Länsirannan ja Jordanian välinen raja-asema. Potilaiden luovutus Jordanian viranomaisille.",
+      "Saapuminen 2.7.2025. Matkan päätepiste. Perhe siirretään hotelliin karanteeniin.",
+    ]}
+    points={[
+      { x: 33.94, y: 58.2, label: "Gaza City" },
+      { x: 27, y: 72, label: "Khan Yunis" },
+      { x: 27, y: 80, label: "Raja-asema" },
+      { x: 75.7, y: 32, label: "Allenbyn silta" },
+      { x: 89.5, y: 22.7, label: "Amman" },
+    ]}
+  />
+</div>
+
+<div className="leipis fi">
+  Hyvin pieni osa apua tarvitsevista lapsista pääsee hoitoon ulkomaille.
+
+  YK:n mukaan Lähi-idän maat ovat vastaanottaneet yli 90 prosenttia gazalaisista potilaista, joista suurin osa on lapsia.
+
+  Suomi teki päätöksen olla ottamatta lapsipotilaita Gazasta.
+</div>
+
+<div className="full-width">
+  <Mosaic
+    background="#111"
+    elements={[
+      { height: 264, initialOffset: { x: 30, y: 0 }, left: -25, path: 'assets/img/mosaic1/Rital_1.jpg', top: -150, type: 'image', width: 400},
+      { height: 264, initialOffset: { x: -30, y: -30 }, left: -375, path: 'assets/img/mosaic1/Riham_ja_Rital.jpg', top: -375, type: 'image', width: 400},
+      { height: 264, initialOffset: { x: 0, y: -30 }, left: -200, path: 'assets/img/mosaic1/Rital_2.jpg', top: 150, type: 'image', width: 400},
+      { height: 169, initialOffset: { x: 30, y: -30 }, left: 50, path: 'assets/vid/UL_Gazan_lapset_PLASTIIKKAKIRURGI_1_.mp4', top: -355, type: 'video', width: 300},
+      { height: 169, initialOffset: { x: -30, y: 0 }, left: -350, path: 'assets/vid/UL_Gazan_lapset_PAINI_1_.mp4', top: -75, type: 'video', width: 300}
+    ]}
+  />
+</div>
+
+<div className="leipis fi">
+  ## Kilpajuoksu byrokratiaa vastaan
+
+  Maailman terveysjärjestö (WHO) organisoi potilaiden siirtämisen Gazasta muihin maihin. Apua tarvitsevia palestiinalaispotilaita on WHO:n arvioiden mukaan lähes 20&nbsp;000.
+
+  Gazan terveysministeriön mukaan viimeisen kahden vuoden aikana lähes 1&nbsp;300 potilasta on kuollut odottaessaan pääsyä kiireelliseen hoitoon ulkomaille.
+
+  WHO on toistuvasti kehottanut Israelia nopeuttamaan lupamenettelyjä vakavasti sairaiden potilaiden – erityisesti lasten – siirtämiseksi hoitoon Gazan ulkopuolelle.
+
+</div>
+<div className="full-width">
+  <Visualisation2 />
+</div>
+<div className="leipis fi">
+  Evakuointiprosessi voi kestää viikkoja tai kuukausia, ja joissakin tapauksissa lupia ei myönnetä.
+
+  Näin kävi myös 4-vuotiaalle Ritalille. Israel katsoi, että hänen palovammansa eivät olleet riittävän vakavia, jotta ne olisivat oikeuttaneet lääketieteelliseen evakuointiin. 
+
+  Vasta nuoremman sisaruksen syöpädiagnoosi avasi tien Jordaniaan. Äiti ja lapset pääsivät lopulta Ammaniin, ja Ritalille tehtiin hyvin nopeasti Jordaniaan saavuttua vaativa ihonsiirtoleikkaus.
+</div>
+
+<div className="full-width">
+  <Video background="#111" path="assets/vid/UL_Gazan_lapset_LAAKARI_1_.mp4" poster="assets/img/UL_Gazan_lapset_LAAKARI_1_.jpg" />
+</div>
+
+<div className="leipis fi">
+  ## Sytostaatit eivät nujertaneet syöpää
+
+  Kaksivuotiaan Lollan syöpä löytyi, kun äiti Riham Abu Asi huomasi toisen tyttärensä silmässä poikkeavan valkoisen “kaihimaisen” alueen.
+
+  Perheen kohtalo on tyypillinen esimerkki siitä, miten hitaasti lasten lääketieteelliset evakuoinnit Gazasta etenevät.
+
+  Gazalainen lääkäri teki ensin lähetteen, jonka jälkeen Palestiinan terveysministeriön komitea valitsi Lollan evakuoitavien lapsipotilaiden listalle.
+
+  Kun lista on valmis, alkaa kilpajuoksu byrokratiaa vastaan: etsitään vastaanottajamaa, koordinoidaan turvallisuusselvitykset Israelin viranomaisten kanssa ja varmistetaan turvallinen siirto rajan yli.
+
+  Riham Abu Asi sai lopulta matkustusluvan itselleen ja lapsilleen. Mutta matkustuslupa ei koskenut perheen isää, hänen oli jäätävä Gazaan.
+</div>
+
+<div className="full-width">
+  <Mosaic
+    background="#111"
+    elements={[
+      { height: 264, initialOffset: { x: -30, y: 0 }, left: -400, path: 'assets/img/mosaic2/20251216_BS_YLE_Q1020232_0015.jpg', top: -130, type: 'image', width: 400 },
+      { height: 264,initialOffset: { x: 30, y: 0 }, left: 25,path: 'assets/img/mosaic2/20251212_BS_YLE_Q1010404_0004.jpg',top: -130,type: 'image',width: 400 },
+      { height: 264, initialOffset: { x: 0, y: -30 }, left: -200, path: 'assets/img/mosaic2/20251211_BS_YLE_Q1010295_0001.jpg', top: -425, type: 'image', width: 400 },
+      { height: 225, initialOffset: { x: 0, y: 30 }, left: -200, path: 'assets/vid/UL_Gazan_lapset_KOULUBUSSI_1_.mp4', top: 165, type: 'video', width: 400 }
+    ]}
+  />
+</div>
+
+<div className="leipis fi">
+  ## Rankka matka Jordaniaan
+
+  Sairaalahoitoon pääsevien lasten matka Jordaniaan ei ole helppo, sillä heidät evakuoidaan maareittejä pitkin.
+
+  Kaikkein kiireisimmissä tapauksissa käytetään Jordanian armeijan helikoptereita, jotka ovat kyydinneet potilaat rajanylityspaikalta Jordaniaan.
+
+  Jordaniassa potilaat pääsevät maan parhaisiin sairaaloihin. Toistaiseksi maahan on päässyt hoitoon runsaat 600 palestiinalaislasta. Jordania ei voi vaikuttaa evakuoitavien lasten määrään, sillä Israelin viranomaiset myöntävät poistumisluvat.
+</div>
+
+<div className="full-width">
+  <Image path="assets/img/Riham_Abu_Asi.jpg" alt="Kuvateksti" background="#111" />
+</div>
+
+<div className="leipis fi">
+  ## Saapuminen Ammaniin
+
+  Riham Abu Asi pääsi neljän lapsensa kanssa Ammaniin heinäkuussa 2025. Tilanne oli erityisen raskas, sillä hän odotti tuolloin lasta.
+
+  Riham Abu Asi saapui Ammaniin mukanaan vain yllään olleet vaatteet ja tärkeimmät asiakirjansa. Kaikki muu takavarikointiin Israelin tiesululla.
+
+  – Meiltä vietiin vaatteet ja kaikki tavarat. Saimme pitää vain paperit. Jopa lasten vaipat ja lääkkeet piti luovuttaa pois, Riham Abu Asi kertoo.
+
+  Heidät majoitettiin paikalliseen vaatimattomaan hotelliin, joka on Kuningas Husseinin syöpäsairaalan läheisyydessä. Hotellissa majoittui useita gazalaisperheitä, jotka olivat tulleet Jordaniaan hakemaan lääketieteellistä apua.
+
+  Jordaniassa kaksivuotiaan Lollan hoito aloitettiin välittömästi solunsalpaajilla kasvaimen nujertamiseksi, mutta sytostaatit eivät tehonneet toivotulla tavalla, vaan lääkärit joutuivat poistamaan Lollan oikean silmän.
+
+  Ensimmäisen leikkauksen jälkeen hoitoa jatkettiin sytostaateilla, mutta ne eivät tehonneet toivotulla tavalla jäivät edelleen heikoiksi. Lääkärit suosittelivat myös Lollan  vasemman silmän poistamista, jotta syöpä ei leviäisi aivoihin.
+
+  Lollan Gazassa oleva Isä kieltäytyi toimenpiteestä, sillä hän piti ajatusta tyttärensä sokeutumisesta lohduttomana.
+</div>
+
+<div className="full-width">
+  <Video background="#111" path="assets/vid/UL_Gazan_lapset_PUHELU_1_.mp4" poster="assets/img/UL_Gazan_lapset_PUHELU_1_.jpg" />
+</div>
+
+<div className="leipis fi">
+  ## Paluu pommitettuun kotiin
+
+  Riham Abu Asin 8-vuotias poika Luai Abu Asi puhuu isänsä kanssa puhelimessa. Poika kertoo palaavansa pian kotiin, kun Lolla-siskon syöpähoidot ovat päättyneet.
+
+  Lasten isä on järkyttynyt toiveesta. Hän kertoo, ettei kotiin voi palata, koska Gazassa kaikki on pommitettu maan tasalle.
+
+  Perheellä ei ole paikkaa mihin palata. Heidän kotinsa on tuhoutunut täysin Gazan pommituksissa. Siitä on jäljellä enää kasa betonimurskaa.
+
+  Ennen Jordaniaan tuloa he asuivat lähes kaksi vuotta teltoissa.
+</div>
+
+<div className="full-width">
+  <Image path="assets/img/Juri_ja_Luai_Abu_Asi.jpg" alt="Kuvateksti" background="#111" />
+</div>
+
+<div className="leipis fi">
+  ## Jordania pelkää uutta pakolaisaaltoa
+  Israel on jatkanut iskujaan tulitauosta huolimatta. Lokakuussa 2025 alkaneen hauraan tulitauon jälkeen yli 100 lasta on kuollut. Silti Jordania palauttaa lapset takaisin kotimaahansa hoitojen päätyttyä.
+
+  Jordania perustelee linjaansa sillä, että se on jo aiemmin antanut kodin miljoonille palestiinalaispakolaisille, joten sen resurssit ovat jo nyt äärirajoilla. Uusi hallitsematon pakolaisaalto voisi horjuttaa maan sisäistä tasapainoa.
+
+  Gaza ympäröivät arabimaat pelkäävät, että jos gazalaiset jäävät pysyvästi rajojen ulkopuolelle, heiltä viedään lopullisesti mahdollisuus palata kotimaahansa.
+</div>
+
+<div className="full-width">
+  <Video background="#111" path="assets/vid/UL_Gazan_lapset_HIPPA_1_.mp4" poster="assets/img/UL_Gazan_lapset_HIPPA_1_.jpg" />
+</div>
+
+<div className="leipis fi">
+  ## Tekijät
+
+  <p><span className="label">Toimittaja:</span> {' '} <span className="value">Toimittaja tyyppi</span></p>
+
+  <p><span className="label">Tuottaja:</span> {' '} <span className="value">Tuottaja tyyppi</span></p>
+
+  <p><span className="label">Tekninen toteutus:</span> {' '} <span className="value">Teemo Tebest</span></p>
+
+  <p><span className="label">Graafinen suunnittelu:</span> {' '} <span className="value">Graafinen tyyppi</span></p>
+</div>
+
+<LueMyos />
+
+</section>

@@ -1,0 +1,244 @@
+{
+  "background": {
+    "background": {
+      "value": "#0c111cff",
+      "type": "color"
+    },
+    "background variant": {
+      "value": "#1f2937ff",
+      "type": "color"
+    },
+    "input background": {
+      "value": "#0c111cff",
+      "type": "color",
+      "comment": "background"
+    },
+    "dialog background": {
+      "value": "#1f2937ff",
+      "type": "color",
+      "comment": "background-variant"
+    },
+    "dialog overlay": {
+      "value": "#000000b3",
+      "type": "color",
+      "comment": "dialog-overlay"
+    },
+    "info primary background": {
+      "value": "#d8d9dbff",
+      "type": "color",
+      "comment": "info-primary-background"
+    },
+    "info secondary background": {
+      "value": "#1f2937ff",
+      "type": "color",
+      "comment": "background-variant"
+    },
+    "success background": {
+      "value": "#33d59bff",
+      "type": "color",
+      "comment": "success-background"
+    },
+    "warning background": {
+      "value": "#feb054ff",
+      "type": "color",
+      "comment": "warning-background"
+    },
+    "error background": {
+      "value": "#f5517aff",
+      "type": "color",
+      "comment": "error-background"
+    },
+    "background interactive": {
+      "value": "#0c111cff",
+      "type": "color",
+      "comment": "background"
+    },
+    "negative background": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "negative-background"
+    }
+  },
+  "text": {
+    "default text": {
+      "value": "#f8f9faff",
+      "type": "color",
+      "comment": "default-text"
+    },
+    "dark text": {
+      "value": "#0c111cff",
+      "type": "color",
+      "comment": "background"
+    },
+    "disabled text": {
+      "value": "#ffffff87",
+      "type": "color",
+      "comment": "white-opacity-50"
+    },
+    "input blaceholder text": {
+      "value": "#ffffff87",
+      "type": "color",
+      "comment": "white-opacity-50"
+    },
+    "negative text": {
+      "value": "#0c111cff",
+      "type": "color",
+      "comment": "background"
+    },
+    "feedback live text": {
+      "value": "#0c111cff",
+      "type": "color",
+      "comment": "dark-text"
+    }
+  },
+  "border": {
+    "primary focus border": {
+      "value": "#ff5cf8ff",
+      "type": "color",
+      "comment": "highlight"
+    },
+    "border": {
+      "value": "#f8f9faff",
+      "type": "color",
+      "comment": "default-text"
+    },
+    "disabled border": {
+      "value": "#ffffff4d",
+      "type": "color",
+      "comment": "disabled-border"
+    },
+    "separator": {
+      "value": "#ffffff21",
+      "type": "color",
+      "comment": "separator"
+    },
+    "negative border": {
+      "value": "#0c111cff",
+      "type": "color",
+      "comment": "background"
+    }
+  },
+  "feedback": {
+    "error": {
+      "value": "#f5517aff",
+      "type": "color",
+      "comment": "error"
+    },
+    "warning": {
+      "value": "#ff9c31ff",
+      "type": "color",
+      "comment": "warning"
+    },
+    "success": {
+      "value": "#03e592ff",
+      "type": "color",
+      "comment": "success"
+    },
+    "highlight": {
+      "value": "#ff5cf8ff",
+      "type": "color"
+    },
+    "live": {
+      "value": "#e90e43ff",
+      "type": "color",
+      "comment": "live"
+    }
+  },
+  "action": {
+    "primary action": {
+      "value": "#f8f9faff",
+      "type": "color",
+      "comment": "primary-action"
+    },
+    "primary action variant": {
+      "value": "#ffffffb5",
+      "type": "color",
+      "comment": "primary-action-variant"
+    },
+    "secondary action": {
+      "value": "#ffffff14",
+      "type": "color",
+      "comment": "secondary-action"
+    },
+    "secondary action variant": {
+      "value": "#ffffff2b",
+      "type": "color",
+      "comment": "secondary-action-variant"
+    },
+    "disabled action": {
+      "value": "#ffffff36",
+      "type": "color",
+      "comment": "disabled-action"
+    },
+    "selected": {
+      "value": "#ff5cf8ff",
+      "type": "color",
+      "comment": "highlight"
+    },
+    "unselected": {
+      "value": "#1f2937ff",
+      "type": "color",
+      "comment": "background-variant"
+    }
+  },
+  "spinner": {
+    "default": {
+      "value": "#ffffffff",
+      "type": "color",
+      "comment": "default"
+    },
+    "negative": {
+      "value": "#131415ff",
+      "type": "color",
+      "comment": "negative"
+    },
+    "background default": {
+      "value": "#323639ff",
+      "type": "color",
+      "comment": "background-default"
+    },
+    "background negative": {
+      "value": "#d8d9dbff",
+      "type": "color",
+      "comment": "background-negative"
+    }
+  },
+  "tietaja": {
+    "background player card": {
+      "value": "#0000004a",
+      "type": "color",
+      "comment": "background-player-card"
+    },
+    "text score": {
+      "value": "#ff5cf8ff",
+      "type": "color",
+      "comment": "highlight"
+    },
+    "border highlight": {
+      "value": "#ff5cf8ff",
+      "type": "color",
+      "comment": "highlight"
+    }
+  },
+  "shadow": {
+    "s": {
+      "value": "#000000b3",
+      "type": "color"
+    },
+    "l": {
+      "value": "#000000de",
+      "type": "color"
+    },
+    "m": {
+      "value": "#000000b3",
+      "type": "color"
+    }
+  },
+  "tag": {
+    "live tag": {
+      "value": "#ff5cf8ff",
+      "type": "color",
+      "comment": "highlight"
+    }
+  }
+}

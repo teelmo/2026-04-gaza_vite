@@ -1,0 +1,9 @@
+.leadText {
+    text-align: center;
+    padding: 0px;
+    margin: 8px auto;
+    font-weight: 400;
+    width: 90%;
+    font-size: var(--yds-typography-font-size-xl);
+    line-height: var(--yds-typography-line-height-150);
+}

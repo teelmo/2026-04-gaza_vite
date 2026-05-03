@@ -1,0 +1,25 @@
+.absoluteStyle {
+  width: 100%;
+  height: inherit;
+}
+
+.relativeStyle {
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.absoluteStyle img,
+.absoluteStyle video {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.relativeStyle video,
+.relativeStyle img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}

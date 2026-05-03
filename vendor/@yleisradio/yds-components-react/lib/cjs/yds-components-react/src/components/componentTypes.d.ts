@@ -1,0 +1,13 @@
+import type { Theme } from '@yleisradio/yds-core';
+import type { InputHTMLAttributes } from 'react';
+export type AccordionSize = 'sm' | 'md' | 'lg';
+export type ButtonSize = 'xs' | 'sm' | 'md' | 'lg';
+export type Padding = 'default' | 'horizontal' | 'vertical' | 'none';
+export type MenuSize = 'sm' | 'md';
+export type TagLinkVariant = 'primary' | 'secondary' | 'text';
+export type ThemeProp = 'light' | 'dark' | 'default' | Theme;
+export type ThemeName = 'light' | 'dark' | 'default' | 'custom';
+export type RadioGroupDirection = 'horizontal' | 'vertical';
+export type InputControlAlign = 'start' | 'end';
+export type ChoiceContainerSize = 'sm' | 'md';
+export type ChoiceHTMLInputAttributes = Omit<InputHTMLAttributes<HTMLInputElement>, 'size'>;

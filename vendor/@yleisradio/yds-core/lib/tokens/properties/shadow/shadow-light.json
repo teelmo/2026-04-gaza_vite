@@ -1,0 +1,118 @@
+{
+  "shadow": {
+    "sm": {
+      "value": {
+        "x": {
+          "category": "spacing",
+          "comment": "Spacing 0",
+          "value": 0,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "y": {
+          "category": "spacing",
+          "comment": "Spacing 0",
+          "value": 0,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "blur": {
+          "category": "spacing",
+          "comment": "Spacing 8",
+          "value": 8,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "spread": {
+          "category": "spacing",
+          "comment": "Spacing 0",
+          "value": 0,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "color": {
+          "category": "color",
+          "comment": "Black Opacity 30",
+          "value": "rgba(0, 0, 0, 0.15)",
+          "type": "color"
+        }
+      }
+    },
+    "md": {
+      "value": {
+        "x": {
+          "category": "spacing",
+          "comment": "Spacing 0",
+          "value": 0,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "y": {
+          "category": "spacing",
+          "comment": "Spacing 0",
+          "value": 0,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "blur": {
+          "category": "spacing",
+          "comment": "Spacing 16",
+          "value": 16,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "spread": {
+          "category": "spacing",
+          "comment": "Spacing 0",
+          "value": 0,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "color": {
+          "category": "color",
+          "comment": "Black Opacity 30",
+          "value": "rgba(0, 0, 0, 0.15)",
+          "type": "color"
+        }
+      }
+    },
+    "lg": {
+      "value": {
+        "x": {
+          "category": "spacing",
+          "comment": "Spacing 0",
+          "value": 0,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "y": {
+          "category": "spacing",
+          "comment": "Spacing 0",
+          "value": 0,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "blur": {
+          "category": "spacing",
+          "comment": "Spacing 24",
+          "value": 24,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "spread": {
+          "category": "spacing",
+          "comment": "Spacing 0",
+          "value": 0,
+          "unit": "pixels",
+          "type": "spacing"
+        },
+        "color": {
+          "category": "color",
+          "comment": "Black Opacity 50",
+          "value": "rgba(0, 0, 0, 0.41)",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

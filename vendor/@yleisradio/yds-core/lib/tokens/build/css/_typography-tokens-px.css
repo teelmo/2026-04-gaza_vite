@@ -1,0 +1,39 @@
+/**
+ * Yle Design System
+ * v2.x.x
+ */
+
+
+:root {
+  --yds-typography-font-size-7xl: 56px;
+  --yds-typography-font-size-6xl: 48px;
+  --yds-typography-font-size-5xl: 40px;
+  --yds-typography-font-size-4xl: 32px;
+  --yds-typography-font-size-3xl: 28px;
+  --yds-typography-font-size-2xl: 24px;
+  --yds-typography-font-size-xl: 20px;
+  --yds-typography-font-size-lg: 18px;
+  --yds-typography-font-size-md: 16px;
+  --yds-typography-font-size-sm: 14px;
+  --yds-typography-font-size-xs: 12px;
+  --yds-typography-font-weight-heavy: 900;
+  --yds-typography-font-weight-bold: 700;
+  --yds-typography-font-weight-medium: 500;
+  --yds-typography-font-weight-normal: 400;
+  --yds-typography-font-weight-light: 300;
+  --yds-typography-line-height-125: 1.25;
+  --yds-typography-line-height-135: 1.35;
+  --yds-typography-line-height-145: 1.45;
+  --yds-typography-line-height-150: 1.50;
+  --yds-typography-font-family-default: "Yle Next";
+  --yds-typography-font-family-yle-next: "Yle Next";
+  --yds-typography-text-decoration-default: none;
+  --yds-typography-font-style-default: normal;
+  --yds-typography-font-style-italic: italic;
+  --yds-typography-text-case-default: normal;
+  --yds-typography-text-case-uppercase: uppercase;
+  --yds-typography-letter-spacing-md: 0;
+  --yds-typography-letter-spacing-lg: 0.01em;
+  --yds-typography-font-stretch-default: normal;
+  --yds-typography-font-stretch-condensed: condensed;
+}

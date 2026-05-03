@@ -1,0 +1,6278 @@
+{
+  "default": {
+    "7xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 56,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 56,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "7xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 56,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 56,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "7xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 56,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "6xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 48,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 48,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "6xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 48,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 48,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "6xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 48,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "5xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 40,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 40,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "5xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 40,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 40,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "5xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 40,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "4xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "4xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "4xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "3xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 28,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 28,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "3xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 28,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 28,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "3xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 28,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "2xl": {
+      "category": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "2xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "2xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "2xl condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "2xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl italic": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "italic",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl condensed": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l italic": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "italic",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l condensed": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "m italic": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "italic",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m medium": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 500,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Medium",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m bold ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "m condensed": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s italic": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "italic",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "s medium": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 500,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Medium",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s bold ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "s condensed": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xs": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xs italic": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "italic",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xs ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "xs bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xs bold ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "xs condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    }
+  },
+  "yle next": {
+    "7xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 56,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 56,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "7xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 56,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 56,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "7xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 56,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "6xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 48,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 48,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "6xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 48,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 48,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "6xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 48,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "5xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 40,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 40,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "5xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 40,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 40,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "5xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 40,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.25",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "4xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "4xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "4xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "3xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 28,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 28,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "3xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 28,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 28,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "3xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 28,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "2xl": {
+      "category": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "2xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "2xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "2xl condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "2xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.35",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl italic": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "italic",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl condensed": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xl condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l italic": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "italic",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l condensed": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "l condensed heavy": {
+      "category": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 900,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Black",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.45",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "m italic": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "italic",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m medium": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 500,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Medium",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m bold ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "m condensed": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "m condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s italic": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "italic",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "s medium": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 500,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Medium",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s bold ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "s condensed": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "s condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 14,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xs": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xs italic": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "italic",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xs ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "xs bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "xs bold ac": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 1,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "xs condensed bold": {
+      "category": "font",
+      "fontSize": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Yle Next",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "condensed",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "1.50",
+        "type": "number",
+        "unit": "number"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    }
+  }
+}

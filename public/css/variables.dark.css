@@ -1,0 +1,4 @@
+:where(.plus-app-2026-04-gaza-vite) {
+  --plus-foreground: var(--yds-infographic-text-light);
+  --plus-background: #000000;
+}

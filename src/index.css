@@ -1,0 +1,413 @@
+@layer reset, base, components, utilities, theme, overrides;
+/**
+ * Reset: Browser resets
+ * Base: Default styles for HTML elements (typography, focus states)
+ * Components: Reusable components (buttons)
+ * Utilities: Tailwind utility classes and your custom utilities (like .sr-only)
+ * Theme: Design tokens and theme variables (YDS and Tailwind)
+ * Overrides: Highest priority
+ */
+
+/**
+ * URL imports first
+ */
+@import url(https://design-system.cdn.yle.fi/fonts/fonts.css) layer(theme.yds);
+@import url("@yleisradio/yds-core/tokens/build/css/_colors.css")
+layer(theme.yds);
+@import url("@yleisradio/yds-core/tokens/build/css/_infographic-default.css")
+layer(theme.yds);
+@import url("@yleisradio/yds-core/tokens/build/css/_infographic-default-prefers-dark.css")
+layer(theme.yds);
+@import url("@yleisradio/yds-core/tokens/build/css/_theme-default.css")
+layer(theme.yds);
+@import url("@yleisradio/yds-core/tokens/build/css/_colors.css")
+layer(theme.yds);
+@import url("@yleisradio/yds-core/tokens/build/css/_typography-tokens.css")
+layer(theme.yds);
+
+/**
+ * Reset imports
+ */
+@import "./reset.css" layer(reset.plus-app);
+@import "./kielivalinta.css" layer(components.kielivalinta);
+
+/**
+ * Base custom layer
+ */
+@layer base.plus-app {
+  /* Article layout: constrain direct children of #plusArticleContent */
+  :where(.plus-app-2026-04-gaza-vite #plusArticleContent > *) {
+    max-width: var(--content-width);
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Full-width slots (header, scrolly, recommendation sit outside .leicis) */
+  :where(.plus-app-2026-04-gaza-vite) header-template,
+  :where(.plus-app-2026-04-gaza-vite) scrolly-template,
+  :where(.plus-app-2026-04-gaza-vite) .full-width {
+    max-width: 100% !important;
+    width: 100%;
+  }
+
+  /* Media container — horizontally centered, capped at content width */
+  :where(.plus-app-2026-04-gaza-vite) .plus-margins {
+    max-width: var(--content-width);
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 24px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  @media (min-width: 768px) {
+    :where(.plus-app-2026-04-gaza-vite) .plus-margins {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  /* Text container — paragraph and heading spacing */
+  :where(.plus-app-2026-04-gaza-vite) .leipis p,
+  :where(.plus-app-2026-04-gaza-vite) .leipis h2,
+  :where(.plus-app-2026-04-gaza-vite) .leipis h3,
+  :where(.plus-app-2026-04-gaza-vite) .leipis h4 {
+    max-width: var(--content-width);
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 16px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  @media (min-width: 768px) {
+    :where(.plus-app-2026-04-gaza-vite) .leipis p,
+    :where(.plus-app-2026-04-gaza-vite) .leipis h2,
+    :where(.plus-app-2026-04-gaza-vite) .leipis h3,
+    :where(.plus-app-2026-04-gaza-vite) .leipis h4 {
+      margin-bottom: 24px !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  /* Header component typography overrides */
+  :where(.plus-app-2026-04-gaza-vite) .headerContainer .plusTitleH1 {
+    font-stretch: condensed !important;
+    font-weight: 900 !important;
+    line-height: 1.25 !important;
+    font-size: 2.5rem !important;
+    font-family: "Yle Next", sans-serif !important;
+    font-style: normal !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 16px !important;
+  }
+  @media (min-width: 768px) {
+    :where(.plus-app-2026-04-gaza-vite) .headerContainer .plusTitleH1 {
+      font-size: 3rem !important;
+    }
+  }
+  :where(.plus-app-2026-04-gaza-vite) .headerContainer .leadText {
+    font-size: 1.125rem !important;
+    line-height: 1.45 !important;
+    margin-bottom: 32px !important;
+  }
+  @media (min-width: 768px) {
+    :where(.plus-app-2026-04-gaza-vite) .headerContainer .leadText {
+      font-size: 1.25rem !important;
+    }
+  }
+
+  :where(.plus-app-2026-04-gaza-vite) {
+    p {
+      font-size: var(--text-base);
+      font-weight: var(--yds-typography-font-weight-normal);
+      line-height: var(--text-base--line-height);
+    }
+
+    h2 {
+      font-size: var(--text-2xl);
+      font-weight: var(--yds-typography-font-weight-heavy);
+      line-height: var(--text-2xl--line-height);
+    }
+
+    h3 {
+      font-size: var(--text-xl);
+      font-weight: var(--yds-typography-font-weight-heavy);
+      line-height: var(--text-xl--line-height);
+    }
+
+    h4 {
+      font-size: var(--text-lg);
+      font-weight: var(--yds-typography-font-weight-heavy);
+      line-height: var(--text-lg--line-height);
+    }
+
+    @media (min-width: 768px) {
+      p {
+        font-size: var(--text-lg);
+        font-weight: var(--yds-typography-font-weight-normal);
+        line-height: var(--text-lg--line-height);
+      }
+    }
+  }
+}
+
+/* Utilities imports */
+@import "tailwindcss/utilities.css";
+@layer utilities.plus-app {
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
+/* Theme imports */
+@import "tailwindcss/theme.css" layer(theme.tailwind);
+
+/**
+ * Overrides custom layer
+ */
+@layer overrides.plus-app {
+  :where(.plus-app-2026-04-gaza-vite) {
+    /* Add global overrides here */
+  }
+
+  /* Factbox: remap YDS default-theme tokens so Button renders correctly on dark bg.
+     ButtonSecondary (theme="default") reads border-color from --yds-color-action-primary
+     and color from --yds-color-text-default. Override both to their *-negative equivalents
+     so the button is legible on --color-factbox-background (#131415). */
+  /* Remap YDS default-theme tokens for buttons on dark backgrounds.
+     ButtonSecondary reads border-color from --yds-color-action-primary and
+     color from --yds-color-text-default; swap both to their *-negative values. */
+  :where(.plus-app-2026-04-gaza-vite) .factbox,
+  :where(.plus-app-2026-04-gaza-vite) .sisaltovaroitus-button {
+    --yds-color-action-primary: var(--yds-color-border-negative);
+    --yds-color-text-default: var(--yds-color-text-negative);
+    --yds-color-action-secondary: rgba(255, 255, 255, 0.08);
+    --yds-color-action-secondary-variant: rgba(255, 255, 255, 0.17);
+  }
+}
+
+/* Scope */
+@scope (.plus-app-2026-04-gaza-vite) {
+
+  /* Scope pseudoclass targets scope root e.g. .plus-app-2026-04-gaza-vite and all  */
+  :scope {
+    /* Add global styles here */
+    --plus-background: #111;
+    --text-lg: 20px;
+    --text-2xl: 26px;
+  }
+  .container_visualisation_content {
+    background: #111;
+    margin: 200px auto;
+    max-width: 1350px;
+    .visualisation_content {
+      height: 100vh;
+      overflow: 'hidden';
+      position: sticky;
+      top: 0;
+      canvas {
+        display: block;
+      }
+      .container_scrolling_text {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        p {
+          -webkit-transform: translateZ(0);
+          background-color: #131415;
+          box-shadow: 0 0 8px #00000026;
+          box-sizing: border-box;
+          color: #fff;
+          font-size: var(--text-2xl);
+          font-weight: 500;
+          line-height: 1.5em;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 500px;
+          padding: 16px;
+          position: relative;
+          text-align: center;
+          visibility: visible;
+          width: 80vw;
+          z-index: 2;
+        }
+      }
+      .container_age_group {
+        color: #fff;
+        font-size: var(--text-xl);
+        opacity: 0.9;
+        line-height: 1.5;
+        pointer-events: none;
+        position: absolute;
+        text-align:center;
+        transform: translateX(-50%);
+      }
+      .container_infocard_wrapper {
+        box-sizing: border-box;
+        height: 100%;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        transition: opacity 0.3s;
+        width: 100%;
+        svg {
+          height: 100%;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 100%;
+        }
+        .container_infocard_content {
+          background: #111;
+          border-bottom: 3px solid rgba(249, 115, 22, 0.8);
+          border-left: 3px solid rgba(249, 115, 22, 0.8);
+          border-radius: 2px;
+          box-sizing: border-box;
+          height: 342px;
+          position: absolute;
+          width: 250px;
+          .infocard_image {
+            margin-bottom: 10px;
+            padding: 0;
+            .container_image_content {
+              padding: 0;
+              margin: 0;
+              .image {
+                width: 250px;
+              }
+            }
+          }
+          .infocard_content {
+            padding: 20px;
+            h3 {
+              font-size: 22px;
+              font-weight: 600;
+              margin: 0 0 10px 0;
+            }
+            p {
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 1.5;
+              margin: 0 0 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .container_video_content {
+    transition: background-color 1s ease;
+    height: 190vh;
+    .video_content {
+      align-items: center;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      position: sticky;
+      top: 0;
+      .video_wrapper {
+        position: relative;
+        aspect-ratio: 16/9;
+        max-width: 1300px;
+        transition: opacity 0.1s ease, transform 1s ease;
+        video {
+          aspect-ratio: 16/9;
+          max-width: 1300px;
+        }
+      }
+    }
+  }
+  .container_map_content {
+    height: 1000vh;
+    transition: background-color 0.3s ease;
+    .map_content {
+      height: 100vh;
+      overflow: hidden;
+      position: sticky;
+      top: 0;
+      img {
+        objectFit: cover;
+        position: absolute;
+        transition: opacity 0.3s ease;
+      }
+      canvas {
+        display: block;
+        position: absolute;
+      }
+      .container_scrolling_text {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        width: 100%;
+        p {
+          -webkit-transform: translateZ(0);
+          background-color: #131415;
+          box-shadow: 0 0 8px #00000026;
+          box-sizing: border-box;
+          color: #fff;
+          font-size: var(--text-2xl);
+          font-weight: 500;
+          line-height: 1.5em;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 500px;
+          padding: 16px;
+          position: relative;
+          text-align: center;
+          visibility: visible;
+          width: 80vw;
+          z-index: 2;
+        }
+      }
+      .container_label_text {
+        color: #fff;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 26px;
+        pointer-events: none;
+        position: absolute;
+        transform: translateX(-50%);
+        transition: opacity 0.4s ease;
+      }
+    }
+  }
+  .container_image_content {
+    margin: 200px 0;
+    .image_content {
+      font-size: 0;
+      margin: auto auto;
+      max-width: 1300px;
+      .image {
+        margin: 0;
+        max-width: 100%;
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+/**
+ * Unlayered global styles override everything
+ */
+@import "./custom-properties.css";

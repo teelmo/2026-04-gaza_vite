@@ -1,0 +1,181 @@
+@import url(https://design-system.cdn.yle.fi/fonts/fonts.css);
+@import '@yleisradio/yds-core/tokens/build/css/_theme-default.css';
+@import '@yleisradio/yds-core/tokens/build/css/_typography-tokens.css';
+@import '@yleisradio/yds-core/tokens/build/css/_border-radius.css';
+@import '@yleisradio/yds-core/tokens/build/css/_theme-default-prefers-dark.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scoped preflight CSS reset, no specificity changes due to :where() */
+
+body {
+  background-color: var(--yds-color-background);
+  color: var(--yds-color-text-default);
+  /* Scoped preflight CSS reset, no specificity changes due to :where() */
+}
+
+:where(.plus-app-solid-components) {
+  font-family: "Yle Next", sans-serif;
+}
+:where(.plus-app-solid-components) *,
+:where(.plus-app-solid-components) ::before,
+:where(.plus-app-solid-components) ::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+}
+:where(.plus-app-solid-components) {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+:where(.plus-app-solid-components) hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+:where(.plus-app-solid-components) abbr:where([title]) {
+  text-decoration: underline dotted;
+}
+:where(.plus-app-solid-components) h1,
+:where(.plus-app-solid-components) h2,
+:where(.plus-app-solid-components) h3,
+:where(.plus-app-solid-components) h4,
+:where(.plus-app-solid-components) h5,
+:where(.plus-app-solid-components) h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.plus-app-solid-components) a {
+  color: inherit;
+  text-decoration: inherit;
+}
+:where(.plus-app-solid-components) b,
+:where(.plus-app-solid-components) strong {
+  font-weight: 700;
+}
+:where(.plus-app-solid-components) small {
+  font-size: 80%;
+}
+:where(.plus-app-solid-components) sub,
+:where(.plus-app-solid-components) sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+:where(.plus-app-solid-components) sub {
+  bottom: -0.25em;
+}
+:where(.plus-app-solid-components) sup {
+  top: -0.5em;
+}
+:where(.plus-app-solid-components) table {
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+:where(.plus-app-solid-components) button,
+:where(.plus-app-solid-components) input,
+:where(.plus-app-solid-components) optgroup,
+:where(.plus-app-solid-components) select,
+:where(.plus-app-solid-components) textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+:where(.plus-app-solid-components) button,
+:where(.plus-app-solid-components) select {
+  text-transform: none;
+}
+:where(.plus-app-solid-components) :-moz-focusring {
+  outline: auto;
+}
+:where(.plus-app-solid-components) :-moz-ui-invalid {
+  box-shadow: none;
+}
+:where(.plus-app-solid-components) progress {
+  vertical-align: baseline;
+}
+:where(.plus-app-solid-components) ::-webkit-inner-spin-button,
+:where(.plus-app-solid-components) ::-webkit-outer-spin-button {
+  height: auto;
+}
+:where(.plus-app-solid-components) [type="search"] {
+  outline-offset: -2px;
+}
+:where(.plus-app-solid-components) ::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+:where(.plus-app-solid-components) ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+:where(.plus-app-solid-components) summary {
+  display: list-item;
+}
+:where(.plus-app-solid-components) blockquote,
+:where(.plus-app-solid-components) dl,
+:where(.plus-app-solid-components) dd,
+:where(.plus-app-solid-components) h1,
+:where(.plus-app-solid-components) h2,
+:where(.plus-app-solid-components) h3,
+:where(.plus-app-solid-components) h4,
+:where(.plus-app-solid-components) h5,
+:where(.plus-app-solid-components) h6,
+:where(.plus-app-solid-components) hr,
+:where(.plus-app-solid-components) figure,
+:where(.plus-app-solid-components) p,
+:where(.plus-app-solid-components) pre {
+  margin: 0;
+}
+:where(.plus-app-solid-components) fieldset {
+  margin: 0;
+  padding: 0;
+}
+:where(.plus-app-solid-components) legend {
+  padding: 0;
+}
+:where(.plus-app-solid-components) ol,
+:where(.plus-app-solid-components) ul,
+:where(.plus-app-solid-components) menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+:where(.plus-app-solid-components) textarea {
+  resize: vertical;
+}
+:where(.plus-app-solid-components) button,
+:where(.plus-app-solid-components) [role="button"] {
+  cursor: pointer;
+}
+:where(.plus-app-solid-components) :disabled {
+  cursor: default;
+}
+:where(.plus-app-solid-components) img,
+:where(.plus-app-solid-components) svg,
+:where(.plus-app-solid-components) video,
+:where(.plus-app-solid-components) canvas,
+:where(.plus-app-solid-components) audio,
+:where(.plus-app-solid-components) iframe,
+:where(.plus-app-solid-components) embed,
+:where(.plus-app-solid-components) object {
+  /* Block by default, vertical-align middle if not block. */
+  display: block;
+  vertical-align: middle;
+}
+:where(.plus-app-solid-components) img,
+:where(.plus-app-solid-components) video {
+  max-width: 100%;
+  height: auto;
+}
+:where(.plus-app-solid-components) [hidden] {
+  display: none;
+}

@@ -1,0 +1,16 @@
+.headerTexts {
+    font-family: var(--yds-typography-font-family-default), Arial, sans-serif; 
+    color: var(--yds-color-text-default);
+    background-color: var(--yds-color-background);
+    position: relative;
+    margin: auto;
+    padding: 16px 0px 16px;
+    border-radius: 4px;
+    max-width: 800px;
+    margin-top: -75px;
+    text-align: center;
+}
+
+.headerTexts strong {
+    font-weight: 700;
+}

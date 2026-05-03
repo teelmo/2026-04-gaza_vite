@@ -1,0 +1,10 @@
+.headerContainer {
+  position: relative;
+  font-family: var(--yds-typography-font-family-default), Arial, sans-serif;
+}
+
+.headerVisuals {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}

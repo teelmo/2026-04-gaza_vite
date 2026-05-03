@@ -1,0 +1,7 @@
+.videoProgressBar {
+    position: absolute;
+    height: 5px;
+    width: 0%;
+    transition: width 50ms ease-in-out;
+    max-width: 100%;
+}

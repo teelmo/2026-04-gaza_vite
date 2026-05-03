@@ -1,0 +1,56 @@
+{
+  "name": "2026-04-gaza-vite",
+  "private": true,
+  "version": "0.4.0",
+  "author": "Teemu Saravirta <teemu.saravirta@yle.fi>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build-dev": "vite build --mode dev-build && node ./scripts/writeConfJson.mjs",
+    "build-prod": "vite build && node ./scripts/writeConfJson.mjs",
+    "preview": "vite preview",
+    "vendor": "node ./scripts/vendor.mjs",
+    "demo-no-access": "node ./scripts/demo-no-access.mjs",
+    "deploy-dev": "pnpm build-dev && aws s3 sync ./dist/ s3://plus-yle-fi-prod/dev/2026-04-gaza-vite --profile='plus-yle-fi' --cache-control='max-age=60' --acl='public-read' --delete",
+    "deploy-prod": "pnpm build-prod && aws s3 sync ./dist/ s3://plus-yle-fi-prod/2026-04-gaza-vite --profile='plus-yle-fi' --cache-control='max-age=60' --acl='public-read' --delete",
+    "fetch-articles": "node --env-file=.env scripts/fetchArticles.js"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.99.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-error-boundary": "^6.1.1",
+    "styled-components": "^6.4.0",
+    "zustand": "^5.0.12"
+  },
+  "optionalDependencies": {
+    "@yle-interactive/solid-components": "latest",
+    "@yleisradio/yds-components-react": "^2.8.0",
+    "@yleisradio/yds-core": "2.0.7",
+    "@yleisradio/yds-icons-react": "^2.0.4"
+  },
+  "devDependencies": {
+    "@axe-core/react": "^4.11.1",
+    "@babel/runtime": "^7.29.2",
+    "@mdx-js/react": "^3.1.1",
+    "@mdx-js/rollup": "^3.1.1",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react-swc": "^4.3.0",
+    "compute-scroll-into-view": "^3.1.1",
+    "downshift": "^9.3.2",
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "prop-types": "^15.8.1",
+    "react-is": "^19.2.5",
+    "tailwindcss": "^4.2.2",
+    "tslib": "^2.8.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.8"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

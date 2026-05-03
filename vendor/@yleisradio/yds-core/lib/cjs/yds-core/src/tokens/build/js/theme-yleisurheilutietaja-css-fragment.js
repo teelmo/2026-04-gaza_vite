@@ -1,0 +1,52 @@
+"use strict";
+/**
+ * Yle Design System
+ * v2.x.x
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = `--yds-color-background: #0D0A5C;
+  --yds-color-background-variant: #2f2a78;
+  --yds-color-background-input: #0D0A5C;
+  --yds-color-background-dialog: #2f2a78;
+  --yds-color-background-dialog-overlay: rgba(0, 0, 0, 0.7);
+  --yds-color-background-negative: #ffffff;
+  --yds-color-background-info-primary: #d8d9db;
+  --yds-color-background-info-secondary: #2f2a78;
+  --yds-color-background-success: #33d59b;
+  --yds-color-background-warning: #feb054;
+  --yds-color-background-error: #f5517a;
+  --yds-color-background-interactive: #2f2a78;
+  --yds-color-tag-live: #D4FF42;
+  --yds-color-text-default: #f8f9fa;
+  --yds-color-text-dark: #0D0A5C;
+  --yds-color-text-disabled: rgba(255, 255, 255, 0.3);
+  --yds-color-text-input-blaceholder: rgba(255, 255, 255, 0.53);
+  --yds-color-text-negative: #0D0A5C;
+  --yds-color-text-feedback-live: #0D0A5C;
+  --yds-color-border-primary-focus: #D4FF42;
+  --yds-color-border: #f8f9fa;
+  --yds-color-border-negative: #0D0A5C;
+  --yds-color-border-disabled: rgba(255, 255, 255, 0.3);
+  --yds-color-border-separator: rgba(255, 255, 255, 0.13);
+  --yds-color-feedback-error: #f5517a;
+  --yds-color-feedback-success: #03e592;
+  --yds-color-feedback-highlight: #D4FF42;
+  --yds-color-feedback-live: #D4FF42;
+  --yds-color-feedback-warning: #ff9c31;
+  --yds-color-action-primary: #f8f9fa;
+  --yds-color-action-primary-variant: rgba(255, 255, 255, 0.71);
+  --yds-color-action-secondary: rgba(255, 255, 255, 0.08);
+  --yds-color-action-secondary-variant: rgba(255, 255, 255, 0.17);
+  --yds-color-action-disabled: rgba(255, 255, 255, 0.21);
+  --yds-color-action-selected: #D4FF42;
+  --yds-color-action-unselected: #2f2a78;
+  --yds-color-spinner-default: #ffffff;
+  --yds-color-spinner-negative: #131415;
+  --yds-color-spinner-background-default: #292b2d;
+  --yds-color-spinner-background-negative: #d8d9db;
+  --yds-color-tietaja-background-player-card: rgba(0, 0, 0, 0.29);
+  --yds-color-tietaja-text-score: #D4FF42;
+  --yds-color-tietaja-border-highlight: #D4FF42;
+  --yds-color-shadow-s: rgba(0, 0, 0, 0.7);
+  --yds-color-shadow-m: rgba(0, 0, 0, 0.7);
+  --yds-color-shadow-l: rgba(0, 0, 0, 0.87);`;

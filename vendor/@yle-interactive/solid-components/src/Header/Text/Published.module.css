@@ -1,0 +1,9 @@
+.publishedTime {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin: 16px auto 16px auto;
+    font-family: var(--yds-typography-font-family-default), sans-serif;
+    color: var(--yds-color-text-default);
+    font-weight: 400;
+}

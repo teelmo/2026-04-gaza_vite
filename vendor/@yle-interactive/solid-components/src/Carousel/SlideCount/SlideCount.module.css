@@ -1,0 +1,20 @@
+.slide-count {
+    all: unset;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    margin-top: 8px;
+    list-style-type: none;
+
+}
+
+
+.slide-ball {
+    all: unset;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--yds-color-text-default)
+}
+

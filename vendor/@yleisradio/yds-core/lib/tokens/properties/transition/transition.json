@@ -1,0 +1,100 @@
+{
+  "duration": {
+    "instant": {
+      "value": "0ms",
+      "type": "string"
+    },
+    "xxs": {
+      "value": "70ms",
+      "type": "string"
+    },
+    "xs": {
+      "value": "150ms",
+      "type": "string"
+    },
+    "s": {
+      "value": "250ms",
+      "type": "string"
+    },
+    "m": {
+      "value": "450ms",
+      "type": "string"
+    },
+    "l": {
+      "value": "750ms",
+      "type": "string"
+    },
+    "xl": {
+      "value": "1000ms",
+      "type": "string"
+    },
+    "xxl": {
+      "value": "2000ms",
+      "type": "string"
+    }
+  },
+  "delay": {
+    "xxs": {
+      "value": "70ms",
+      "type": "string"
+    },
+    "xs": {
+      "value": "150ms",
+      "type": "string"
+    },
+    "s": {
+      "value": "250ms",
+      "type": "string"
+    },
+    "m": {
+      "value": "450ms",
+      "type": "string"
+    },
+    "l": {
+      "value": "750ms",
+      "type": "string"
+    },
+    "xl": {
+      "value": "1000ms",
+      "type": "string"
+    },
+    "xxl": {
+      "value": "2000ms",
+      "type": "string"
+    },
+    "instant": {
+      "value": "0ms",
+      "type": "string"
+    }
+  },
+  "easing": {
+    "dec": {
+      "value": "0.17, 0.84, 0.44, 1.0",
+      "type": "string"
+    },
+    "acc": {
+      "value": "0.84, 0.17, 1, 0.44",
+      "type": "string"
+    },
+    "default": {
+      "value": "0.65, 0.05, 0.35, 1.0",
+      "type": "string"
+    },
+    "exp": {
+      "value": "0.75, 0, 0.17, 1.0",
+      "type": "string"
+    },
+    "bounce sm": {
+      "value": "0.6, 0.0, 0.1, 1.3",
+      "type": "string"
+    },
+    "bounce lg": {
+      "value": "0.6, 0.0, 0.1, 3",
+      "type": "string"
+    },
+    "linear": {
+      "value": "0, 0, 1, 1",
+      "type": "string"
+    }
+  }
+}

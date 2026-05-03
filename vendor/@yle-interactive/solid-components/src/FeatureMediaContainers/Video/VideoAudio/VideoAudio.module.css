@@ -1,0 +1,18 @@
+.plusAudioButton {
+    background: transparent;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px;
+    cursor: pointer;
+    z-index:0;
+    position: absolute;
+    -webkit-appearance: none;
+    top: 8px;
+    right: 8px;
+}
+
+.hideIcon {
+    visibility: hidden;
+}

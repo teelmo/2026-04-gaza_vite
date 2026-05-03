@@ -1,0 +1,10 @@
+/**
+ * Yle Design System
+ * v2.x.x
+ */
+
+:root {
+  --yds-border-sm: 1px;
+  --yds-border-md: 2px;
+  --yds-border-lg: 3px;
+}

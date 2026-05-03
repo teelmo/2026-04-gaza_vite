@@ -1,0 +1,62 @@
+{
+  "tv": {
+    "yle tv 1": {
+      "value": "#3311aaff",
+      "type": "color"
+    },
+    "yle tv 2": {
+      "value": "#cb0fd0ff",
+      "type": "color"
+    },
+    "yle teema": {
+      "value": "#fe8300ff",
+      "type": "color"
+    },
+    "yle fem": {
+      "value": "#a3bd2fff",
+      "type": "color"
+    },
+    "lastenareena": {
+      "value": "#feb500ff",
+      "type": "color"
+    }
+  },
+  "radio": {
+    "yle radio 1": {
+      "value": "#dc006aff",
+      "type": "color"
+    },
+    "yle x": {
+      "value": "#fd2b77ff",
+      "type": "color"
+    },
+    "yle radio suomi": {
+      "value": "#0000e6ff",
+      "type": "color"
+    },
+    "yle puhe": {
+      "value": "#ffff0bff",
+      "type": "color"
+    },
+    "yle sami radio": {
+      "value": "#0049bfff",
+      "type": "color"
+    },
+    "yle klassinen": {
+      "value": "#0f7b87ff",
+      "type": "color"
+    },
+    "yle vega": {
+      "value": "#169bd4ff",
+      "type": "color"
+    },
+    "yle x3m": {
+      "value": "#ff4c20ff",
+      "type": "color"
+    },
+    "yle radio suomi 2": {
+      "value": "#00b9ebff",
+      "type": "color"
+    }
+  }
+}

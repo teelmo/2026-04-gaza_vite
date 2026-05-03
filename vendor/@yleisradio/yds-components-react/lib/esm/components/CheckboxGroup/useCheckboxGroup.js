@@ -1,0 +1,8 @@
+import { useContext } from 'react';
+import { CheckboxGroupContext } from './CheckboxGroupContext.js';
+
+function useCheckboxGroup() {
+  return useContext(CheckboxGroupContext);
+}
+
+export { useCheckboxGroup };

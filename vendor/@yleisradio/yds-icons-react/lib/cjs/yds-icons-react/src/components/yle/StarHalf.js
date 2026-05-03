@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.StarHalf = void 0;
+const tslib_1 = require("tslib");
+const jsx_runtime_1 = require("react/jsx-runtime");
+const StarHalf = (_a) => {
+    var { title = undefined, titleId = undefined, width = '24', height = '24', color = 'currentColor' } = _a, props = tslib_1.__rest(_a, ["title", "titleId", "width", "height", "color"]);
+    return ((0, jsx_runtime_1.jsxs)("svg", Object.assign({ width: width, height: height, fill: "none", viewBox: "0 0 24 24", "aria-hidden": title ? undefined : true, "aria-labelledby": titleId }, props, { children: [title ? (0, jsx_runtime_1.jsx)("title", { id: titleId, children: title }) : null, (0, jsx_runtime_1.jsx)("path", { fill: color, fillRule: "evenodd", d: "M12.897 1.557a1 1 0 0 0-1.794 0l-2.857 5.79-6.39.934a1 1 0 0 0-.554 1.705l4.624 4.503-1.092 6.362a1 1 0 0 0 1.451 1.054L12 18.9l5.715 3.005a1 1 0 0 0 1.45-1.054l-1.09-6.362 4.623-4.503a1 1 0 0 0-.553-1.705l-6.39-.935zm1.445 7.146-2.194-4.444V16.5s.175.232.466.385L17 19.192l-.837-4.883a1 1 0 0 1 .288-.885L20 9.967l-4.906-.717a1 1 0 0 1-.752-.547", clipRule: "evenodd" })] })));
+};
+exports.StarHalf = StarHalf;

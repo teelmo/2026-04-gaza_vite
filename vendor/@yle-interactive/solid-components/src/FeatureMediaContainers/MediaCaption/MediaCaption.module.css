@@ -1,0 +1,10 @@
+
+.mediaCaption {
+    color: var(--yds-color-text-default);
+    font-family: var(--yds-typography-font-family-default), sans-serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    font-weight: 400;
+    padding-top: 16px;
+}

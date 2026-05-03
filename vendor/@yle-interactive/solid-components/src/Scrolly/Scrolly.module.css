@@ -1,0 +1,68 @@
+.scrollyContainer {
+  font-family: var(--yds-typography-font-family-default), Arial, sans-serif;
+  width: 100%;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  will-change: height;
+  display: inline-block;
+}
+
+.scrollyText {
+  position: relative;
+  text-align: center;
+  width: 80vw;
+  max-width: 500px;
+  line-height: 1.5em;
+  z-index: 2;
+  -webkit-transform: translateZ(0);
+  visibility: visible;
+  padding: 16px;
+  box-size: border-box;
+  background-color: #131415;
+  color: white;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+  font-size: var(--yds-typography-font-size-md);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scrollyText img {
+  max-width: 100%;
+  margin: 8px auto;
+}
+
+.scrollyText a {
+  color: #f8f9fa;
+}
+
+.scrollyMedias img,
+.scrollyMedias video {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.showScrollyMedia {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 500ms ease, visibility 0s linear;
+}
+
+.hideScrollyMedia {
+  transition: opacity 500ms ease, visibility 0s linear 500ms;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.showFully {
+  object-fit: scale-down;
+}
+
+.scrollyMedias {
+  position: sticky;
+  display: block;
+  overflow: hidden;
+}

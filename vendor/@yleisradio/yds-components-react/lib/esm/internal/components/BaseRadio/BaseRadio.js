@@ -1,0 +1,64 @@
+import { __rest } from '../../../node_modules/tslib/tslib.es6.js';
+import { jsxs, jsx } from 'react/jsx-runtime';
+import { forwardRef } from 'react';
+import { useRadioGroup } from '../../../components/RadioGroup/useRadioGroup.js';
+import { RadioBase, RadioLabelText } from './BaseRadio.styles.js';
+import { CheckableLabel } from '../CheckableLabel/CheckableLabel.styles.js';
+
+const BaseRadio = forwardRef((_a, ref) => {
+  var _b;
+  var {
+      variant = 'primary',
+      isDisabled = false,
+      error: errorProp,
+      label,
+      name: nameProp,
+      value,
+      checked: checkedProp,
+      onChange: onChangeProp,
+      hideLabel = false,
+      useUnderlay = false,
+      controlAlign = 'start',
+      controlSize = 'md'
+    } = _a,
+    rest = __rest(_a, ["variant", "isDisabled", "error", "label", "name", "value", "checked", "onChange", "hideLabel", "useUnderlay", "controlAlign", "controlSize"]);
+  const radioGroupContext = useRadioGroup();
+  const name = nameProp !== null && nameProp !== void 0 ? nameProp : radioGroupContext === null || radioGroupContext === void 0 ? void 0 : radioGroupContext.name;
+  const error = (_b = radioGroupContext === null || radioGroupContext === void 0 ? void 0 : radioGroupContext.error) !== null && _b !== void 0 ? _b : errorProp;
+  const checked = checkedProp !== null && checkedProp !== void 0 ? checkedProp : (radioGroupContext === null || radioGroupContext === void 0 ? void 0 : radioGroupContext.value) && (radioGroupContext === null || radioGroupContext === void 0 ? void 0 : radioGroupContext.value) === value;
+  const onChange = onChangeProp !== null && onChangeProp !== void 0 ? onChangeProp : radioGroupContext === null || radioGroupContext === void 0 ? void 0 : radioGroupContext.onChange;
+  const errorId = radioGroupContext === null || radioGroupContext === void 0 ? void 0 : radioGroupContext.errorId;
+  const descId = radioGroupContext === null || radioGroupContext === void 0 ? void 0 : radioGroupContext.descId;
+  const ariaDescribedBy = (descId || errorId) && [descId, errorId].filter(Boolean).join(' ');
+  const radioGroupDirection = radioGroupContext === null || radioGroupContext === void 0 ? void 0 : radioGroupContext.direction;
+  return jsxs(CheckableLabel, {
+    "$isDisabled": isDisabled,
+    "$isError": error,
+    "$useUnderlay": useUnderlay,
+    "$hideLabel": hideLabel,
+    "$controlAlign": controlAlign,
+    "$controlSize": controlSize,
+    children: [jsx(RadioBase, Object.assign({
+      ref: ref,
+      type: "radio",
+      disabled: isDisabled,
+      name: name,
+      "aria-disabled": isDisabled ? 'true' : undefined,
+      "aria-describedby": ariaDescribedBy,
+      "$variant": variant,
+      "$error": error,
+      checked: checked,
+      value: value,
+      onChange: onChange,
+      "$hideLabel": hideLabel,
+      "$controlAlign": controlAlign,
+      "$direction": radioGroupDirection
+    }, rest)), jsx(RadioLabelText, {
+      "$direction": radioGroupDirection,
+      "$controlSize": controlSize,
+      children: label
+    })]
+  });
+});
+
+export { BaseRadio };

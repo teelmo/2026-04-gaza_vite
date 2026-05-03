@@ -1,0 +1,33 @@
+.textContent {
+  overflow: hidden;
+  transition:
+    max-height 0.4s ease-in-out,
+    opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.textContent.collapsed {
+  max-height: 4em;
+  opacity: 0.95;
+}
+
+.textContent.expanded {
+  max-height: 2000px;
+  opacity: 1;
+}
+
+.gradientOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3em;
+  background: linear-gradient(to bottom, transparent, var(--color-factbox-background));
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.textContent.expanded ~ .gradientOverlay {
+  opacity: 0;
+}

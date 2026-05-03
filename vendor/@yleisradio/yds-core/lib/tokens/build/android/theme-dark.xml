@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Yle Design System
+  v2.x.x
+-->
+<resources>
+  <color name="yds_color_background">#131415</color><!-- gray-95 -->
+  <color name="yds_color_background_variant">#1f2123</color><!-- gray-90 -->
+  <color name="yds_color_background_negative">#ffffff</color><!-- white -->
+  <color name="yds_color_background_navigation">#000000</color><!-- black -->
+  <color name="yds_color_background_control">#87ffffff</color><!-- white-opacity-50 -->
+  <color name="yds_color_background_control_disabled">#36ffffff</color><!-- white-opacity-30 -->
+  <color name="yds_color_background_input">#131415</color><!-- gray-95 -->
+  <color name="yds_color_background_highlight">#0b3f4b</color><!-- turquoise-95 -->
+  <color name="yds_color_background_interactive">#292b2d</color><!-- gray-80 -->
+  <color name="yds_color_background_dialog">#1f2123</color><!-- gray-90 -->
+  <color name="yds_color_background_dialog_overlay">#b3000000</color><!-- black-opacity-60 -->
+  <color name="yds_color_background_info_primary">#d8d9db</color><!-- gray-30 -->
+  <color name="yds_color_background_info_secondary">#292b2d</color><!-- gray-80 -->
+  <color name="yds_color_background_success">#33d59b</color><!-- info-green-40 -->
+  <color name="yds_color_background_warning">#feb054</color><!-- info-orange-40 -->
+  <color name="yds_color_background_error">#f5517a</color><!-- red-40 -->
+  <color name="yds_color_background_opinion_article">#3d5483</color><!-- info-deep-blue-60 -->
+  <color name="yds_color_background_list">#131415</color><!-- gray-95 -->
+  <color name="yds_color_background_dropdown">#292b2d</color><!-- gray-80 -->
+  <color name="yds_color_text_default">#f8f9fa</color><!-- gray-5 -->
+  <color name="yds_color_text_negative">#131415</color><!-- gray-95 -->
+  <color name="yds_color_text_input_placeholder">#878a8b</color><!-- gray-50 -->
+  <color name="yds_color_text_high_emphasis">#d9ffffff</color><!-- white-opacity-70 -->
+  <color name="yds_color_text_medium_emphasis">#b5ffffff</color><!-- white-opacity-60 -->
+  <color name="yds_color_text_disabled">#4dffffff</color><!-- white-opacity-40 -->
+  <color name="yds_color_text_light">#f8f9fa</color><!-- gray-5 -->
+  <color name="yds_color_text_dark">#131415</color><!-- gray-95 -->
+  <color name="yds_color_text_light_high_contrast">#ffffff</color><!-- white -->
+  <color name="yds_color_text_feedback_live">#ffffff</color><!-- light-high-contrast-text -->
+  <color name="yds_color_action_primary">#f8f9fa</color><!-- gray-5 -->
+  <color name="yds_color_action_primary_variant">#b5ffffff</color><!-- white-opacity-60 -->
+  <color name="yds_color_action_secondary">#14ffffff</color><!-- white-opacity-5 -->
+  <color name="yds_color_action_secondary_variant">#2bffffff</color><!-- white-opacity-20 -->
+  <color name="yds_color_action_disabled">#36ffffff</color><!-- white-opacity-30 -->
+  <color name="yds_color_action_danger_primary">#f77898</color><!-- red-30 -->
+  <color name="yds_color_action_danger_primary_variant">#f5517a</color><!-- red-40 -->
+  <color name="yds_color_action_selected">#f8f9fa</color><!-- gray-5 -->
+  <color name="yds_color_action_unselected">#323639</color><!-- gray-70 -->
+  <color name="yds_color_border">#f8f9fa</color><!-- gray-5 -->
+  <color name="yds_color_border_disabled">#4dffffff</color><!-- white-opacity-40 -->
+  <color name="yds_color_border_primary_focus">#29ccde</color><!-- turquoise-40 -->
+  <color name="yds_color_border_secondary_focus">#f8f9fa</color><!-- gray-5 -->
+  <color name="yds_color_border_separator">#21ffffff</color><!-- white-opacity-10 -->
+  <color name="yds_color_border_negative">#131415</color><!-- background -->
+  <color name="yds_color_illustrative_icons_icon_primary">#f8f9fa</color><!-- gray-5 -->
+  <color name="yds_color_illustrative_icons_icon_secondary">#009cb5</color><!-- turquoise-60 -->
+  <color name="yds_color_player_progress_bar">#4dffffff</color><!-- white-opacity-40 -->
+  <color name="yds_color_player_progress_indicator">#29ccde</color><!-- turquoise-40 -->
+  <color name="yds_color_spinner_default">#ffffff</color><!-- white -->
+  <color name="yds_color_spinner_negative">#131415</color><!-- gray-95 -->
+  <color name="yds_color_spinner_highlight_default">#29ccde</color><!-- turquoise-40 -->
+  <color name="yds_color_spinner_highlight_negative">#009cb5</color><!-- turquoise-60 -->
+  <color name="yds_color_spinner_background_default">#323639</color><!-- gray-70 -->
+  <color name="yds_color_spinner_background_negative">#d8d9db</color><!-- gray-30 -->
+  <color name="yds_color_spinner_error">#f5517a</color><!-- error -->
+  <color name="yds_color_spinner_success">#03e592</color><!-- success -->
+  <color name="yds_color_spinner_background_error">#740722</color><!-- red-80 -->
+  <color name="yds_color_feedback_highlight">#29ccde</color><!-- turquoise-40 -->
+  <color name="yds_color_feedback_error">#f5517a</color><!-- red-40 -->
+  <color name="yds_color_feedback_warning">#ff9c31</color><!-- orange-40 -->
+  <color name="yds_color_feedback_success">#03e592</color><!-- green-40 -->
+  <color name="yds_color_feedback_live">#e90e43</color><!-- red-50 -->
+  <color name="yds_color_logo_yle_background_brand">#f8f9fa</color><!-- gray-5 -->
+  <color name="yds_color_logo_tv1">#3311aa</color><!-- yle-tv-1 -->
+  <color name="yds_color_logo_tv_2">#cb0fd0</color><!-- yle-tv-2 -->
+  <color name="yds_color_logo_yle_teema">#fe8300</color><!-- yle-teema -->
+  <color name="yds_color_logo_yle_fem">#a3bd2f</color><!-- yle-fem -->
+  <color name="yds_color_logo_lastenareena">#feb500</color><!-- lastenareena -->
+  <color name="yds_color_logo_yle_radio_1">#dc006a</color><!-- yle-radio-1 -->
+  <color name="yds_color_logo_yle_radio_suomi">#00b9eb</color><!-- yle-radio-suomi-2 -->
+  <color name="yds_color_logo_yle_x">#fd2b77</color><!-- yle-x -->
+  <color name="yds_color_logo_yle_x3m">#ff4c20</color><!-- yle-x3m -->
+  <color name="yds_color_logo_yle_vega">#169bd4</color><!-- yle-vega -->
+  <color name="yds_color_logo_yle_klassinen">#0f7b87</color><!-- yle-klassinen -->
+  <color name="yds_color_logo_yle_sami_radio">#0049bf</color><!-- yle-sami-radio -->
+  <color name="yds_color_logo_areena">#29ccde</color><!-- turquoise-40 -->
+  <color name="yds_color_logo_yle_background_default">#f8f9fa</color><!-- default-text -->
+  <color name="yds_color_logo_yle_text">#131415</color><!-- negative-text -->
+  <color name="yds_color_logo_background">#ffffff</color><!-- white -->
+  <color name="yds_color_logo_nega">#ffffff</color><!-- white -->
+  <color name="yds_color_logo_text">#000000</color><!-- black -->
+  <color name="yds_color_brand_yle">#00b4c8</color><!-- turquoise-50 -->
+  <color name="yds_color_tag_live">#e90e43</color><!-- red-50 -->
+  <color name="yds_color_tag_default">#ffffff</color><!-- white -->
+  <color name="yds_color_tag_opinion">#3d5483</color><!-- info-deep-blue-60 -->
+  <color name="yds_color_tag_yle_corporate">#00809c</color><!-- turquoise-70 -->
+  <color name="yds_color_tag_primary_action">#f8f9fa</color><!-- gray-5 -->
+  <color name="yds_color_tag_primary_action_variant">#b5ffffff</color><!-- white-opacity-60 -->
+  <color name="yds_color_tag_secondary_action">#21ffffff</color><!-- white-opacity-10 -->
+  <color name="yds_color_tag_secondary_action_variant">#14ffffff</color><!-- white-opacity-5 -->
+  <color name="yds_color_tag_neutral">#323639</color><!-- gray-70 -->
+  <color name="yds_color_shadow_s">#b3000000</color>
+  <color name="yds_color_shadow_m">#b3000000</color>
+  <color name="yds_color_shadow_l">#de000000</color>
+  <color name="yds_color_tietaja_background_player_card">#4a000000</color><!-- black-opacity-40 -->
+  <color name="yds_color_tietaja_text_score">#29ccde</color><!-- highlight -->
+  <color name="yds_color_tietaja_border_highlight">#29ccde</color><!-- highlight -->
+  
+</resources>

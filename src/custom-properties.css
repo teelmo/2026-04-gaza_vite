@@ -1,0 +1,58 @@
+@theme inline {
+  /* This project */
+  --color-foreground: var(--yds-infographic-text-dark);
+  --color-background: var(--yds-infographic-text-light);
+  --color-korostus: var(--yds-color-info-orange-50);
+  --color-outline: var(--yds-color-border-primary-focus);
+  --color-dark: var(--yds-infographic-text-dark);
+  --color-leipis-background: #ffffff;
+  --color-leipis-foreground: var(--yds-infographic-text-dark);
+
+  /* Header */
+  --color-header-background: #0a0a0a;
+  --color-header-foreground: var(--yds-infographic-text-light);
+
+  /* Factbox */
+  --color-factbox-background: #131415;
+  --color-factbox-foreground: var(--yds-infographic-text-light);
+
+  /* Recommendation */
+  --color-recommendation-text: var(--yds-infographic-text-light);
+  --color-recommendation-text-dark: var(--yds-infographic-text-light);
+
+  /* Tailwind theme modifications */
+  /* Content width for article layout */
+  --content-width: 592px;
+
+  --breakpoint-mini: 320px;
+  --breakpoint-sm: 768px;
+  --text-xs: var(--yds-typography-font-size-xs);
+  --text-sm: var(--yds-typography-font-size-sm);
+  --text-base: var(--yds-typography-font-size-md);
+  --text-md: var(--yds-typography-font-size-md);
+  --text-lg: var(--yds-typography-font-size-lg);
+  --text-xl: var(--yds-typography-font-size-xl);
+  --text-2xl: var(--yds-typography-font-size-2xl);
+  --text-3xl: var(--yds-typography-font-size-3xl);
+  --text-4xl: var(--yds-typography-font-size-4xl);
+  --text-5xl: var(--yds-typography-font-size-5xl);
+  --text-6xl: var(--yds-typography-font-size-6xl);
+  --text-7xl: var(--yds-typography-font-size-7xl);
+  --text-8xl: var(--yds-typography-font-size-8xl);
+  --text-9xl: var(--yds-typography-font-size-9xl);
+
+  --text-xs--line-height: var(--yds-typography-line-height-120);
+  --text-sm--line-height: var(--yds-typography-line-height-130);
+  --text-base--line-height: var(--yds-typography-line-height-130);
+  --text-md--line-height: var(--yds-typography-line-height-130);
+  --text-lg--line-height: var(--yds-typography-line-height-130);
+  --text-xl--line-height: var(--yds-typography-line-height-130);
+  --text-2xl--line-height: var(--yds-typography-line-height-140);
+  --text-3xl--line-height: var(--yds-typography-line-height-140);
+  --text-4xl--line-height: var(--yds-typography-line-height-140);
+  --text-5xl--line-height: var(--yds-typography-line-height-140);
+  --text-6xl--line-height: var(--yds-typography-line-height-150);
+  --text-7xl--line-height: var(--yds-typography-line-height-150);
+  --text-8xl--line-height: var(--yds-typography-line-height-150);
+  --text-9xl--line-height: var(--yds-typography-line-height-150);
+}

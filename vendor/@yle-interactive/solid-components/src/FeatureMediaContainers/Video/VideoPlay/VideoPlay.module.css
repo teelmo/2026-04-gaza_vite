@@ -1,0 +1,11 @@
+.plusPlayButton {
+    top: calc(50% - 50px);    
+    left: calc(50% - 50px);
+    position: absolute;
+    background: transparent;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    -webkit-appearance: none;
+}

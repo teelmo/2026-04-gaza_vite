@@ -1,0 +1,156 @@
+
+.feedbackForm {
+    background-color: var(--yds-color-background-highlight);
+    border-radius: var(--yds-border-radius-medium);
+    color: var(--yds-color-text-default);
+    margin: 24px auto;
+    text-align: center;
+    padding-bottom: 16px;
+    font-family: var(--yds-typography-font-family-default), sans-serif;
+}
+
+.feedbackTitle {
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.45em;
+    margin: 0;
+    border-bottom: 1px solid var(--yds-color-background-control);
+}
+
+
+.feedbackContentContainer {
+    text-align: left;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+}
+
+.feedbackButtonContainer {
+    margin-top: 16px;
+}
+
+.feedbackAdditionalQuery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+    width: 100%;
+}
+
+.feedbackTextarea {
+    background: var(--yds-color-background-navigation);
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--yds-color-text-default);
+    padding: 16px;
+    resize: vertical;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 40px;
+    margin-bottom: 16px;
+}
+
+.feedbackAdditionalQuery label {
+    font-weight: 500;
+}
+
+@keyframes scale {
+    from { transform: scale(0); }
+    to { transform: scale(0.5); }
+}
+
+.scoreQueryFieldset {
+    border: none;
+    margin-top: 16px;
+}
+
+.scoreQueryHeader {
+    all: unset;
+    position: relative;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    margin: 16px auto;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.scoreQueryContainer {
+    display: grid;
+    gap: 8px;
+    grid-auto-flow: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px auto 16px;
+    width: 100%;
+    position: relative;
+    max-width: 450px;
+}
+
+.scoreQueryOption {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.scoreQueryLegend {
+    font-size: 16px;
+    line-height: 150%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    grid-template-rows: 1fr 1fr;
+}
+
+.scoreQueryContainer input {
+    all: unset;
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    line-height: 0;
+    min-height: initial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 100px;
+    margin: 4px auto;
+    background: rgb(255, 255, 255);
+}
+
+.scoreQueryInputChecked {
+    border-color: rgb(0, 156, 181)
+}
+
+.scoreQueryInputChecked::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background: rgb(0, 156, 181);
+    animation: scale 0.1s ease-in-out forwards;
+}
+
+.scoreQueryLegend {
+    font-weight: 500;
+}

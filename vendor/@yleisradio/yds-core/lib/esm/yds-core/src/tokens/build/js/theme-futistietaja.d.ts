@@ -1,0 +1,51 @@
+/**
+ * Yle Design System
+ * v2.x.x
+ */
+
+export const BACKGROUND: string;
+export const BACKGROUND_VARIANT: string;
+export const BACKGROUND_INPUT: string;
+export const BACKGROUND_DIALOG: string;
+export const BACKGROUND_DIALOG_OVERLAY: string;
+export const BACKGROUND_INFO_PRIMARY: string;
+export const BACKGROUND_INFO_SECONDARY: string;
+export const BACKGROUND_SUCCESS: string;
+export const BACKGROUND_WARNING: string;
+export const BACKGROUND_ERROR: string;
+export const BACKGROUND_INTERACTIVE: string;
+export const BACKGROUND_NEGATIVE: string;
+export const TEXT_DEFAULT: string;
+export const TEXT_DARK: string;
+export const TEXT_DISABLED: string;
+export const TEXT_INPUT_BLACEHOLDER: string;
+export const TEXT_NEGATIVE: string;
+export const TEXT_FEEDBACK_LIVE: string;
+export const BORDER_PRIMARY_FOCUS: string;
+export const BORDER: string;
+export const BORDER_DISABLED: string;
+export const BORDER_SEPARATOR: string;
+export const BORDER_NEGATIVE: string;
+export const FEEDBACK_ERROR: string;
+export const FEEDBACK_WARNING: string;
+export const FEEDBACK_SUCCESS: string;
+export const FEEDBACK_HIGHLIGHT: string;
+export const FEEDBACK_LIVE: string;
+export const ACTION_PRIMARY: string;
+export const ACTION_PRIMARY_VARIANT: string;
+export const ACTION_SECONDARY: string;
+export const ACTION_SECONDARY_VARIANT: string;
+export const ACTION_DISABLED: string;
+export const ACTION_SELECTED: string;
+export const ACTION_UNSELECTED: string;
+export const SPINNER_DEFAULT: string;
+export const SPINNER_NEGATIVE: string;
+export const SPINNER_BACKGROUND_DEFAULT: string;
+export const SPINNER_BACKGROUND_NEGATIVE: string;
+export const TIETAJA_BACKGROUND_PLAYER_CARD: string;
+export const TIETAJA_TEXT_SCORE: string;
+export const TIETAJA_BORDER_HIGHLIGHT: string;
+export const SHADOW_S: string;
+export const SHADOW_L: string;
+export const SHADOW_M: string;
+export const TAG_LIVE: string;

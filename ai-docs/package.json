@@ -1,0 +1,13 @@
+{
+  "name": "plus-deski-react-tailwind-docs",
+  "private": true,
+  "description": "Riippuvuudet dokumentoinnin tarkoitukseen – voi poistaa myöhemmin",
+  "devDependencies": {
+    "@yleisradio/yds-core": "latest",
+    "@yleisradio/yds-fonts": "latest",
+    "@yleisradio/yds-icons": "latest",
+    "@yleisradio/yds-icons-react": "latest",
+    "@yleisradio/yds-components-react": "latest",
+    "@yle-interactive/solid-components": "latest"
+  }
+}

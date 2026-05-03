@@ -1,0 +1,2428 @@
+{
+  "color themes": {
+    "light": {
+      "weather icon": {
+        "weather-cloud-light": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.black-opacity-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1838",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "weather-cloud-mid": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.black-opacity-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1839",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "weather-cloud-dark": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.black-opacity-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1840",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "weather-moon": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-blue-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1841",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "weather-droplet": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-blue-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1842",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "weather-sun": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-yellow-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1843",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "base": {
+        "text-default": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.light theme.text.default-text}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:102:1641",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "background": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.light theme.background.background}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:108:1935",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "tooltip-background": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.light theme.background.negative-background}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1182",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "gridline": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.gray-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1184",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-negative": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.light theme.text.negative-text}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1185",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-secondary": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.gray-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1186",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-dark": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.light theme.text.dark-text}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:327:2857",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-light": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.light theme.text.light-text}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:327:2859",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-plus": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.yle.turquoise-70}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:6664",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-minus": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-orange-70}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9114",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "news default": {
+        "news-default-1": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1187",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-default-2": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.yle.turquoise-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1188",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-default-3": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-blue-90}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1189",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-default-4": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-orange-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1190",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-default-5": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-purple-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1191",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-default-6": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-80}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1192",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "news monochrome": {
+        "news-monochrome-1": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-90}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1193",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-monochrome-2": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-70}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1194",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-monochrome-3": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1195",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-monochrome-4": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1196",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-monochrome-5": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1197",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-monochrome-6": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-10}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1198",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "sports default": {
+        "sports-default-1": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1199",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-default-2": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-pink-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1200",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-default-3": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-lime-80}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1201",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-default-4": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1202",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-default-5": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-pink-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1203",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-default-6": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-lime-95}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1204",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "sports monochrome": {
+        "sports-monochrome-1": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-80}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1205",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-monochrome-2": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1207",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-monochrome-3": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1208",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-monochrome-4": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1209",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-monochrome-5": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1210",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-monochrome-6": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-10}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1211",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "accent": {
+        "news-accent": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-orange-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:418:7557",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "political party fi": {
+        "kok-primary": {
+          "type": "color",
+          "value": "#0357a5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21219",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "kok-secondary": {
+          "type": "color",
+          "value": "#8eb4d7ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21220",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "ps-primary": {
+          "type": "color",
+          "value": "#159af0ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21221",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "ps-secondary": {
+          "type": "color",
+          "value": "#96d2f8ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21222",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sdp-primary": {
+          "type": "color",
+          "value": "#e01515ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21223",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sdp-secondary": {
+          "type": "color",
+          "value": "#ef9897ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21224",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "vihr-primary": {
+          "type": "color",
+          "value": "#769f20ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21225",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "vihr-secondary": {
+          "type": "color",
+          "value": "#bccf95ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21226",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "kesk-primary": {
+          "type": "color",
+          "value": "#096900ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21227",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "kesk-secondary": {
+          "type": "color",
+          "value": "#90bc8cff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21228",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "vas-primary": {
+          "type": "color",
+          "value": "#bb1054ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21229",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "vas-secondary": {
+          "type": "color",
+          "value": "#e094b2ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21230",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "rkp-primary": {
+          "type": "color",
+          "value": "#c97b2dff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21231",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "rkp-secondary": {
+          "type": "color",
+          "value": "#deb186ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21232",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "kd-primary": {
+          "type": "color",
+          "value": "#923de8ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21233",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "kd-secondary": {
+          "type": "color",
+          "value": "#cea8f5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21234",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "liik-primary": {
+          "type": "color",
+          "value": "#c262b8ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21235",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "liik-secondary": {
+          "type": "color",
+          "value": "#e4b8dfff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21236",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "others-primary": {
+          "type": "color",
+          "value": "#8d8e8fff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21237",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "others-secondary": {
+          "type": "color",
+          "value": "#cccccdff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21238",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "scale": {
+        "scale-strongly-agree": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.yle.turquoise-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9141",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "scale-agree": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.yle.turquoise-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9144",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "scale-neutral": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.gray-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9147",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "scale-disagree": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-orange-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9150",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "scale-strongly-disagree": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-orange-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9153",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "survey": {
+        "survey-yes": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.yle.turquoise-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9221",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "survey-no": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-orange-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9222",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "survey-empty": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.gray-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9223",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "survey-neutral": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.gray-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "modeId": "70:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9229",
+              "exportKey": "variables"
+            }
+          }
+        }
+      }
+    },
+    "dark": {
+      "weather icon": {
+        "weather-cloud-light": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.white-opacity-70}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1838",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "weather-cloud-mid": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.white-opacity-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1839",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "weather-cloud-dark": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.white-opacity-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1840",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "weather-moon": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-blue-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1841",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "weather-droplet": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.black-and-white.white}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1842",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "weather-sun": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-yellow-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:89:1843",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "base": {
+        "text-default": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.dark theme.text.default-text}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:102:1641",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "background": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.dark theme.background.background}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:108:1935",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "tooltip-background": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.dark theme.background.negative-background}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1182",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "gridline": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.gray-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1184",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-negative": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.dark theme.text.negative-text}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1185",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-secondary": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.gray-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1186",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-dark": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.dark theme.text.dark-text}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:327:2857",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-light": {
+          "description": "",
+          "type": "color",
+          "value": "{color themes.dark theme.text.light-text}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:327:2859",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-plus": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.yle.turquoise-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:6664",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "text-minus": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-orange-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9114",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "news default": {
+        "news-default-1": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1187",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-default-2": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.yle.turquoise-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1188",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-default-3": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-yellow-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1189",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-default-4": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-orange-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1190",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-default-5": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-purple-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1191",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-default-6": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.complementary.info-orange-5}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1192",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "news monochrome": {
+        "news-monochrome-1": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-5}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1193",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-monochrome-2": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-10}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1194",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-monochrome-3": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1195",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-monochrome-4": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1196",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-monochrome-5": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1197",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "news-monochrome-6": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-violet-70}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1198",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "sports default": {
+        "sports-default-1": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1199",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-default-2": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-pink-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1200",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-default-3": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-lime-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1201",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-default-4": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1202",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-default-5": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-pink-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1203",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-default-6": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-lime-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1204",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "sports monochrome": {
+        "sports-monochrome-1": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-5}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1205",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-monochrome-2": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-10}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1207",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-monochrome-3": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1208",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-monochrome-4": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1209",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-monochrome-5": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1210",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sports-monochrome-6": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.sports.sports-violet-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:312:1211",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "accent": {
+        "news-accent": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-orange-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:418:7557",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "political party fi": {
+        "kok-primary": {
+          "type": "color",
+          "value": "#096de3ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21219",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "kok-secondary": {
+          "type": "color",
+          "value": "#0d4e9bff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21220",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "ps-primary": {
+          "type": "color",
+          "value": "#6fb4fcff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21221",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "ps-secondary": {
+          "type": "color",
+          "value": "#146498ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21222",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sdp-primary": {
+          "type": "color",
+          "value": "#ff5a5aff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21223",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sdp-secondary": {
+          "type": "color",
+          "value": "#a13e3fff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21224",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "vihr-primary": {
+          "type": "color",
+          "value": "#8fce29ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21225",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "vihr-secondary": {
+          "type": "color",
+          "value": "#5e8421ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21226",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "kesk-primary": {
+          "type": "color",
+          "value": "#099327ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21227",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "kesk-secondary": {
+          "type": "color",
+          "value": "#0d6020ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21228",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "vas-primary": {
+          "type": "color",
+          "value": "#e22a73ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21229",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "vas-secondary": {
+          "type": "color",
+          "value": "#8f214dff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21230",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "rkp-primary": {
+          "type": "color",
+          "value": "#ffdc5dff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21231",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "rkp-secondary": {
+          "type": "color",
+          "value": "#a1914aff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21232",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "kd-primary": {
+          "type": "color",
+          "value": "#923de8ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21233",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "kd-secondary": {
+          "type": "color",
+          "value": "#5f2c94ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21234",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "liik-primary": {
+          "type": "color",
+          "value": "#cf83c8ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21235",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "liik-secondary": {
+          "type": "color",
+          "value": "#7a5177ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21236",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "others-primary": {
+          "type": "color",
+          "value": "#aeb0b1ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21237",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "others-secondary": {
+          "type": "color",
+          "value": "#616263ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:818:21238",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "scale": {
+        "scale-strongly-agree": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.yle.turquoise-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9141",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "scale-agree": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.yle.turquoise-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9144",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "scale-neutral": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.gray-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9147",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "scale-disagree": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-orange-30}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9150",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "scale-strongly-disagree": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-orange-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9153",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "survey": {
+        "survey-yes": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.yle.turquoise-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9221",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "survey-no": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.brand.news.news-orange-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9222",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "survey-empty": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.gray-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9223",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "survey-neutral": {
+          "description": "",
+          "type": "color",
+          "value": "{yds global colors.neutrals.gray-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "modeId": "89:0",
+              "collection": "Color themes",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2219:9229",
+              "exportKey": "variables"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "spacing": {
+    "2": {
+      "value": 2,
+      "type": "spacing",
+      "unit": "pixels"
+    },
+    "4": {
+      "value": 4,
+      "type": "spacing",
+      "unit": "pixels"
+    },
+    "8": {
+      "value": 8,
+      "type": "spacing",
+      "unit": "pixels"
+    },
+    "12": {
+      "value": 12,
+      "type": "spacing",
+      "unit": "pixels"
+    },
+    "16": {
+      "value": 16,
+      "type": "spacing",
+      "unit": "pixels"
+    },
+    "24": {
+      "value": 24,
+      "type": "spacing",
+      "unit": "pixels"
+    },
+    "32": {
+      "value": 32,
+      "type": "spacing",
+      "unit": "pixels"
+    },
+    "40": {
+      "value": 40,
+      "type": "spacing",
+      "unit": "pixels"
+    },
+    "48": {
+      "value": 48,
+      "type": "spacing",
+      "unit": "pixels"
+    },
+    "56": {
+      "value": 56,
+      "type": "spacing",
+      "unit": "pixels"
+    },
+    "64": {
+      "value": 64,
+      "type": "spacing",
+      "unit": "pixels"
+    },
+    "72": {
+      "value": 72,
+      "type": "spacing",
+      "unit": "pixels"
+    }
+  }
+}

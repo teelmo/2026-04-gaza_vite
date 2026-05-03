@@ -1,0 +1,27 @@
+
+// Yle Design System
+// v2.x.x
+
+$yds-transition-duration-instant: 0ms;
+$yds-transition-duration-xxs: 70ms;
+$yds-transition-duration-xs: 150ms;
+$yds-transition-duration-s: 250ms;
+$yds-transition-duration-m: 450ms;
+$yds-transition-duration-l: 750ms;
+$yds-transition-duration-xl: 1000ms;
+$yds-transition-duration-xxl: 2000ms;
+$yds-transition-delay-xxs: 70ms;
+$yds-transition-delay-xs: 150ms;
+$yds-transition-delay-s: 250ms;
+$yds-transition-delay-m: 450ms;
+$yds-transition-delay-l: 750ms;
+$yds-transition-delay-xl: 1000ms;
+$yds-transition-delay-xxl: 2000ms;
+$yds-transition-delay-instant: 0ms;
+$yds-transition-easing-dec: cubic-bezier(0.17, 0.84, 0.44, 1.0);
+$yds-transition-easing-acc: cubic-bezier(0.84, 0.17, 1, 0.44);
+$yds-transition-easing-default: cubic-bezier(0.65, 0.05, 0.35, 1.0);
+$yds-transition-easing-exp: cubic-bezier(0.75, 0, 0.17, 1.0);
+$yds-transition-easing-bounce-sm: cubic-bezier(0.6, 0.0, 0.1, 1.3);
+$yds-transition-easing-bounce-lg: cubic-bezier(0.6, 0.0, 0.1, 3);
+$yds-transition-easing-linear: cubic-bezier(0, 0, 1, 1);

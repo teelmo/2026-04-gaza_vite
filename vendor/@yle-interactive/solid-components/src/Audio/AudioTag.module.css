@@ -1,0 +1,84 @@
+.plusAudioPlayerContainer {
+    position: relative;
+    font-family: var(--yds-typography-font-family-default), Arial, sans-serif; 
+    color: black;
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+    
+}
+
+.plusAudioPlayerControls {
+    position: relative;
+    display: flex;
+    height: 60px;
+    margin-top: 24px;
+    background-color: #f5f5f5;
+}
+
+.plusAudioPlayerPlayPause {
+    border: 0;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: var(--yds-typography-font-family-default), sans-serif;
+    display: block;
+    padding: 0 8px;
+    background-color: #f5f5f5;
+
+}
+
+.plusAudioPlayerSvg {
+    vertical-align: middle;
+    margin-left: 5px;
+    transform: rotate(0deg);
+
+}
+
+.plusAudioPlayerTime {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 8px;
+    user-select: none;
+    display: table;
+}
+
+.plusAudioPlayerTime span {
+    display: table-cell;
+    table-layout: fixed;
+    width: 50px;
+    text-align: center;
+}
+
+.plusAudioPlayerProgressBars {
+    width: fit-content;
+    flex-grow: 100;
+    margin: 28px 16px 0px 8px;
+    position: relative;
+}
+
+.plusAudioPlayerProgressBarWhole {
+    height: 3px;
+    position: absolute;
+    background-color: #D9D9D9;
+    width: 100%;
+}
+
+.plusAudioPlayerProgressBarFilled {
+    height: 3px;
+    position: absolute;
+    background-color: #00b4c8;
+}
+
+.plusAudioPlayerProgressBarHandle {
+    background-color: black;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -6px;
+    cursor: pointer;
+    margin-left: -1.5%;
+}

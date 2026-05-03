@@ -1,0 +1,53 @@
+"use strict";
+/**
+ * Yle Design System
+ * v2.x.x
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TIETAJA_TEXT_SCORE = exports.TIETAJA_BORDER_HIGHLIGHT = exports.TIETAJA_BACKGROUND_PLAYER_CARD = exports.TEXT_NEGATIVE = exports.TEXT_INPUT_BLACEHOLDER = exports.TEXT_FEEDBACK_LIVE = exports.TEXT_DISABLED = exports.TEXT_DEFAULT = exports.TEXT_DARK = exports.TAG_LIVE = exports.SPINNER_NEGATIVE = exports.SPINNER_DEFAULT = exports.SPINNER_BACKGROUND_NEGATIVE = exports.SPINNER_BACKGROUND_DEFAULT = exports.SHADOW_S = exports.SHADOW_M = exports.SHADOW_L = exports.FEEDBACK_WARNING = exports.FEEDBACK_SUCCESS = exports.FEEDBACK_LIVE = exports.FEEDBACK_HIGHLIGHT = exports.FEEDBACK_ERROR = exports.BORDER_SEPARATOR = exports.BORDER_PRIMARY_FOCUS = exports.BORDER_NEGATIVE = exports.BORDER_DISABLED = exports.BORDER = exports.BACKGROUND_WARNING = exports.BACKGROUND_VARIANT = exports.BACKGROUND_SUCCESS = exports.BACKGROUND_NEGATIVE = exports.BACKGROUND_INTERACTIVE = exports.BACKGROUND_INPUT = exports.BACKGROUND_INFO_SECONDARY = exports.BACKGROUND_INFO_PRIMARY = exports.BACKGROUND_ERROR = exports.BACKGROUND_DIALOG_OVERLAY = exports.BACKGROUND_DIALOG = exports.BACKGROUND = exports.ACTION_UNSELECTED = exports.ACTION_SELECTED = exports.ACTION_SECONDARY_VARIANT = exports.ACTION_SECONDARY = exports.ACTION_PRIMARY_VARIANT = exports.ACTION_PRIMARY = exports.ACTION_DISABLED = void 0;
+exports.ACTION_DISABLED = 'rgba(255, 255, 255, 0.21)';
+exports.ACTION_PRIMARY = '#f8f9fa';
+exports.ACTION_PRIMARY_VARIANT = 'rgba(255, 255, 255, 0.71)';
+exports.ACTION_SECONDARY = 'rgba(255, 255, 255, 0.08)';
+exports.ACTION_SECONDARY_VARIANT = 'rgba(255, 255, 255, 0.17)';
+exports.ACTION_SELECTED = '#D4FF42';
+exports.ACTION_UNSELECTED = '#2f2a78';
+exports.BACKGROUND = '#0D0A5C';
+exports.BACKGROUND_DIALOG = '#2f2a78';
+exports.BACKGROUND_DIALOG_OVERLAY = 'rgba(0, 0, 0, 0.7)';
+exports.BACKGROUND_ERROR = '#f5517a';
+exports.BACKGROUND_INFO_PRIMARY = '#d8d9db';
+exports.BACKGROUND_INFO_SECONDARY = '#2f2a78';
+exports.BACKGROUND_INPUT = '#0D0A5C';
+exports.BACKGROUND_INTERACTIVE = '#2f2a78';
+exports.BACKGROUND_NEGATIVE = '#ffffff';
+exports.BACKGROUND_SUCCESS = '#33d59b';
+exports.BACKGROUND_VARIANT = '#2f2a78';
+exports.BACKGROUND_WARNING = '#feb054';
+exports.BORDER = '#f8f9fa';
+exports.BORDER_DISABLED = 'rgba(255, 255, 255, 0.3)';
+exports.BORDER_NEGATIVE = '#0D0A5C';
+exports.BORDER_PRIMARY_FOCUS = '#D4FF42';
+exports.BORDER_SEPARATOR = 'rgba(255, 255, 255, 0.13)';
+exports.FEEDBACK_ERROR = '#f5517a';
+exports.FEEDBACK_HIGHLIGHT = '#D4FF42';
+exports.FEEDBACK_LIVE = '#D4FF42';
+exports.FEEDBACK_SUCCESS = '#03e592';
+exports.FEEDBACK_WARNING = '#ff9c31';
+exports.SHADOW_L = 'rgba(0, 0, 0, 0.87)';
+exports.SHADOW_M = 'rgba(0, 0, 0, 0.7)';
+exports.SHADOW_S = 'rgba(0, 0, 0, 0.7)';
+exports.SPINNER_BACKGROUND_DEFAULT = '#292b2d';
+exports.SPINNER_BACKGROUND_NEGATIVE = '#d8d9db';
+exports.SPINNER_DEFAULT = '#ffffff';
+exports.SPINNER_NEGATIVE = '#131415';
+exports.TAG_LIVE = '#D4FF42';
+exports.TEXT_DARK = '#0D0A5C';
+exports.TEXT_DEFAULT = '#f8f9fa';
+exports.TEXT_DISABLED = 'rgba(255, 255, 255, 0.3)';
+exports.TEXT_FEEDBACK_LIVE = '#0D0A5C';
+exports.TEXT_INPUT_BLACEHOLDER = 'rgba(255, 255, 255, 0.53)'; // white-opacity-50;
+exports.TEXT_NEGATIVE = '#0D0A5C';
+exports.TIETAJA_BACKGROUND_PLAYER_CARD = 'rgba(0, 0, 0, 0.29)';
+exports.TIETAJA_BORDER_HIGHLIGHT = '#D4FF42';
+exports.TIETAJA_TEXT_SCORE = '#D4FF42';

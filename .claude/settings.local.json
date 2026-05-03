@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install *)",
+      "Bash(python3 -c \"import json,sys; p=json.load\\(sys.stdin\\); print\\(p.get\\('exports',{}\\)\\)\")",
+      "Bash(python3 -c \"import json; p=json.load\\(open\\('/Users/santtee/projektit/2026-04-gaza-vite/node_modules/.pnpm/downshift@8.5.0_react@19.2.5/node_modules/downshift/dist/downshift.esm.js'\\)\\); \")",
+      "Bash(git -C /Users/santtee/projektit/2026-04-gaza-vite status --short)",
+      "Bash(node -e ' *)",
+      "Bash(pnpm build-dev *)",
+      "Bash(pnpm build-prod *)",
+      "Bash(git rm *)",
+      "Bash(pnpm store *)",
+      "Bash(npm config *)",
+      "Bash(pnpm purge-private-cache *)"
+    ]
+  }
+}
