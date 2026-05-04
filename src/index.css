@@ -12,24 +12,17 @@
  * URL imports first
  */
 @import url(https://design-system.cdn.yle.fi/fonts/fonts.css) layer(theme.yds);
-@import url("@yleisradio/yds-core/tokens/build/css/_colors.css")
-layer(theme.yds);
-@import url("@yleisradio/yds-core/tokens/build/css/_infographic-default.css")
-layer(theme.yds);
-@import url("@yleisradio/yds-core/tokens/build/css/_infographic-default-prefers-dark.css")
-layer(theme.yds);
-@import url("@yleisradio/yds-core/tokens/build/css/_theme-default.css")
-layer(theme.yds);
-@import url("@yleisradio/yds-core/tokens/build/css/_colors.css")
-layer(theme.yds);
-@import url("@yleisradio/yds-core/tokens/build/css/_typography-tokens.css")
-layer(theme.yds);
+@import url('@yleisradio/yds-core/tokens/build/css/_colors.css') layer(theme.yds);
+@import url('@yleisradio/yds-core/tokens/build/css/_infographic-default.css') layer(theme.yds);
+@import url('@yleisradio/yds-core/tokens/build/css/_infographic-default-prefers-dark.css') layer(theme.yds);
+@import url('@yleisradio/yds-core/tokens/build/css/_theme-default.css') layer(theme.yds);
+@import url('@yleisradio/yds-core/tokens/build/css/_typography-tokens.css') layer(theme.yds);
 
 /**
  * Reset imports
  */
-@import "./reset.css" layer(reset.plus-app);
-@import "./kielivalinta.css" layer(components.kielivalinta);
+@import './reset.css' layer(reset.plus-app);
+@import './kielivalinta.css' layer(components.kielivalinta);
 
 /**
  * Base custom layer
@@ -95,7 +88,7 @@ layer(theme.yds);
     font-weight: 900 !important;
     line-height: 1.25 !important;
     font-size: 2.5rem !important;
-    font-family: "Yle Next", sans-serif !important;
+    font-family: 'Yle Next', sans-serif !important;
     font-style: normal !important;
     letter-spacing: 0 !important;
     margin-bottom: 16px !important;
@@ -152,7 +145,7 @@ layer(theme.yds);
 }
 
 /* Utilities imports */
-@import "tailwindcss/utilities.css";
+@import 'tailwindcss/utilities.css';
 @layer utilities.plus-app {
   .sr-only {
     position: absolute;
@@ -168,7 +161,7 @@ layer(theme.yds);
 }
 
 /* Theme imports */
-@import "tailwindcss/theme.css" layer(theme.tailwind);
+@import 'tailwindcss/theme.css' layer(theme.tailwind);
 
 /**
  * Overrides custom layer
@@ -196,7 +189,6 @@ layer(theme.yds);
 
 /* Scope */
 @scope (.plus-app-2026-04-gaza-vite) {
-
   /* Scope pseudoclass targets scope root e.g. .plus-app-2026-04-gaza-vite and all  */
   :scope {
     /* Add global styles here */
@@ -249,14 +241,15 @@ layer(theme.yds);
       .container_age_group {
         color: #fff;
         font-size: var(--text-xl);
-        opacity: 0.9;
         line-height: 1.5;
+        opacity: 0.9;
         pointer-events: none;
         position: absolute;
-        text-align:center;
+        text-align: center;
         transform: translateX(-50%);
       }
       .container_infocard_wrapper {
+        overflow: hidden;
         box-sizing: border-box;
         height: 100%;
         left: 0;
@@ -311,22 +304,40 @@ layer(theme.yds);
     }
   }
   .container_video_content {
-    transition: background-color 1s ease;
     height: 190vh;
+    transition: background 0.3s ease;
     .video_content {
       align-items: center;
       display: flex;
       height: 100vh;
       justify-content: center;
+      margin: auto auto;
+      max-width: 90vw;
       position: sticky;
       top: 0;
+      transition: background 0.3s ease;
       .video_wrapper {
-        position: relative;
-        aspect-ratio: 16/9;
+        margin: auto auto;
         max-width: 1300px;
-        transition: opacity 0.1s ease, transform 1s ease;
+        position: relative;
+        width: 100%;
+        .video_overlay {
+          border-bottom: 100px solid #111;
+          border-left: 70px solid #111;
+          border-right: 70px solid #111;
+          border-top: 100px solid #111;
+          height: 100%;
+          left: 0;
+          position: absolute;
+          transition:
+            border-width 1s ease,
+            border-color 0.3s ease;
+          width: 100%;
+          z-index: 1;
+        }
         video {
-          aspect-ratio: 16/9;
+          width: 100%;
+          aspect-ratio: 16 / 9;
           max-width: 1300px;
         }
       }
@@ -341,7 +352,7 @@ layer(theme.yds);
       position: sticky;
       top: 0;
       img {
-        objectFit: cover;
+        object-fit: cover;
         position: absolute;
         transition: opacity 0.3s ease;
       }
@@ -382,9 +393,9 @@ layer(theme.yds);
       }
       .container_label_text {
         color: #fff;
-        font-size: 26px;
+        font-size: var(--text-xl);
         font-weight: 700;
-        line-height: 26px;
+        line-height: 1.5;
         pointer-events: none;
         position: absolute;
         transform: translateX(-50%);
@@ -393,7 +404,8 @@ layer(theme.yds);
     }
   }
   .container_image_content {
-    margin: 200px 0;
+    margin: 200px auto;
+    max-width: 90vw;
     .image_content {
       font-size: 0;
       margin: auto auto;
@@ -410,4 +422,4 @@ layer(theme.yds);
 /**
  * Unlayered global styles override everything
  */
-@import "./custom-properties.css";
+@import './custom-properties.css';

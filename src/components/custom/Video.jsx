@@ -1,12 +1,12 @@
-import React, { useRef, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
+import { useEffect, useRef, useState } from 'react';
 
 function Video({ background, path, poster }) {
   const sectionRef = useRef(null);
   const videoContentRef = useRef(null);
-  const videoWrapperRef = useRef(null);
   const videoRef = useRef(null);
   const controlRef = useRef(null);
+  const videoOverlayRef = useRef(null);
   const [opacity, setOpacity] = useState(0);
   const [currentBackground, setCurrentBackground] = useState(background);
   const [muted, setMuted] = useState(true);
@@ -22,7 +22,7 @@ function Video({ background, path, poster }) {
     const handleScroll = () => {
       const section = sectionRef.current;
       const video = videoRef.current;
-      const videoWrapper = videoWrapperRef.current;
+      const videoOverlay = videoOverlayRef.current;
       const control = controlRef.current;
       if (!section || !video) return;
       const rect = section.getBoundingClientRect();
@@ -31,7 +31,8 @@ function Video({ background, path, poster }) {
       setOpacity(progress);
       if (progress >= 1 && progress <= 1.9) {
         video.play();
-        videoWrapper.style.transform = 'scaleX(1) scaleY(1)';
+        videoOverlay.style.borderColor = '#000';
+        videoOverlay.style.borderWidth = 0;
         control.style.opacity = 1;
         setCurrentBackground('#000');
       } else if (progress > 1.9) {
@@ -40,7 +41,11 @@ function Video({ background, path, poster }) {
         setCurrentBackground(background);
       } else if (progress < 1) {
         video.pause();
-        videoWrapper.style.transform = 'scaleX(0.8) scaleY(1.2)';
+        videoOverlay.style.borderColor = '#111';
+        videoOverlay.style.borderLeftWidth = '70px';
+        videoOverlay.style.borderRightWidth = '70px';
+        videoOverlay.style.borderTopWidth = '100px';
+        videoOverlay.style.borderBottomWidth = '100px';
         control.style.opacity = 0;
         setCurrentBackground(background);
       }
@@ -52,17 +57,9 @@ function Video({ background, path, poster }) {
   return (
     <div className="container_video_content" ref={sectionRef} style={{ backgroundColor: currentBackground }}>
       <div className="video_content" ref={videoContentRef} style={{ backgroundColor: currentBackground }}>
-        <div className="video_wrapper" ref={videoWrapperRef}>
-          <video
-            loop
-            muted
-            playsInline
-            preload="auto"
-            ref={videoRef}
-            src={path}
-            poster={poster}
-            style={{ opacity }}
-          />
+        <div className="video_wrapper">
+          <div className="video_overlay" ref={videoOverlayRef}></div>
+          <video loop muted playsInline preload="auto" ref={videoRef} src={path} poster={poster} style={{ opacity }} />
           {/* Sound toggle button */}
           <div ref={controlRef}>
             <button
@@ -82,17 +79,20 @@ function Video({ background, path, poster }) {
                 alignItems: 'center',
                 justifyContent: 'center',
                 transition: 'opacity 2s ease, border-color 0.2s ease',
-                pointerEvents: 'auto',
+                pointerEvents: 'auto'
               }}
+              type="button"
             >
               {muted ? (
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <title>Unmute</title>
                   <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
                   <line x1="23" y1="9" x2="17" y2="15" />
                   <line x1="17" y1="9" x2="23" y2="15" />
                 </svg>
               ) : (
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <title>Mute</title>
                   <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
                   <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
                   <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
@@ -109,7 +109,7 @@ function Video({ background, path, poster }) {
 Video.propTypes = {
   background: PropTypes.string.isRequired,
   path: PropTypes.string.isRequired,
-  poster: PropTypes.string.isRequired,
+  poster: PropTypes.string.isRequired
 };
 
 export default Video;

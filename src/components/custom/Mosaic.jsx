@@ -1,36 +1,23 @@
-import React, { useRef, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { useEffect, useRef, useState } from 'react';
 
 function MosaicElement({ element, visible }) {
-  const {
-    type, path, top, left, width, height, initialOffset
-  } = element;
+  const { type, path, top, left, width, height, initialOffset } = element;
 
   const style = {
+    height,
+    left: `calc(50% + ${left}px)`,
+    objectFit: 'cover',
+    opacity: visible ? 1 : 0,
     position: 'absolute',
     top: `calc(50% + ${top}px)`,
-    left: `calc(50% + ${left}px)`,
-    width,
-    height,
-    opacity: visible ? 1 : 0,
-    transform: visible
-      ? 'translate(0, 0)'
-      : `translate(${initialOffset.x}px, ${initialOffset.y}px)`,
+    transform: visible ? 'translate(0, 0)' : `translate(${initialOffset.x}px, ${initialOffset.y}px)`,
     transition: 'opacity 0.8s ease, transform 0.8s ease',
-    objectFit: 'cover',
+    width
   };
 
   if (type === 'video') {
-    return (
-      <video
-        src={path}
-        style={style}
-        autoPlay
-        muted
-        playsInline
-        loop
-      />
-    );
+    return <video src={path} style={style} autoPlay muted playsInline loop />;
   }
 
   return <img src={path} alt="" style={style} />;
@@ -46,10 +33,10 @@ MosaicElement.propTypes = {
     height: PropTypes.number.isRequired,
     initialOffset: PropTypes.shape({
       x: PropTypes.number.isRequired,
-      y: PropTypes.number.isRequired,
-    }).isRequired,
+      y: PropTypes.number.isRequired
+    }).isRequired
   }).isRequired,
-  visible: PropTypes.bool.isRequired,
+  visible: PropTypes.bool.isRequired
 };
 
 function Mosaic({ background, elements }) {
@@ -83,10 +70,10 @@ function Mosaic({ background, elements }) {
         position: 'relative'
       }}
     >
-      {elements.map((element, i) => (
+      {elements.map(element => (
         <MosaicElement
           // eslint-disable-next-line react/no-array-index-key
-          key={i}
+          key={element}
           element={element}
           visible={visible}
         />
@@ -97,18 +84,20 @@ function Mosaic({ background, elements }) {
 
 Mosaic.propTypes = {
   background: PropTypes.string.isRequired,
-  elements: PropTypes.arrayOf(PropTypes.shape({
-    initialOffset: PropTypes.shape({
-      x: PropTypes.number.isRequired,
-      y: PropTypes.number.isRequired,
-    }).isRequired,
-    height: PropTypes.number.isRequired,
-    left: PropTypes.number.isRequired,
-    path: PropTypes.string.isRequired,
-    top: PropTypes.number.isRequired,
-    type: PropTypes.oneOf(['image', 'video']).isRequired,
-    width: PropTypes.number.isRequired
-  })).isRequired,
+  elements: PropTypes.arrayOf(
+    PropTypes.shape({
+      initialOffset: PropTypes.shape({
+        x: PropTypes.number.isRequired,
+        y: PropTypes.number.isRequired
+      }).isRequired,
+      height: PropTypes.number.isRequired,
+      left: PropTypes.number.isRequired,
+      path: PropTypes.string.isRequired,
+      top: PropTypes.number.isRequired,
+      type: PropTypes.oneOf(['image', 'video']).isRequired,
+      width: PropTypes.number.isRequired
+    })
+  ).isRequired
 };
 
 export default Mosaic;

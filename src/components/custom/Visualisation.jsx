@@ -2,26 +2,24 @@ import React, { useRef, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Image from './Image.jsx';
 
-function InfoCard({ opacity, cx, cy, scrollProgress }) {
+function InfoCard({ cx, cy, dimensions, opacity, scrollProgress }) {
   const cardRef = useRef(null);
   const [corners, setCorners] = useState(null);
 
   // Movement: left to right and bottom to top as scroll increases
-  const moveX = scrollProgress * 100;  // moves 40px to the right
-  const moveY = scrollProgress * -50; // moves 30px upward
+  const moveX = dimensions.width > 1000 ? scrollProgress * 100 : 0;
+  const moveY = dimensions.width > 1000 ? scrollProgress * -50 : 0;
 
-
-  const cardX = cx + 150 + moveX;
+  const cardX = cx + (dimensions.width > 800 ? 100 : -100) + moveX;
   const cardY = cy - 450 + moveY;
-
 
   useEffect(() => {
     if (cardRef.current) {
       const { height, width } = cardRef.current.getBoundingClientRect();
       setCorners({
-        topLeft:     { x: cardX, y: cardY },
-        bottomLeft:  { x: cardX, y: cardY + height },
-        bottomRight: { x: cardX + width, y: cardY + height },
+        topLeft: { x: cardX, y: cardY },
+        bottomLeft: { x: cardX, y: cardY + height },
+        bottomRight: { x: cardX + width, y: cardY + height }
       });
     }
   }, [cardX, cardY]);
@@ -29,9 +27,10 @@ function InfoCard({ opacity, cx, cy, scrollProgress }) {
   return (
     <div className="container_infocard_wrapper" style={{ opacity }}>
       <svg>
+        <title>Illustrative lines</title>
         {corners && (
           <>
-            <line x1={cx} y1={cy} x2={corners.topLeft.x + 1} y2={corners.topLeft.y + 1} stroke="rgba(249, 115, 22, 0.5)" strokeWidth="2" />
+            {dimensions.width > 800 && <line x1={cx} y1={cy} x2={corners.topLeft.x + 1} y2={corners.topLeft.y + 1} stroke="rgba(249, 115, 22, 0.5)" strokeWidth="2" />}
             <line x1={cx} y1={cy} x2={corners.bottomLeft.x + 2} y2={corners.bottomLeft.y - 1} stroke="rgba(249, 115, 22, 0.5)" strokeWidth="2" />
             <line x1={cx} y1={cy} x2={corners.bottomRight.x} y2={corners.bottomRight.y} stroke="rgba(249, 115, 22, 0.5)" strokeWidth="2" />
           </>
@@ -51,10 +50,11 @@ function InfoCard({ opacity, cx, cy, scrollProgress }) {
 }
 
 InfoCard.propTypes = {
-  opacity: PropTypes.number.isRequired,
   cx: PropTypes.number.isRequired,
   cy: PropTypes.number.isRequired,
-  scrollProgress: PropTypes.number.isRequired,
+  dimensions: PropTypes.number.isRequired,
+  opacity: PropTypes.number.isRequired,
+  scrollProgress: PropTypes.number.isRequired
 };
 
 function Visualisation() {
@@ -91,7 +91,7 @@ function Visualisation() {
           x,
           y,
           r: Math.random() * 2 + 0.5,
-          opacity: Math.random() * 0.5 + 0.3,
+          opacity: Math.random() * 0.5 + 0.3
         });
       }
     }
@@ -107,7 +107,7 @@ function Visualisation() {
           x,
           y,
           r: Math.random() * 2 + 0.5,
-          opacity: Math.random() * 0.5 + 0.3,
+          opacity: Math.random() * 0.5 + 0.3
         });
       }
     }
@@ -154,7 +154,7 @@ function Visualisation() {
 
         // Dots fade to background during screen 3 (0.66–0.75) quickly
         const fadeProgress = Math.min(Math.max((scrollProgress - 0.66) / 0.09, 0), 1);
-        const injuredOpacityMultiplier = 1 - fadeProgress * 0.90; // fade to 90% opacity
+        const injuredOpacityMultiplier = 1 - fadeProgress * 0.9; // fade to 90% opacity
         for (let i = 0; i < dotCount; i++) {
           const dot = injuredDotsRef.current[i];
           ctx.beginPath();
@@ -190,20 +190,12 @@ function Visualisation() {
   // Screen 2 text and positioning.
   const screen2Progress = Math.min(Math.max((scrollProgress - 0.33) / 0.33, 0), 1);
   const screen2TextY = 100 - screen2Progress * 200;
-  const screen2TextOpacity = screen2Progress < 0.1
-    ? screen2Progress / 0.1
-    : screen2Progress > 0.8
-      ? 1 - (screen2Progress - 0.8) / 0.2
-      : 1;
+  const screen2TextOpacity = screen2Progress < 0.1 ? screen2Progress / 0.1 : screen2Progress > 0.8 ? 1 - (screen2Progress - 0.8) / 0.2 : 1;
 
   // Screen 3 text and positioning.
   const screen3Progress = Math.min(Math.max((scrollProgress - 0.66) / 0.34, 0), 1);
   const screen3TextY = 100 - screen3Progress * 200;
-  const screen3TextOpacity = screen3Progress < 0.1
-    ? screen3Progress / 0.1
-    : screen3Progress > 0.8
-      ? 1 - (screen3Progress - 0.8) / 0.2
-      : 1;
+  const screen3TextOpacity = screen3Progress < 0.1 ? screen3Progress / 0.1 : screen3Progress > 0.8 ? 1 - (screen3Progress - 0.8) / 0.2 : 1;
 
   const cx = dimensions.width / 2;
   const cy = dimensions.height / 2;
@@ -214,12 +206,7 @@ function Visualisation() {
         <canvas ref={canvasRef} />
 
         {/* Screen 1 — infocard */}
-        <InfoCard
-          opacity={infocardOpacity}
-          cx={cx}
-          cy={cy}
-          scrollProgress={Math.min(scrollProgressCard / 0.15, 1)}
-        />
+        <InfoCard cx={cx} cy={cy} dimensions={dimensions} opacity={infocardOpacity} scrollProgress={Math.min(scrollProgressCard / 0.15, 1)} />
 
         {/* Screen 2 — scrolling text */}
         <div className="container_scrolling_text" style={{ opacity: screen2TextOpacity, transform: `translateY(${screen2TextY}%)` }}>
