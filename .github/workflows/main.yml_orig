@@ -1,0 +1,45 @@
+name: Upload Website (prod)
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: "pnpm"
+
+      - name: Prepare npmrc
+        run: envsubst  < ./.github/workflows/.npmrc_ci > .npmrc
+
+      - name: Prepare auth token
+        run: npm config set '//npm.pkg.github.com/:_authToken' "${{ secrets.GH_TOKEN }}"
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.ACCESS_KEY }}
+          aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build project
+        run: pnpm build-prod
+
+      - name: Deploy static site to S3 bucket
+        run: aws s3 sync ./dist/ s3://plus-yle-fi-prod/2026-04-gaza_vite --cache-control="max-age=60" --acl="public-read" --delete
