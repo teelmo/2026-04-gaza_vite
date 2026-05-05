@@ -1,20 +1,31 @@
 import PropTypes from 'prop-types';
 import { useEffect, useRef, useState } from 'react';
 
-function MosaicElement({ element, visible }) {
+function MosaicElement({ element, idx, visible }) {
   const { caption, type, path, top, left, width, height, initialOffset } = element;
 
-  const style = {
-    height,
-    left: `calc(50% + ${left}px)`,
-    objectFit: 'cover',
-    opacity: visible ? 1 : 0,
-    position: 'absolute',
-    top: `calc(50% + ${top}px)`,
-    transform: visible ? 'translate(0, 0)' : `translate(${initialOffset.x}px, ${initialOffset.y}px)`,
-    transition: 'opacity 0.8s ease, transform 0.8s ease',
-    width
-  };
+  const windowWidth = window.innerWidth;
+  let style;
+  if (windowWidth > 760) {
+    style = {
+      height,
+      left: `calc(50% + ${left}px)`,
+      objectFit: 'cover',
+      opacity: visible ? 1 : 0,
+      position: 'absolute',
+      top: `calc(50% + ${top}px)`,
+      transform: visible ? 'translate(0, 0)' : `translate(${initialOffset.x}px, ${initialOffset.y}px)`,
+      transition: 'opacity 0.8s ease, transform 0.8s ease',
+      width
+    };
+  } else {
+    style = {
+      left: idx % 2 === 0 ? '-20px' : '20px',
+      position: 'relative',
+      top: idx > 0 ? `${-idx * 20}px` : '0',
+      zIndex: idx % 2 === 0 ? '1' : '2'
+    };
+  }
 
   if (type === 'video') {
     return (
@@ -66,31 +77,28 @@ function Mosaic({ background, elements }) {
       setVisible(centerInView || rect.bottom < windowH / 2);
     };
 
+    if (window.innerWidth > 760) {
+      sectionRef.current.style.height = '100vh';
+    } else {
+      sectionRef.current.style.marginLeft = '40px';
+      sectionRef.current.style.marginRight = '40px';
+    }
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
-    <figure>
-      <div
-        ref={sectionRef}
-        style={{
-          background,
-          height: '100vh',
-          overflow: 'hidden',
-          position: 'relative'
-        }}
-      >
-        {elements.map((element, i) => (
-          <MosaicElement
-            // eslint-disable-next-line react/no-array-index-key
-            key={element.path}
-            element={element}
-            visible={visible}
-          />
-        ))}
-      </div>
-    </figure>
+    <div
+      className="container_mosaic_content"
+      ref={sectionRef}
+      style={{
+        background
+      }}
+    >
+      {elements.map((element, i) => (
+        <MosaicElement element={element} idx={i} key={element.path} visible={visible} />
+      ))}
+    </div>
   );
 }
 

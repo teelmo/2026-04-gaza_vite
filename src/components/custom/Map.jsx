@@ -16,7 +16,7 @@ function MapImage({ map1, map2, texts, points }) {
   const lineProgress = Math.min(Math.max((scrollProgress - lineStart) / (lineEnd - lineStart), 0), 1);
 
   // Map dimensions
-  const mapWidth = Math.min(dimensions.width, 1300);
+  const mapWidth = Math.min(dimensions.width, 1350);
   const mapHeight = (mapWidth * 1110) / 1350;
   const mapLeft = (dimensions.width - mapWidth) / 2;
   const mapTop = (dimensions.height - mapHeight) / 2;
@@ -29,7 +29,7 @@ function MapImage({ map1, map2, texts, points }) {
   const toPixel = useCallback(
     point => ({
       x: (point.x / 100) * canvasWidth,
-      x_text: ((point.x + 8.5) / 100) * canvasWidth,
+      x_text: (point.x / 100 + 0.02) * canvasWidth,
       y: (point.y / 100) * canvasHeight,
       y_text: (point.y / 100) * canvasHeight
     }),
@@ -112,7 +112,7 @@ function MapImage({ map1, map2, texts, points }) {
 
   // Size canvas
   useEffect(() => {
-    const w = Math.min(window.innerWidth, 1300);
+    const w = Math.min(window.innerWidth, 1350);
     const h = (w * 1110) / 1350;
     const canvas = canvasRef.current;
     canvas.width = w;
@@ -159,13 +159,15 @@ function MapImage({ map1, map2, texts, points }) {
         <img src={map2} alt="" style={{ ...mapStyle, opacity: map2Opacity }} />
         <canvas ref={canvasRef} style={{ left: mapLeft, top: mapTop }} />
         {/* Texts */}
-        {texts.map((text, i) => {
+        {texts.map((content, i) => {
           const phaseStart = i * phaseSize + phaseSize * 0.25;
           const phaseProgress = Math.min(Math.max((scrollProgress - phaseStart) / phaseSize, 0), 1);
           const textY = 100 - phaseProgress * 200;
           return (
-            <div className="container_scrolling_text" key={text} style={{ opacity: textOpacity(phaseProgress), transform: `translateY(${textY}%)` }}>
-              <p>{text}</p>
+            <div className="container_scrolling_text" key={content.text} style={{ opacity: textOpacity(phaseProgress), transform: `translateY(${textY}%)` }}>
+              <p>
+                <span className="title">{content.title}</span> <span className="text">{content.text}</span>
+              </p>
             </div>
           );
         })}
@@ -175,13 +177,13 @@ function MapImage({ map1, map2, texts, points }) {
           const reached = (drawnSegments >= i && map1Opacity < 0.5) || i === 0 || i === pixelPoints.length - 1;
           if (points[i].label_pos === 'right') {
             return (
-              <div className="container_label_text right" key={points[i].y} style={{ top: mapTop + point.y - 15, left: mapLeft + point.x_text, opacity: reached ? 1 : 0 }}>
+              <div className="container_label_text right" key={points[i].y} style={{ top: mapTop + point.y, left: mapLeft + point.x_text, opacity: reached ? 1 : 0 }}>
                 {points[i].label}
               </div>
             );
           }
           return (
-            <div className="container_label_text" key={points[i].y} style={{ top: mapTop + point.y + 10, left: mapLeft + point.x, opacity: reached ? 1 : 0 }}>
+            <div className="container_label_text center" key={points[i].y} style={{ top: mapTop + point.y, left: mapLeft + point.x, opacity: reached ? 1 : 0 }}>
               {points[i].label}
             </div>
           );

@@ -101,13 +101,13 @@ import Map from '~/components/custom/Map.jsx';
     map1="assets/img/karttapohja-1m.png"
     map2="assets/img/karttapohja-2m.png"
     texts={[
-      "Riham Abu Asi ja lapset matkasivat Gaza kaupungista  Ammaniin 1.–2. heinäkuuta 2025.",
-      "Linnuntietä kaupunkien väli on 148 kilometriä. Heidän reittinsä oli lähes kaksi kertaa pidempi.",
-      "Al-Šifan sairaala, Gaza – 1.7.2025. Potilaat ja saattajat rekisteröidään. Riham ja lapset odottavat vuoroaan muiden joukossa.",
-      "Khan Yunis, Punaisen Ristin keskus – 1.–2.7.2025. Punainen Risti hoitaa lupa-asiat. Yö kuluu odottaessa. Rajanylitys on mahdollinen vasta huomenna.",
-      "Karm Abu Salimin raja-asema – 2.7.2025. Gazan ainoa reitti lääketieteellisille potilassiirroille. Tarkastuksessa Rihamilta ja lapsilta takavarikoidaan kaikki, myös vaipat ja lääkkeet.",
-      "Allenbyn silta – 2.7.2025. Länsirannan ja Jordanian välinen raja. Potilaat luovutetaan Jordanian viranomaisille.",
-      "Amman – 2.7.2025. Perhe saapuu perille ja siirretään hotelliin karanteeniin."
+      {"title": false, "text": "Riham Abu Asi ja lapset matkasivat Gazan kaupungista Ammaniin 1.–2. heinäkuuta 2025."},
+      {"title": false, "text": "Linnuntietä kaupunkien väli on 148 kilometriä. Heidän reittinsä oli lähes kaksi kertaa pidempi."},
+      {"title": "Al-Šifan sairaala, Gaza – 1.7.2025", "text": "Potilaat ja saattajat rekisteröidään. Riham ja lapset odottavat vuoroaan muiden joukossa."},
+      {"title": "Khan Yunis, Punaisen Ristin keskus – 1.–2.7.2025", "text": "Punainen Risti hoitaa lupa-asiat. Yö kuluu odottaessa. Rajanylitys on mahdollinen vasta huomenna."},
+      {"title": "Karm Abu Salimin raja-asema – 2.7.2025", "text": "Gazan ainoa reitti lääketieteellisille potilassiirroille. Tarkastuksessa Rihamilta ja lapsilta takavarikoidaan kaikki, myös vaipat ja lääkkeet."},
+      {"title": "Allenbyn silta – 2.7.2025", "text": "Länsirannan ja Jordanian välinen raja. Potilaat luovutetaan Jordanian viranomaisille."},
+      {"title": "Amman – 2.7.2025.", "text": "Perhe saapuu perille ja siirretään hotelliin karanteeniin."}
     ]}
     points={[
       { x: 14, y: 58, label: "Gaza", label_pos: "right" },
@@ -128,14 +128,20 @@ import Map from '~/components/custom/Map.jsx';
 </div>
 
 <div className="full-width">
+  {
+    /*
+    @TODO
+    Vaihda video urlit oikeiksi.
+    */
+  }
   <Mosaic
     background="#111"
     elements={[
       { height: 264, initialOffset: { x: 30, y: 0 }, left: -25, path: 'assets/img/mosaic1/Rital_1.jpg', top: -250, type: 'image', width: 400},
-      { height: 264, initialOffset: { x: -30, y: -30 }, left: -375, path: 'assets/img/mosaic1/Riham_ja_Rital.jpg', top: -475, type: 'image', width: 400},
-      { height: 360, initialOffset: { x: 0, y: -30 }, left: -270, path: 'assets/img/mosaic1/Rital_2.jpg', top: 45, type: 'image', width: 540, caption: 'Arpivoide on osa Rital Abu Asin jokapäiväistä rutiinia ammanilaisessa hotellihuoneessa. Vaikka vaativa ihonsiirto on jo tehty, iho muistuttaa yhä iskun voimasta ja kuumuudesta. Kuvat ja videot: Benjamin Suomela / Yle'},
       { height: 169, initialOffset: { x: 30, y: -30 }, left: 50, path: 'assets/vid/UL_Gazan_lapset_PLASTIIKKAKIRURGI_1_.mp4', top: -455, type: 'video', width: 300},
-      { height: 169, initialOffset: { x: -30, y: 0 }, left: -350, path: 'assets/vid/UL_Gazan_lapset_PAINI_1_.mp4', top: -175, type: 'video', width: 300}
+      { height: 264, initialOffset: { x: -30, y: -30 }, left: -375, path: 'assets/img/mosaic1/Riham_ja_Rital.jpg', top: -475, type: 'image', width: 400},
+      { height: 169, initialOffset: { x: -30, y: 0 }, left: -350, path: 'assets/vid/UL_Gazan_lapset_PAINI_1_.mp4', top: -175, type: 'video', width: 300},
+      { height: 360, initialOffset: { x: 0, y: -30 }, left: -270, path: 'assets/img/mosaic1/Rital_2.jpg', top: 45, type: 'image', width: 540, caption: 'Arpivoide on osa Rital Abu Asin jokapäiväistä rutiinia ammanilaisessa hotellihuoneessa. Vaikka vaativa ihonsiirto on jo tehty, iho muistuttaa yhä iskun voimasta ja kuumuudesta. Kuvat ja videot: Benjamin Suomela / Yle'}
     ]}
   />
 </div>
@@ -150,9 +156,11 @@ import Map from '~/components/custom/Map.jsx';
   WHO on toistuvasti kehottanut Israelia nopeuttamaan lupamenettelyjä vakavasti sairaiden potilaiden – erityisesti lasten – siirtämiseksi hoitoon Gazan ulkopuolelle.
 
 </div>
+
 <div className="full-width">
   <Visualisation2 />
 </div>
+
 <div className="leipis fi">
   Evakuointiprosessi voi kestää viikkoja tai kuukausia, ja joissakin tapauksissa lupia ei myönnetä.
 
@@ -193,6 +201,12 @@ import Map from '~/components/custom/Map.jsx';
 </div>
 
 <div className="full-width">
+  {
+    /*
+    @TODO
+    Vaihda video urlit oikeiksi.
+    */
+  }
   <Mosaic
     background="#111"
     elements={[
