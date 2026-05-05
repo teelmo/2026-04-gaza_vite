@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
-function MapImage({ map1, map2, map3, texts, points }) {
+function MapImage({ map1, map2, texts, points }) {
   const containerRef = useRef(null);
   const canvasRef = useRef(null);
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -9,20 +9,15 @@ function MapImage({ map1, map2, map3, texts, points }) {
 
   const lineEnd = 0.95; // Line finishes at 95% of total scroll, last 5% is frozen
   const phaseSize = 1 / texts.length;
-  const lineStart = phaseSize * 2 - phaseSize * 0.5;
+  const lineStart = phaseSize * 1 - phaseSize * 0.5;
 
   const map1Opacity = Math.max(1 - Math.max(scrollProgress - (phaseSize * 2 - phaseSize * 0.5), 0) / 0.05, 0);
-  const map2Opacity = (() => {
-    const fadeIn = Math.min(Math.max((scrollProgress - (phaseSize - phaseSize * 0.5)) / 0.05, 0), 1);
-    const fadeOut = Math.max(1 - Math.max(scrollProgress - (phaseSize * 2 - phaseSize * 0.5), 0) / 0.05, 0);
-    return Math.min(fadeIn, fadeOut);
-  })();
-  const map3Opacity = Math.min(Math.max((scrollProgress - (phaseSize * 2 - phaseSize * 0.5)) / 0.05, 0), 1);
+  const map2Opacity = Math.min(Math.max((scrollProgress - (phaseSize - phaseSize * 0.5)) / 0.05, 0), 1);
   const lineProgress = Math.min(Math.max((scrollProgress - lineStart) / (lineEnd - lineStart), 0), 1);
 
   // Map dimensions
   const mapWidth = Math.min(dimensions.width, 1300);
-  const mapHeight = (mapWidth * 9) / 16;
+  const mapHeight = (mapWidth * 1110) / 1350;
   const mapLeft = (dimensions.width - mapWidth) / 2;
   const mapTop = (dimensions.height - mapHeight) / 2;
   const canvasWidth = mapWidth;
@@ -52,6 +47,15 @@ function MapImage({ map1, map2, map3, texts, points }) {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    pixelPoints.forEach((point, i) => {
+      if (i === 0 || i === pixelPoints.length - 1) {
+        ctx.beginPath();
+        ctx.arc(point.x, point.y, 14, 0, Math.PI * 2);
+        ctx.fillStyle = '#fff';
+        ctx.fill();
+      }
+    });
 
     if (lineProgress === 0) return;
 
@@ -93,18 +97,40 @@ function MapImage({ map1, map2, map3, texts, points }) {
         ctx.fillStyle = '#ff623e';
         ctx.fill();
       }
+      pixelPoints.forEach((point, i) => {
+        if (i === 0 || i === pixelPoints.length - 1) {
+          ctx.beginPath();
+          ctx.arc(point.x, point.y, 14, 0, Math.PI * 2);
+          ctx.fillStyle = '#ff623e';
+          ctx.fill();
+        }
+      });
     });
   }, [lineProgress, dimensions, pixelPoints]);
 
   // Size canvas
   useEffect(() => {
     const w = Math.min(window.innerWidth, 1300);
-    const h = (w * 9) / 16;
+    const h = (w * 1110) / 1350;
     const canvas = canvasRef.current;
     canvas.width = w;
     canvas.height = h;
     setDimensions({ width: window.innerWidth, height: window.innerHeight });
   }, []);
+
+  // Size canvas
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext('2d');
+    pixelPoints.forEach((point, i) => {
+      if (i === 0 || i === pixelPoints.length - 1) {
+        ctx.beginPath();
+        ctx.arc(point.x, point.y, 14, 0, Math.PI * 2);
+        ctx.fillStyle = '#fff';
+        ctx.fill();
+      }
+    });
+  }, [pixelPoints]);
 
   // Scroll tracking
   useEffect(() => {
@@ -129,7 +155,6 @@ function MapImage({ map1, map2, map3, texts, points }) {
       <div className="map_content">
         <img src={map1} alt="" style={{ ...mapStyle, opacity: map1Opacity }} />
         <img src={map2} alt="" style={{ ...mapStyle, opacity: map2Opacity }} />
-        <img src={map3} alt="" style={{ ...mapStyle, opacity: map3Opacity }} />
         <canvas ref={canvasRef} style={{ left: mapLeft, top: mapTop }} />
         {/* Texts */}
         {texts.map((text, i) => {
@@ -145,9 +170,16 @@ function MapImage({ map1, map2, map3, texts, points }) {
         {/* Points */}
         {pixelPoints.map((point, i) => {
           const drawnSegments = lineProgress * (pixelPoints.length - 1);
-          const reached = drawnSegments >= i && map1Opacity < 0.5;
+          const reached = (drawnSegments >= i && map1Opacity < 0.5) || i === 0 || i === pixelPoints.length - 1;
+          if (points[i].label_pos === 'right') {
+            return (
+              <div className="container_label_text" key={points[i].y} style={{ top: mapTop + point.y - 15, left: mapLeft + point.x + 68 + i * 6, opacity: reached ? 1 : 0 }}>
+                {points[i].label}
+              </div>
+            );
+          }
           return (
-            <div className="container_label_text" key={points[i].label} style={{ top: mapTop + point.y + 10, left: mapLeft + point.x, opacity: reached ? 1 : 0 }}>
+            <div className="container_label_text" key={points[i].y} style={{ top: mapTop + point.y + 10, left: mapLeft + point.x, opacity: reached ? 1 : 0 }}>
               {points[i].label}
             </div>
           );
@@ -160,7 +192,6 @@ function MapImage({ map1, map2, map3, texts, points }) {
 MapImage.propTypes = {
   map1: PropTypes.string.isRequired,
   map2: PropTypes.string.isRequired,
-  map3: PropTypes.string.isRequired,
   texts: PropTypes.arrayOf(PropTypes.string).isRequired,
   points: PropTypes.arrayOf(
     PropTypes.shape({

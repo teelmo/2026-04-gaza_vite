@@ -1,5 +1,6 @@
-import React, { useRef, useState, useEffect } from 'react';
+// import * as d3 from 'd3';
 import PropTypes from 'prop-types';
+import { useEffect, useRef, useState } from 'react';
 import Image from './Image.jsx';
 
 function InfoCard({ cx, cy, dimensions, opacity, scrollProgress }) {
@@ -10,7 +11,7 @@ function InfoCard({ cx, cy, dimensions, opacity, scrollProgress }) {
   const moveX = dimensions.width > 1000 ? scrollProgress * 100 : 0;
   const moveY = dimensions.width > 1000 ? scrollProgress * -50 : 0;
 
-  const cardX = cx + (dimensions.width > 800 ? 100 : -100) + moveX;
+  const cardX = cx + (dimensions.width > 800 ? 150 : -100) + moveX;
   const cardY = cy - 450 + moveY;
 
   useEffect(() => {
@@ -38,11 +39,11 @@ function InfoCard({ cx, cy, dimensions, opacity, scrollProgress }) {
       </svg>
       <div className="container_infocard_content" ref={cardRef} style={{ top: cardY, left: cardX }}>
         <div className="infocard_image">
-          <Image path="assets/img/Rital_Abu_Asi.jpg" alt="Kuvateksti" background="" />
+          <Image path="assets/img/Rital_Abu_Asi.jpg" alt="Rital Abu Asi" background="" />
         </div>
         <div className="infocard_content">
-          <h2>Rital Abu Asi</h2>
-          <p>4-vuotias tyttö Gazasta. Haavoittui Israelin ilmaiskussa.</p>
+          <h2>Rital Abu Asi, 4 vuotta</h2>
+          <p>Haavoittui Israelin ilmaiskussa</p>
         </div>
       </div>
     </div>
@@ -90,7 +91,7 @@ function Visualisation() {
         injured.push({
           x,
           y,
-          r: Math.random() * 2 + 0.5,
+          r: Math.random() * 1 + 0.2,
           opacity: Math.random() * 0.5 + 0.3
         });
       }
@@ -106,7 +107,7 @@ function Visualisation() {
         deaths.push({
           x,
           y,
-          r: Math.random() * 2 + 0.5,
+          r: Math.random() * 1 + 0.2,
           opacity: Math.random() * 0.5 + 0.3
         });
       }
@@ -210,12 +211,12 @@ function Visualisation() {
 
         {/* Screen 2 — scrolling text */}
         <div className="container_scrolling_text" style={{ opacity: screen2TextOpacity, transform: `translateY(${screen2TextY}%)` }}>
-          <p>Hän on vain yksi, yhteensä 45 000 lasta on haavoittunut Gazan sodassa</p>
+          <p>Hän on vain yksi monista. Gazan sodassa on haavoittunut jo 45 000 lasta.</p>
         </div>
 
         {/* Screen 3 — scrolling text */}
         <div className="container_scrolling_text" style={{ opacity: screen3TextOpacity, transform: `translateY(${screen3TextY}%)` }}>
-          <p>Heidän lisäkseen ainakin 21 000 on kuollut</p>
+          <p>Heidän lisäksi ainakin 21 000 lasta on kuollut.</p>
         </div>
       </div>
     </div>

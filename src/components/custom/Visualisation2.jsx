@@ -1,4 +1,5 @@
-import React, { useRef, useEffect, useState } from 'react';
+// import * as d3 from 'd3';
+import { useEffect, useRef, useState } from 'react';
 
 const total = 21000;
 const ageGroups = [
@@ -7,11 +8,9 @@ const ageGroups = [
   { label: 'Alle 5-vuotiaat', count: 5000 },
   { label: '5–17-vuotiaat', count: 14500 }
 ];
-const dotRadius = 1.5;
-const dotPadding = 3;
+const dotRadius = 1;
+const dotPadding = window.innerWidth > 1000 ? 3 : window.innerWidth > 600 ? 2 : 1;
 const animationDuration = 1500;
-// const organisedOpacity = 0.9;
-const organisedRadius = 1.5;
 
 function easeInOut(t) {
   return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
@@ -59,7 +58,7 @@ function Visualisation2() {
       const y = randomY();
       if (x > 40 && x < w - 40 && y > 40 && y < h - 40) {
         const opacity = Math.random() * 0.5 + 0.3;
-        const r = Math.random() * dotRadius + 0.5;
+        const r = Math.random() * dotRadius + 0.2;
         dots.push({
           x,
           y,
@@ -145,11 +144,6 @@ function Visualisation2() {
           dot.x = dot.startX + (dot.targetX - dot.startX) * eased;
           dot.y = dot.startY + (dot.targetY - dot.startY) * eased;
 
-          const targetOpacity = dot.randomOpacity;
-          const targetR = toOrganized ? organisedRadius : dot.randomR;
-          dot.opacity = dot.startOpacity + (targetOpacity - dot.startOpacity) * eased;
-          dot.r = dot.startR + (targetR - dot.startR) * eased;
-
           ctx.beginPath();
           ctx.arc(dot.x, dot.y, dot.r, 0, Math.PI * 2);
           ctx.fillStyle = `rgba(255, 255, 255, ${dot.opacity})`;
@@ -201,7 +195,7 @@ function Visualisation2() {
         <canvas ref={canvasRef} />
 
         <div className="container_scrolling_text" style={{ opacity: textOpacity, transform: `translateY(${textY}%)` }}>
-          <p>21 000 lasta kuoli Gazan sodassa</p>
+          <p>21 000 lasta on kuollut Gazan sodassa.</p>
         </div>
 
         {organized &&
@@ -209,11 +203,11 @@ function Visualisation2() {
             const pos = columnPositionsRef.current[i];
             if (!pos) return null;
             return (
-              <div key={group.label} className="container_age_group" style={{ top: pos.y - 65, left: pos.x }}>
-                <div>
+              <div key={group.label} className="container_age_group" style={{ top: pos.y - 90, left: pos.x }}>
+                <div className="group_value">
                   <strong>{group.count.toLocaleString('fi-FI')}</strong>
                 </div>
-                <div>{group.label}</div>
+                <div className="group_label">{group.label}</div>
               </div>
             );
           })}

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useEffect, useRef, useState } from 'react';
 
 function MosaicElement({ element, visible }) {
-  const { type, path, top, left, width, height, initialOffset } = element;
+  const { caption, type, path, top, left, width, height, initialOffset } = element;
 
   const style = {
     height,
@@ -17,10 +17,20 @@ function MosaicElement({ element, visible }) {
   };
 
   if (type === 'video') {
-    return <video src={path} style={style} autoPlay muted playsInline loop />;
+    return (
+      <figure style={style}>
+        <video src={path} autoPlay muted playsInline loop />
+        {caption && <figcaption>{caption}</figcaption>}
+      </figure>
+    );
   }
 
-  return <img src={path} alt="" style={style} />;
+  return (
+    <figure style={style}>
+      <img src={path} alt="" />
+      {caption && <figcaption>{caption}</figcaption>}
+    </figure>
+  );
 }
 
 MosaicElement.propTypes = {
@@ -61,24 +71,26 @@ function Mosaic({ background, elements }) {
   }, []);
 
   return (
-    <div
-      ref={sectionRef}
-      style={{
-        background,
-        height: '100vh',
-        overflow: 'hidden',
-        position: 'relative'
-      }}
-    >
-      {elements.map(element => (
-        <MosaicElement
-          // eslint-disable-next-line react/no-array-index-key
-          key={element}
-          element={element}
-          visible={visible}
-        />
-      ))}
-    </div>
+    <figure>
+      <div
+        ref={sectionRef}
+        style={{
+          background,
+          height: '100vh',
+          overflow: 'hidden',
+          position: 'relative'
+        }}
+      >
+        {elements.map((element, i) => (
+          <MosaicElement
+            // eslint-disable-next-line react/no-array-index-key
+            key={element.path}
+            element={element}
+            visible={visible}
+          />
+        ))}
+      </div>
+    </figure>
   );
 }
 
