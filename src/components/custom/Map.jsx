@@ -29,7 +29,9 @@ function MapImage({ map1, map2, texts, points }) {
   const toPixel = useCallback(
     point => ({
       x: (point.x / 100) * canvasWidth,
-      y: (point.y / 100) * canvasHeight
+      x_text: ((point.x + 8.5) / 100) * canvasWidth,
+      y: (point.y / 100) * canvasHeight,
+      y_text: (point.y / 100) * canvasHeight
     }),
     [canvasWidth, canvasHeight]
   );
@@ -173,7 +175,7 @@ function MapImage({ map1, map2, texts, points }) {
           const reached = (drawnSegments >= i && map1Opacity < 0.5) || i === 0 || i === pixelPoints.length - 1;
           if (points[i].label_pos === 'right') {
             return (
-              <div className="container_label_text" key={points[i].y} style={{ top: mapTop + point.y - 15, left: mapLeft + point.x + 68 + i * 6, opacity: reached ? 1 : 0 }}>
+              <div className="container_label_text right" key={points[i].y} style={{ top: mapTop + point.y - 15, left: mapLeft + point.x_text, opacity: reached ? 1 : 0 }}>
                 {points[i].label}
               </div>
             );

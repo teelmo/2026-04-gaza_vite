@@ -197,6 +197,8 @@
     /*--text-2xl: 26px;*/
   }
   figure {
+    margin: auto auto;
+    max-width: 1350px;
     figcaption {
       font-family: 'Yle Next', sans-serif;
       font-size: 0.875rem;
@@ -345,7 +347,7 @@
         transition: background 0.3s ease;
         .video_wrapper {
           margin: auto auto;
-          max-width: 1300px;
+          max-width: 1350px;
           position: relative;
           width: 100%;
           .video_overlay {
@@ -365,7 +367,7 @@
           video {
             aspect-ratio: 16 / 9;
             margin-bottom: 5px;
-            max-width: 1300px;
+            max-width: 1350px;
             width: 100%;
           }
         }
@@ -423,6 +425,8 @@
       }
       .container_label_text {
         color: #fff;
+        width: 150px;
+        text-align: center;
         font-size: var(--text-xl);
         font-weight: 700;
         line-height: 1.5;
@@ -430,6 +434,9 @@
         position: absolute;
         transform: translateX(-50%);
         transition: opacity 0.4s ease;
+        &.right {
+          text-align: left;
+        }
       }
     }
   }
@@ -439,7 +446,7 @@
     .image_content {
       font-size: 0;
       margin: auto auto 5px auto;
-      max-width: 1300px;
+      max-width: 1350px;
       .image {
         margin: 0;
         max-width: 100%;
