@@ -221,6 +221,7 @@
         p {
           -webkit-transform: translateZ(0);
           background-color: #131415;
+          border-radius: 5px;
           box-shadow: 0 0 8px #00000026;
           box-sizing: border-box;
           color: #fff;
@@ -374,6 +375,7 @@
         p {
           -webkit-transform: translateZ(0);
           background-color: #131415;
+          border-radius: 5px;
           box-shadow: 0 0 8px #00000026;
           box-sizing: border-box;
           color: #fff;
