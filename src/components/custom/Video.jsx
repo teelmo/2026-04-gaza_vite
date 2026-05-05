@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { useEffect, useRef, useState } from 'react';
 
-function Video({ background, caption, path, path_square, poster, poster_square }) {
+function Video({ background, caption, path, path_square, poster, poster_square, subtitles }) {
   const sectionRef = useRef(null);
   const videoContentRef = useRef(null);
   const videoRef = useRef(null);
@@ -60,7 +60,10 @@ function Video({ background, caption, path, path_square, poster, poster_square }
         <div className="video_content" ref={videoContentRef} style={{ backgroundColor: currentBackground }}>
           <div className="video_wrapper">
             <div className="video_overlay" ref={videoOverlayRef}></div>
-            <video loop muted playsInline preload="auto" ref={videoRef} src={window.innerWidth > 600 ? path : path_square} poster={window.innerWidth > 600 ? poster : poster_square} style={{ opacity }} />
+            <video loop muted playsInline preload="auto" ref={videoRef} src={window.innerWidth > 600 ? path : path_square} poster={window.innerWidth > 600 ? poster : poster_square} style={{ opacity }}>
+              <source src={window.innerWidth > 600 ? path : path_square} type="video/mp4" />
+              <track label="Finnish" kind="subtitles" srcLang="fi" src={subtitles} />
+            </video>
             <figcaption>{caption}</figcaption>
             {/* Sound toggle button */}
             <div ref={controlRef}>
@@ -115,7 +118,8 @@ Video.propTypes = {
   path: PropTypes.string.isRequired,
   path_square: PropTypes.string.isRequired,
   poster: PropTypes.string.isRequired,
-  poster_square: PropTypes.string.isRequired
+  poster_square: PropTypes.string.isRequired,
+  subtitles: PropTypes.string.isRequired
 };
 
 export default Video;

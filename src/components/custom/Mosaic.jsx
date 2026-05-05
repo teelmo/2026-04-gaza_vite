@@ -30,7 +30,9 @@ function MosaicElement({ element, idx, visible }) {
   if (type === 'video') {
     return (
       <figure style={style}>
-        <video src={path} autoPlay muted playsInline loop />
+        <video src={path} autoPlay muted playsInline loop>
+          <source src={path} type="video/mp4" />
+        </video>
         {caption && <figcaption>{caption}</figcaption>}
       </figure>
     );
