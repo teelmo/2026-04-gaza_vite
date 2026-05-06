@@ -485,18 +485,20 @@
       }
     }
   }
-  .container_image_content {
-    margin: 200px auto;
-    max-width: 90vw;
-    .image_content {
-      font-size: 0;
-      margin: auto auto 5px auto;
-      max-width: 1350px;
-      .image {
-        margin: 0;
-        max-width: 100%;
-        padding: 0;
-        width: 100%;
+  .full-width {
+    .container_image_content {
+      margin: 100px auto;
+      max-width: 90vw;
+      .image_content {
+        font-size: 0;
+        margin: auto auto 5px auto;
+        max-width: 1350px;
+        .image {
+          margin: 0;
+          max-width: 100%;
+          padding: 0;
+          width: 100%;
+        }
       }
     }
   }

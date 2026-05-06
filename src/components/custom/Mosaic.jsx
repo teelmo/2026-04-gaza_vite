@@ -80,8 +80,9 @@ function Mosaic({ background, elements }) {
     };
 
     if (window.innerWidth > 760) {
-      sectionRef.current.style.height = '100vh';
+      sectionRef.current.style.height = '120vh';
     } else {
+      sectionRef.current.style.marginTop = '80px';
       sectionRef.current.style.marginLeft = '40px';
       sectionRef.current.style.marginRight = '40px';
     }

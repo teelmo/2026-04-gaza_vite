@@ -62,7 +62,7 @@ function Video({ background, caption, path, path_square, poster, poster_square, 
             <div className="video_overlay" ref={videoOverlayRef}></div>
             <video loop muted playsInline preload="auto" ref={videoRef} src={window.innerWidth > 600 ? path : path_square} poster={window.innerWidth > 600 ? poster : poster_square} style={{ opacity }}>
               <source src={window.innerWidth > 600 ? path : path_square} type="video/mp4" />
-              <track label="Finnish" kind="subtitles" srcLang="fi" src={subtitles} />
+              {subtitles !== '' && <track label="Finnish" kind="subtitles" srcLang="fi" src={subtitles} />}
             </video>
             <figcaption>{caption}</figcaption>
             {/* Sound toggle button */}
