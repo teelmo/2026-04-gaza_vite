@@ -15,9 +15,16 @@ function MapImage({ map1, map2, texts, points }) {
   const map2Opacity = Math.min(Math.max((scrollProgress - (phaseSize - phaseSize * 0.5)) / 0.05, 0), 1);
   const lineProgress = Math.min(Math.max((scrollProgress - lineStart) / (lineEnd - lineStart), 0), 1);
 
+  let mapWidth;
+  let mapHeight;
   // Map dimensions
-  const mapWidth = Math.min(dimensions.width, 1350);
-  const mapHeight = (mapWidth * 1110) / 1350;
+  if (dimensions.width / dimensions.height > 1350 / 1110) {
+    mapHeight = dimensions.height;
+    mapWidth = (dimensions.height * 1350) / 1110;
+  } else {
+    mapWidth = Math.min(dimensions.width, 1350);
+    mapHeight = Math.min(dimensions.height, (mapWidth * 1110) / 1350);
+  }
   const mapLeft = (dimensions.width - mapWidth) / 2;
   const mapTop = (dimensions.height - mapHeight) / 2;
   const canvasWidth = mapWidth;
@@ -53,7 +60,7 @@ function MapImage({ map1, map2, texts, points }) {
     pixelPoints.forEach((point, i) => {
       if (i === 0 || i === pixelPoints.length - 1) {
         ctx.beginPath();
-        ctx.arc(point.x, point.y, 14, 0, Math.PI * 2);
+        ctx.arc(point.x, point.y, window.innerWidth > 600 ? 14 : 8, 0, Math.PI * 2);
         ctx.fillStyle = '#fff';
         ctx.fill();
       }
@@ -62,7 +69,7 @@ function MapImage({ map1, map2, texts, points }) {
     if (lineProgress === 0) return;
 
     ctx.strokeStyle = 'rgba(255, 80, 0, 0.9)';
-    ctx.lineWidth = 5;
+    ctx.lineWidth = window.innerWidth > 600 ? 5 : 3;
     ctx.lineCap = 'round';
     ctx.lineJoin = 'round';
 
@@ -95,14 +102,14 @@ function MapImage({ map1, map2, texts, points }) {
     pixelPoints.forEach((point, i) => {
       if (drawnSegments >= i || (i === 0 && drawnSegments > 0)) {
         ctx.beginPath();
-        ctx.arc(point.x, point.y, 14, 0, Math.PI * 2);
+        ctx.arc(point.x, point.y, window.innerWidth > 600 ? 14 : 8, 0, Math.PI * 2);
         ctx.fillStyle = '#ff623e';
         ctx.fill();
       }
       pixelPoints.forEach((point, i) => {
         if (i === 0 || i === pixelPoints.length - 1) {
           ctx.beginPath();
-          ctx.arc(point.x, point.y, 14, 0, Math.PI * 2);
+          ctx.arc(point.x, point.y, window.innerWidth > 600 ? 14 : 8, 0, Math.PI * 2);
           ctx.fillStyle = '#ff623e';
           ctx.fill();
         }
@@ -127,7 +134,7 @@ function MapImage({ map1, map2, texts, points }) {
     pixelPoints.forEach((point, i) => {
       if (i === 0 || i === pixelPoints.length - 1) {
         ctx.beginPath();
-        ctx.arc(point.x, point.y, 14, 0, Math.PI * 2);
+        ctx.arc(point.x, point.y, window.innerWidth > 600 ? 14 : 8, 0, Math.PI * 2);
         ctx.fillStyle = '#fff';
         ctx.fill();
       }

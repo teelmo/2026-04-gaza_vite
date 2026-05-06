@@ -12,7 +12,7 @@ function InfoCard({ cx, cy, dimensions, opacity, scrollProgress }) {
   const moveY = dimensions.width > 1000 ? scrollProgress * -50 : 0;
 
   const cardX = cx + (dimensions.width > 800 ? 150 : -100) + moveX;
-  const cardY = cy - 450 + moveY;
+  const cardY = cy - 250 + moveY;
 
   useEffect(() => {
     if (cardRef.current) {
