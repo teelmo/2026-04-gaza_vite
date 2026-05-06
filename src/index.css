@@ -212,7 +212,7 @@
   }
   .container_visualisation_content {
     background: #111;
-    margin: 200px auto;
+    margin: 80px auto 50px auto;
     max-width: 1350px;
     .visualisation_content {
       height: 100vh;
@@ -332,6 +332,7 @@
   }
   .container_video_content {
     height: 190vh;
+    margin: 80px auto 50px auto;
     transition: background 0.3s ease;
     figure {
       height: 190vh;
@@ -376,6 +377,7 @@
   }
   .container_map_content {
     height: 1000vh;
+    margin: 80px auto 50px auto;
     transition: background-color 0.3s ease;
     .map_content {
       height: 100vh;
@@ -466,6 +468,7 @@
   }
   .container_mosaic_content {
     box-sizing: border-box;
+    margin: 80px auto 50px auto;
     position: relative;
     text-align: center;
     > figure {
@@ -487,7 +490,7 @@
   }
   .full-width {
     .container_image_content {
-      margin: 100px auto;
+      margin: 80px auto 50px auto;
       max-width: 90vw;
       .image_content {
         font-size: 0;
