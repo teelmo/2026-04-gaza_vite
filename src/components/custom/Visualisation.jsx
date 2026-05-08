@@ -14,6 +14,7 @@ function InfoCard({ cx, cy, dimensions, opacity, scrollProgress }) {
   const cardX = cx + (dimensions.width > 800 ? 150 : -100) + moveX;
   const cardY = cy - 250 + moveY;
 
+  cy = dimensions.width > 800 ? cy : dimensions.height - dimensions.height * 0.2;
   useEffect(() => {
     if (cardRef.current) {
       const { height, width } = cardRef.current.getBoundingClientRect();
@@ -135,7 +136,7 @@ function Visualisation() {
       const ctx = canvas.getContext('2d');
       const { width, height } = canvas;
       const cx = width / 2;
-      const cy = height / 2;
+      const cy = dimensions.width > 800 ? height / 2 : height - height * 0.2;
 
       ctx.clearRect(0, 0, width, height);
 
@@ -183,7 +184,7 @@ function Visualisation() {
         }
       }
     });
-  }, [scrollProgress]);
+  }, [dimensions.width, scrollProgress]);
 
   // Infocard opacity.
   const infocardOpacity = 1 - Math.min(scrollProgress / 0.15, 1);

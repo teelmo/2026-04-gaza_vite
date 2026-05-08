@@ -53,10 +53,11 @@ function Visualisation2() {
     const randomY = d3.randomNormal(h / 2, h / 5);
 
     const dots = [];
+    const padding = 10;
     while (dots.length < total) {
       const x = randomX();
       const y = randomY();
-      if (x > 40 && x < w - 40 && y > 40 && y < h - 40) {
+      if (x > padding && x < w - padding && y > padding && y < h - padding) {
         const opacity = Math.random() * 0.5 + 0.3;
         const r = Math.random() * dotRadius + 0.2;
         dots.push({

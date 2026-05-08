@@ -68,23 +68,25 @@ function Video({ background, caption, path, path_square, poster, poster_square, 
             {/* Sound toggle button */}
             <div ref={controlRef}>
               <button
-                aria-label="Toggle mute"
+                aria-label="Äänet päälle / pois"
                 onClick={toggleMute}
                 style={{
-                  position: 'absolute',
-                  top: '1rem',
-                  right: '1rem',
+                  alignItems: 'center',
                   background: 'rgba(0, 0, 0, 0.5)',
                   border: '1px solid rgba(255, 255, 255, 0.3)',
                   borderRadius: '50%',
-                  width: '40px',
-                  height: '40px',
                   cursor: 'pointer',
                   display: 'flex',
-                  alignItems: 'center',
+                  height: '40px',
                   justifyContent: 'center',
+                  outline: 'none',
+                  pointerEvents: 'auto',
+                  position: 'absolute',
+                  right: '1rem',
+                  top: '1rem',
                   transition: 'opacity 2s ease, border-color 0.2s ease',
-                  pointerEvents: 'auto'
+                  width: '40px',
+                  zIndex: 2
                 }}
                 type="button"
               >

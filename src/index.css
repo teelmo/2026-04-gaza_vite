@@ -234,7 +234,7 @@
         width: 100%;
         p {
           -webkit-transform: translateZ(0);
-          background-color: #131415;
+          background-color: #111;
           border-radius: 5px;
           box-shadow: 0 0 8px #00000026;
           box-sizing: border-box;
@@ -366,7 +366,6 @@
             z-index: 1;
           }
           video {
-            aspect-ratio: 16 / 9;
             margin-bottom: 5px;
             max-width: 1350px;
             width: 100%;
@@ -406,7 +405,7 @@
         width: 100%;
         p {
           -webkit-transform: translateZ(0);
-          background-color: #131415;
+          background-color: #111;
           border-radius: 5px;
           box-shadow: 0 0 8px #00000026;
           box-sizing: border-box;

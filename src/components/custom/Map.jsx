@@ -9,7 +9,7 @@ function MapImage({ map1, map2, texts, points }) {
 
   const lineEnd = 0.95; // Line finishes at 95% of total scroll, last 5% is frozen
   const phaseSize = 1 / texts.length;
-  const lineStart = phaseSize * 1 - phaseSize * 0.5;
+  const lineStart = phaseSize * 3 - phaseSize * 0.5;
 
   const map1Opacity = Math.max(1 - Math.max(scrollProgress - (phaseSize * 2 - phaseSize * 0.5), 0) / 0.05, 0);
   const map2Opacity = Math.min(Math.max((scrollProgress - (phaseSize - phaseSize * 0.5)) / 0.05, 0), 1);
@@ -27,20 +27,18 @@ function MapImage({ map1, map2, texts, points }) {
   }
   const mapLeft = (dimensions.width - mapWidth) / 2;
   const mapTop = (dimensions.height - mapHeight) / 2;
-  const canvasWidth = mapWidth;
-  const canvasHeight = mapHeight;
 
-  // Text opacity helper — fades in then out within each phase
+    // Text opacity helper — fades in then out within each phase
   const textOpacity = progress => (progress < 0.1 ? progress / 0.1 : progress > 0.8 ? 1 - (progress - 0.8) / 0.2 : 1);
 
   const toPixel = useCallback(
     point => ({
-      x: (point.x / 100) * canvasWidth,
-      x_text: (point.x / 100 + 0.02) * canvasWidth,
-      y: (point.y / 100) * canvasHeight,
-      y_text: (point.y / 100) * canvasHeight
+      x: (point.x / 100) * mapWidth,
+      x_text: (point.x / 100 + 0.02) * mapWidth,
+      y: (point.y / 100) * mapHeight,
+      y_text: (point.y / 100) * mapHeight
     }),
-    [canvasWidth, canvasHeight]
+    [mapWidth, mapHeight]
   );
 
   const pixelPoints = useMemo(() => (dimensions.width ? points.map(toPixel) : []), [dimensions.width, points, toPixel]);
@@ -54,6 +52,14 @@ function MapImage({ map1, map2, texts, points }) {
     if (!dimensions.width || !canvasRef.current) return;
 
     const canvas = canvasRef.current;
+    if (dimensions.width / dimensions.height > 1350 / 1110) {
+      canvas.height = dimensions.height;
+      canvas.width = (dimensions.height * 1350) / 1110;
+    } else {
+      canvas.width = Math.min(dimensions.width, 1350);
+      canvas.height = Math.min(dimensions.height, (mapWidth * 1110) / 1350);
+    }
+
     const ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -117,17 +123,12 @@ function MapImage({ map1, map2, texts, points }) {
     });
   }, [lineProgress, dimensions, pixelPoints]);
 
-  // Size canvas
   useEffect(() => {
     const w = Math.min(window.innerWidth, 1350);
     const h = (w * 1110) / 1350;
-    const canvas = canvasRef.current;
-    canvas.width = w;
-    canvas.height = h;
     setDimensions({ width: window.innerWidth, height: window.innerHeight });
   }, []);
 
-  // Size canvas
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
