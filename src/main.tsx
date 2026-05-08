@@ -18,7 +18,7 @@ window.addEventListener('unhandledrejection', (event) => {
 });
 
 // Yddrasil bootstrap to handle multiple Dataviz components
-const projectName = '2026-04-gaza_vite';
+const projectName = '2026-05-gaza';
 const selector = `.plus-app.plus-app-${projectName}`;
 
 const eventHandlers = {

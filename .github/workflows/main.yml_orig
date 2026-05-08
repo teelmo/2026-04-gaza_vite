@@ -42,4 +42,4 @@ jobs:
         run: pnpm build-prod
 
       - name: Deploy static site to S3 bucket
-        run: aws s3 sync ./dist/ s3://plus-yle-fi-prod/2026-04-gaza_vite --cache-control="max-age=60" --acl="public-read" --delete
+        run: aws s3 sync ./dist/ s3://plus-yle-fi-prod/2026-05-gaza --cache-control="max-age=60" --acl="public-read" --delete

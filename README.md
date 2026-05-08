@@ -103,7 +103,7 @@ GitHub workflow syncs project automatically to S3 whenever you push changes to b
 
 For manual updates, use `pnpm deploy-dev` or `pnpm deploy-prod` commands.
 
-View your standalone app at https://plus.yle.fi/2026-04-gaza_vite/standalone.html.
+View your standalone app at https://plus.yle.fi/2026-05-gaza/standalone.html.
 
 ## Styling
 
@@ -138,4 +138,4 @@ In order to embed your project in Yddrasil, you need a _conf.json_ file. The bui
 }
 ```
 
-Paste the url to the _conf.json_ file to the Dataviz URL field e.g. `https://plus.yle.fi/2026-04-gaza_vite/`.
+Paste the url to the _conf.json_ file to the Dataviz URL field e.g. `https://plus.yle.fi/2026-05-gaza/`.

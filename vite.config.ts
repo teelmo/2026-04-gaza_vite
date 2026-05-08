@@ -8,7 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
 const devPath = 'http://dev.yle.fi:';
 const devPort = 3000;
 
-const projectName = '2026-04-gaza_vite';
+const projectName = '2026-05-gaza';
 const projectUrl = 'plus.yle.fi';
 const projectDevUrl = 'plus.yle.fi/dev';
 
