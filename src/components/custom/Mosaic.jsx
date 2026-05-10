@@ -2,11 +2,12 @@ import PropTypes from 'prop-types';
 import { useEffect, useRef, useState } from 'react';
 
 function MosaicElement({ element, idx, visible }) {
-  const { caption, type, path, top, left, width, height, initialOffset } = element;
+  const { caption, type, path: rawPath, top, left, width, height, initialOffset } = element;
+  const path = rawPath.startsWith('http') ? rawPath : `${import.meta.env.BASE_URL}${rawPath}`;
 
   const windowWidth = window.innerWidth;
   let style;
-  if (windowWidth > 760) {
+  if (windowWidth > 900) {
     style = {
       height,
       left: `calc(50% + ${left}px)`,
@@ -20,7 +21,7 @@ function MosaicElement({ element, idx, visible }) {
     };
   } else {
     style = {
-      left: idx % 2 === 0 ? '-20px' : '20px',
+      left: idx % 2 === 0 ? '-10px' : '10px',
       position: 'relative',
       top: idx > 0 ? `${-idx * 20}px` : '0',
       zIndex: idx % 2 === 0 ? '1' : '2'
@@ -79,7 +80,7 @@ function Mosaic({ background, elements }) {
       setVisible(centerInView || rect.bottom < windowH / 2);
     };
 
-    if (window.innerWidth > 760) {
+    if (window.innerWidth > 900) {
       sectionRef.current.style.height = '120vh';
     } else {
       sectionRef.current.style.marginTop = '80px';

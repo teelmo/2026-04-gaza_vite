@@ -5,7 +5,7 @@ function Image({ alt, background, caption, path }) {
     <div className="container_image_content" style={{ background }}>
       <figure>
         <div className="image_content">
-          <img src={path} alt={alt} className="image" />
+          <img src={`${import.meta.env.BASE_URL}${path}`} alt={alt} className="image" />
         </div>
         {caption && <figcaption>{caption}</figcaption>}
       </figure>

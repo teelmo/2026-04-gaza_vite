@@ -1,12 +1,12 @@
-// import * as d3 from 'd3';
-import { useEffect, useRef, useState } from 'react';
+// import * as d3 from "d3";
+import { useEffect, useRef, useState } from "react";
 
 const total = 21000;
 const ageGroups = [
-  { label: 'Vauvat', count: 500 },
-  { label: 'Alle 1-vuotiaat', count: 1000 },
-  { label: 'Alle 5-vuotiaat', count: 5000 },
-  { label: '5–17-vuotiaat', count: 14500 }
+  { label: "Vauvat", count: 500 },
+  { label: "Alle 1-vuotiaat", count: 1000 },
+  { label: "Alle 5-vuotiaat", count: 5000 },
+  { label: "5–17-vuotiaat", count: 14500 },
 ];
 const dotRadius = 1;
 const dotPadding = window.innerWidth > 1000 ? 3 : window.innerWidth > 600 ? 2 : 1;
@@ -34,9 +34,9 @@ function Visualisation2() {
   useEffect(() => {
     function drawDots() {
       const canvas = canvasRef.current;
-      const ctx = canvas.getContext('2d');
+      const ctx = canvas.getContext("2d");
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      dotsRef.current.forEach(dot => {
+      dotsRef.current.forEach((dot) => {
         ctx.beginPath();
         ctx.arc(dot.x, dot.y, dot.r, 0, Math.PI * 2);
         ctx.fillStyle = `rgba(255, 255, 255, ${dot.opacity})`;
@@ -70,7 +70,7 @@ function Visualisation2() {
           r,
           randomR: r,
           opacity,
-          randomOpacity: opacity
+          randomOpacity: opacity,
         });
       }
     }
@@ -90,7 +90,7 @@ function Visualisation2() {
       let currentX = (w - (colWidth * totalCols + totalGap)) / 2;
       columnPositionsRef.current = [];
 
-      ageGroups.forEach(group => {
+      ageGroups.forEach((group) => {
         const dotsPerRow = Math.floor(colWidth / dotPadding);
         const rows = Math.ceil(group.count / dotsPerRow);
         const totalHeight = rows * dotPadding;
@@ -99,7 +99,7 @@ function Visualisation2() {
 
         columnPositionsRef.current.push({
           x: colCenterX,
-          y: h / 2 - totalHeight / 2
+          y: h / 2 - totalHeight / 2,
         });
 
         for (let i = 0; i < group.count; i++) {
@@ -123,7 +123,7 @@ function Visualisation2() {
       });
     }
     function animateToTargets(toOrganized) {
-      dotsRef.current.forEach(dot => {
+      dotsRef.current.forEach((dot) => {
         dot.startX = dot.x;
         dot.startY = dot.y;
         dot.startOpacity = dot.opacity;
@@ -138,10 +138,10 @@ function Visualisation2() {
         const eased = easeInOut(t);
 
         const canvas = canvasRef.current;
-        const ctx = canvas.getContext('2d');
+        const ctx = canvas.getContext("2d");
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-        dotsRef.current.forEach(dot => {
+        dotsRef.current.forEach((dot) => {
           dot.x = dot.startX + (dot.targetX - dot.startX) * eased;
           dot.y = dot.startY + (dot.targetY - dot.startY) * eased;
 
@@ -178,7 +178,7 @@ function Visualisation2() {
         organizedRef.current = false;
         setOrganized(false);
         if (animFrameRef.current) cancelAnimationFrame(animFrameRef.current);
-        dotsRef.current.forEach(dot => {
+        dotsRef.current.forEach((dot) => {
           dot.targetX = dot.startX;
           dot.targetY = dot.startY;
         });
@@ -186,12 +186,12 @@ function Visualisation2() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <div className="container_visualisation_content" style={{ height: '350vh' }} ref={containerRef}>
+    <div className="container_visualisation_content" style={{ height: "350vh" }} ref={containerRef}>
       <div className="visualisation_content">
         <canvas ref={canvasRef} />
 
@@ -206,7 +206,7 @@ function Visualisation2() {
             return (
               <div key={group.label} className="container_age_group" style={{ top: pos.y - 90, left: pos.x }}>
                 <div className="group_value">
-                  <strong>{group.count.toLocaleString('fi-FI')}</strong>
+                  <strong>{group.count.toLocaleString("fi-FI")}</strong>
                 </div>
                 <div className="group_label">{group.label}</div>
               </div>

@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev-public": "vite --open --host",
     "build-dev": "vite build --mode dev-build && node ./scripts/writeConfJson.mjs",
     "build-prod": "vite build && node ./scripts/writeConfJson.mjs",
     "preview": "vite preview",

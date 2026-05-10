@@ -18,30 +18,52 @@ import Image from '~/components/custom/Image.jsx';
 import Video from '~/components/custom/Video.jsx';
 import Map from '~/components/custom/Map.jsx';
 
+import video1Vtt from '~/assets/vtt/video1.vtt?raw';
+import video2Vtt from '~/assets/vtt/video2.vtt?raw';
+import video3Vtt from '~/assets/vtt/video3.vtt?raw';
+import video4Vtt from '~/assets/vtt/video4.vtt?raw';
+
+export const headerCustomCss = `
+  .plusTitleH1 {
+    font-stretch: condensed;
+    font-weight: 700;
+    line-height: 1.2;
+    break-word: break-word;
+  }
+  .leadText {
+    font-size: 16px;
+  }
+  @media (max-width: 550px) {
+    .plusTitleH1 {
+      font-size: 32px;
+    }
+  }
+`;
+
 <section className="plus-app-feature-paragraph-container" id="plusArticleContent">
 
 {
   /*
-  @TODO
   Vaihda uus header template käyttöön, kuten täällä https://yle.fi/a/74-20215922 
   */
 }
 <header-template
   className="full-width"
+  customcss={headerCustomCss}
   media={{
     type: 'image',
-    url: 'assets/img/Rital_Abu_Asi.jpg',
+    url: `${import.meta.env.BASE_URL}assets/img/Rital_Abu_Asi.jpg`,
   }}
   text={{
-    title: 'Hoitoa ei turvaa',
-    tag: 'Gaza',
-    taglink: 'https://yle.fi/t/18-184091/fi',
-    lead: 'Gazan terveydenhuolto on romahtanut, ja kymmenet tuhannet lapset ovat haavoittuneet. Jordania tarjoaa lapsille hoidon, mutta edessä on paluu kotiin, jota ei ole enää olemassa.',
+    title: 'Yle Jordaniassa: täällä hoidetaan Gazan haavoittuneita lapsia',
+    tag: 'Ulkolinja',
+    taglink: 'https://areena.yle.fi/tv/ohjelmat/57-bNo3K91BN',
+    lead: 'Kymmenet tuhannet lapset ovat haavoittuneet Gazan sodassa. Osa heistä saa hoitoa Jordaniassa, mutta edessä on paluu kotiin, jota ei enää ole.',
     background: 'var(--plus-background)',
     backgrounddark: 'var(--plus-background)',
     textcolor: 'var(--plus-foreground)',
     textcolordark: 'var(--plus-foreground)',
-    time: '11.5.2026 09:00',
+    time: '11.5.2026 11:00',
   }}
 />
 
@@ -56,9 +78,9 @@ import Map from '~/components/custom/Map.jsx';
 
   Rital haavoittui Israelin ilmaiskussa, joita tehtiin Gazan kaistalle sodan tuossa vaiheessa lähes taukoamatta. Kaksivuotias Lolla puolestaan sairastaa silmäsyöpää.
 
-  Rital on yksi Gazan sodan lapsiuhreista. <a href="https://www.unicef.org/sop/reports/unicef-state-palestine-humanitarian-situation-update" target="_blank">Unicefin mukaan sodassa on loukkaantunut lähes 45 000 lasta</a>.
+  Rital on yksi Gazan sodan lapsiuhreista. <a href="https://www.unicef.org/sop/reports/unicef-state-palestine-humanitarian-situation-update" target="_blank" rel="noopener noreferrer">Unicefin mukaan sodassa on loukkaantunut lähes 45 000 lasta</a>.
 
-  Sodan seurauksena Gazan terveydenhuoltojärjestelmä on romahtanut täydellisesti. <a href="https://www.emro.who.int/images/stories/palestine/Sitrep_67a_January_2026.pdf" target="_blank">Ennen sodan alkua Gazassa oli 36 sairaalaa, mutta nyt niistä jokainen on osittain vaurioitunut tai täysin tuhoutunut.</a> Viimeiset toiminnassa olevat sairaalat ovat äärirajoillaan.
+  Sodan seurauksena Gazan terveydenhuoltojärjestelmä on romahtanut täydellisesti. <a href="https://www.emro.who.int/images/stories/palestine/Sitrep_67a_January_2026.pdf" target="_blank" rel="noopener noreferrer">Ennen sodan alkua Gazassa oli 36 sairaalaa, mutta nyt niistä jokainen on osittain vaurioitunut tai täysin tuhoutunut.</a> Viimeiset toiminnassa olevat sairaalat ovat äärirajoillaan.
 
   Jordania on harvoja maita, joka on ottanut lapsipotilaita hoitoon tuhotusta Gazasta.
 </div>
@@ -85,18 +107,17 @@ import Map from '~/components/custom/Map.jsx';
 <div className="full-width">
   {
     /*
-    @TODO
-    Vaihda urlit oikeiksi. Squaret on mobiilii varten. Lisää tekstitys VTT?
+    @TODO Squaret on mobiilii varten.
     */
   }
   <Video 
     background="#111" 
     caption={"Perheen esikoinen Juri Abu Asi kertoo videolla, kuinka he pakenivat paljain jaloin, peitot suojanaan, kun heidän kotiaan pommitettiin Gazassa. Video: Benjamin Suomela / Yle"} 
-    path="assets/vid/UL_Gazan_lapset_SAIPPUKUPLAT_1_.mp4" 
-    path_square="assets/vid/UL_Gazan_lapset_SAIPPUKUPLAT_1_.mp4" 
-    poster="assets/img/UL_Gazan_lapset_SAIPPUKUPLAT_1_.jpg"
-    poster_square="assets/img/UL_Gazan_lapset_SAIPPUKUPLAT_1_.jpg" 
-    subtitles=""
+    path="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_SAIPPUKUPLAT_1.mp4" 
+    path_square="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_SAIPPUKUPLAT_NELIO_1.mp4" 
+    poster="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_SAIPPUKUPLAT_1.mp4.poster.jpg"
+    poster_square="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_SAIPPUKUPLAT_NELIO_1.mp4.poster.jpg" 
+    subtitles={video1Vtt}
   />
 </div>
 
@@ -107,7 +128,7 @@ import Map from '~/components/custom/Map.jsx';
 
   Kyse on kuningas Abdullah II:n aloitteesta, joka tunnetaan nimellä Jordanian lääketieteellinen käytävä.
 
-  <a href="https://rhc.jo/en/news/empty-11" target="_blank">Kuningas ilmoitti tästä puheessaan Washingtonin-vierailunsa yhteydessä helmikuussa 2025.</a> Toiminta käynnistyi nopeasti: ensimmäiset pienet potilaat saapuivat Jordaniaan jo maaliskuun alussa.
+  <a href="https://rhc.jo/en/news/empty-11" target="_blank" rel="noopener noreferrer">Kuningas ilmoitti tästä puheessaan Washingtonin-vierailunsa yhteydessä helmikuussa 2025.</a> Toiminta käynnistyi nopeasti: ensimmäiset pienet potilaat saapuivat Jordaniaan jo maaliskuun alussa.
  </div>
 
 <div className="full-width">
@@ -136,25 +157,25 @@ import Map from '~/components/custom/Map.jsx';
 <div className="leipis fi">
   Hyvin pieni osa apua tarvitsevista lapsista pääsee hoitoon ulkomaille.
 
-  <a href="https://unric.org/en/gaza-which-countries-are-hosting-patients-evacuated-by-the-who/" target="_blank">YK:n mukaan Lähi-idän maat ovat vastaanottaneet yli 90 prosenttia gazalaisista potilaista, joista suurin osa on lapsia.</a>
+  <p><a href="https://unric.org/en/gaza-which-countries-are-hosting-patients-evacuated-by-the-who/" target="_blank" rel="noopener noreferrer">YK:n mukaan Lähi-idän maat ovat vastaanottaneet yli 90 prosenttia gazalaisista potilaista, joista suurin osa on lapsia.</a></p>
 
-  <a href="https://yle.fi/a/74-20185886" target="_blank">Suomi teki päätöksen olla ottamatta lapsipotilaita Gazasta.</a>
+  <p><a href="https://yle.fi/a/74-20185886" target="_blank" rel="noopener noreferrer">Suomi teki päätöksen olla ottamatta lapsipotilaita Gazasta.</a></p>
 </div>
 
 <div className="full-width">
   {
     /*
     @TODO
-    Vaihda video urlit oikeiksi.
+    Vaihda kuva urlit oikeiksi.
     */
   }
   <Mosaic
     background="#111"
     elements={[
       { height: 264, initialOffset: { x: 30, y: 0 }, left: -25, path: 'assets/img/mosaic1/Rital_1.jpg', top: -250, type: 'image', width: 400},
-      { height: 169, initialOffset: { x: 30, y: -30 }, left: 50, path: 'assets/vid/UL_Gazan_lapset_PLASTIIKKAKIRURGI_1_.mp4', top: -455, type: 'video', width: 300},
+      { height: 169, initialOffset: { x: 30, y: -30 }, left: 50, path: 'https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_PLASTIIKKAKIRURGI_1.mp4', top: -455, type: 'video', width: 300},
       { height: 264, initialOffset: { x: -30, y: -30 }, left: -375, path: 'assets/img/mosaic1/Riham_ja_Rital.jpg', top: -475, type: 'image', width: 400},
-      { height: 169, initialOffset: { x: -30, y: 0 }, left: -350, path: 'assets/vid/UL_Gazan_lapset_PAINI_1_.mp4', top: -175, type: 'video', width: 300},
+      { height: 169, initialOffset: { x: -30, y: 0 }, left: -350, path: 'https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_PAINI_1.mp4', top: -175, type: 'video', width: 300},
       { height: 360, initialOffset: { x: 0, y: -30 }, left: -270, path: 'assets/img/mosaic1/Rital_2.jpg', top: 45, type: 'image', width: 540, caption: 'Arpivoide on osa Rital Abu Asin jokapäiväistä rutiinia ammanilaisessa hotellihuoneessa. Vaikka vaativa ihonsiirto on jo tehty, iho muistuttaa yhä iskun voimasta ja kuumuudesta. Kuvat ja videot: Benjamin Suomela / Yle'}
     ]}
   />
@@ -163,11 +184,11 @@ import Map from '~/components/custom/Map.jsx';
 <div className="leipis fi">
   ## Kilpajuoksu byrokratiaa vastaan
 
-  <a href="https://www.emro.who.int/opt/information-resources/medical-evacuation-of-patients-from-the-gaza-strip.html" target="_blank">Maailman terveysjärjestö (WHO) organisoi potilaiden siirtämisen Gazasta muihin maihin.</a> <a href="https://x.com/DrTedros/status/2018623102935044319" target="_blank">Apua tarvitsevia palestiinalaispotilaita on WHO:n arvioiden mukaan lähes 20&nbsp;000.</a>
+  <p><a href="https://www.emro.who.int/opt/information-resources/medical-evacuation-of-patients-from-the-gaza-strip.html" target="_blank" rel="noopener noreferrer">Maailman terveysjärjestö (WHO) organisoi potilaiden siirtämisen Gazasta muihin maihin.</a> <a href="https://x.com/DrTedros/status/2018623102935044319" target="_blank" rel="noopener noreferrer">Apua tarvitsevia palestiinalaispotilaita on WHO:n arvioiden mukaan lähes 20&nbsp;000.</a></p>
 
-  <a href="https://www.savethechildren.net/news/news-quote-urgent-medical-evacuations-through-rafah-predicted-take-over-four-years-trapping">Gazan terveysministeriön mukaan viimeisen kahden vuoden aikana lähes 1&nbsp;300 potilasta on kuollut odottaessaan pääsyä kiireelliseen hoitoon ulkomaille.</a>
+  <p><a href="https://www.savethechildren.net/news/news-quote-urgent-medical-evacuations-through-rafah-predicted-take-over-four-years-trapping" target="_blank" rel="noopener noreferrer">Gazan terveysministeriön mukaan viimeisen kahden vuoden aikana lähes 1&nbsp;300 potilasta on kuollut odottaessaan pääsyä kiireelliseen hoitoon ulkomaille.</a></p>
 
-  <a href="https://www.facebook.com/DrTedros.Official/posts/world-health-organization-who-and-partners-supported-a-medical-evacuation-from-g/1527029825458995/" target="_blank">WHO on toistuvasti kehottanut Israelia nopeuttamaan lupamenettelyjä vakavasti sairaiden potilaiden – erityisesti lasten – siirtämiseksi hoitoon Gazan ulkopuolelle.</a>
+  <p><a href="https://www.facebook.com/DrTedros.Official/posts/world-health-organization-who-and-partners-supported-a-medical-evacuation-from-g/1527029825458995/" target="_blank" rel="noopener noreferrer">WHO on toistuvasti kehottanut Israelia nopeuttamaan lupamenettelyjä vakavasti sairaiden potilaiden – erityisesti lasten – siirtämiseksi hoitoon Gazan ulkopuolelle.</a></p>
 </div>
 
 <div className="full-width">
@@ -186,17 +207,17 @@ import Map from '~/components/custom/Map.jsx';
   {
     /*
     @TODO
-    Vaihda urlit oikeiksi. Squaret on mobiilii varten. Lisää tekstitys VTT?
+    Vaihda kuva urlit oikeiksi. Squaret on mobiilii varten.
     */
   }
   <Video 
     background="#111"
     caption="Videolla lääkäri Muhammad Khraisat hoitaa Ritalin jalkaa. Lapsi on toipunut ihonsiirtoleikkauksesta hyvin, ja seuraavassa vaiheessa keskitytään jalan kosmeettiseen hoitoon. Video: Benjamin Suomela / Yle"
-    path="assets/vid/UL_Gazan_lapset_LAAKARI_1_.mp4"
-    path_square="assets/vid/UL_Gazan_lapset_LAAKARI_1_.mp4"
-    poster="assets/img/UL_Gazan_lapset_LAAKARI_1_.jpg"
-    poster_square="assets/img/UL_Gazan_lapset_LAAKARI_1_.jpg"
-    subtitles=""
+    path="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_LAAKARI_1.mp4"
+    path_square="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_LAAKARI__NELIO_1.mp4"
+    poster="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_LAAKARI_1.mp4.poster.jpg"
+    poster_square="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_LAAKARI__NELIO_1.mp4.poster.jpg"
+    subtitles={video2Vtt}
   />
 </div>
 
@@ -224,10 +245,10 @@ import Map from '~/components/custom/Map.jsx';
   <Mosaic
     background="#111"
     elements={[
-      { height: 264, initialOffset: { x: -30, y: 0 }, left: -400, path: 'assets/img/mosaic2/20251216_BS_YLE_Q1020232_0015.jpg', top: -170, type: 'image', width: 400 },
-      { height: 264, initialOffset: { x: 30, y: 0 }, left: 25,path: 'assets/img/mosaic2/20251212_BS_YLE_Q1010404_0004.jpg',top: -170,type: 'image', width: 400 },
+      { height: 264, initialOffset: { x: -30, y: 0 }, left: -415, path: 'assets/img/mosaic2/20251216_BS_YLE_Q1020232_0015.jpg', top: -170, type: 'image', width: 400 },
+      { height: 264, initialOffset: { x: 30, y: 0 }, left: 15,path: 'assets/img/mosaic2/20251212_BS_YLE_Q1010404_0004.jpg',top: -170,type: 'image', width: 400 },
       { height: 264, initialOffset: { x: 0, y: -30 }, left: -200, path: 'assets/img/mosaic2/20251211_BS_YLE_Q1010295_0001.jpg', top: -465, type: 'image', width: 400 },
-      { height: 226, initialOffset: { x: 0, y: 30 }, left: -200, path: 'assets/vid/UL_Gazan_lapset_KOULUBUSSI_1_.mp4', top: 125, type: 'video', width: 400, caption: 'Lapset käyvät yksityiskoulua Ammanissa. Koulu haluaa tukea gazalaisia lapsia ja on siksi tarjonnut heille maksuttoman opiskelupaikan. Kuvat ja video: Benjamin Suomela / Yle' }
+      { height: 226, initialOffset: { x: 0, y: 30 }, left: -200, path: 'https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_KOULUBUSSI_1.mp4', top: 125, type: 'video', width: 400, caption: 'Lapset käyvät yksityiskoulua Ammanissa. Koulu haluaa tukea gazalaisia lapsia ja on siksi tarjonnut heille maksuttoman opiskelupaikan. Kuvat ja video: Benjamin Suomela / Yle' }
     ]}
   />
 </div>
@@ -237,9 +258,9 @@ import Map from '~/components/custom/Map.jsx';
 
   Sairaalahoitoon pääsevien lasten matka Jordaniaan ei ole helppo, sillä heidät evakuoidaan maareittejä pitkin.
 
-  <a href="https://jordantimes.com/news/local/jaf-evacuates-29-children-gaza-medical-treatment" target="_blank">Kaikkein kiireisimmissä tapauksissa käytetään Jordanian armeijan helikoptereita, jotka ovat kyydinneet potilaat rajanylityspaikalta Jordaniaan.</a>
+  <p><a href="https://jordantimes.com/news/local/jaf-evacuates-29-children-gaza-medical-treatment" target="_blank" rel="noopener noreferrer" className='leipis'>Kaikkein kiireisimmissä tapauksissa käytetään Jordanian armeijan helikoptereita, jotka ovat kyydinneet potilaat rajanylityspaikalta Jordaniaan.</a></p>
 
-  Jordaniassa potilaat pääsevät maan parhaisiin sairaaloihin. <a href="https://petra.gov.jo/Include/InnerPage.jsp?ID=81804&lang=en&name=en_news" target="_blank">Toistaiseksi maahan on päässyt hoitoon runsaat 600 palestiinalaislasta.</a> Jordania ei voi vaikuttaa evakuoitavien lasten määrään, sillä Israelin viranomaiset myöntävät poistumisluvat.
+  Jordaniassa potilaat pääsevät maan parhaisiin sairaaloihin. <a href="https://petra.gov.jo/Include/InnerPage.jsp?ID=81804&lang=en&name=en_news" target="_blank" rel="noopener noreferrer">Toistaiseksi maahan on päässyt hoitoon runsaat 600 palestiinalaislasta.</a> Jordania ei voi vaikuttaa evakuoitavien lasten määrään, sillä Israelin viranomaiset myöntävät poistumisluvat.
 </div>
 
 <div className="full-width">
@@ -261,10 +282,8 @@ import Map from '~/components/custom/Map.jsx';
 
   Heidät majoitettiin paikalliseen vaatimattomaan hotelliin, joka on Kuningas Husseinin syöpäsairaalan läheisyydessä. Hotellissa majoittui useita gazalaisperheitä, jotka olivat tulleet Jordaniaan hakemaan lääketieteellistä apua.
 
-  Jordaniassa kaksivuotiaan Lollan hoito aloitettiin välittömästi solunsalpaajilla kasvaimen nujertamiseksi, mutta sytostaatit eivät tehonneet toivotulla tavalla, vaan lääkärit joutuivat poistamaan Lollan oikean silmän.
-
-  Ensimmäisen leikkauksen jälkeen hoitoa jatkettiin sytostaateilla, mutta ne eivät tehonneet toivotulla tavalla jäivät edelleen heikoiksi. Lääkärit suosittelivat myös Lollan  vasemman silmän poistamista, jotta syöpä ei leviäisi aivoihin.
-
+Jordaniassa kaksivuotiaan Lollan hoito aloitettiin välittömästi. Hänen kasvaintaan nujerrettiin solunsalpaajilla, mutta ne eivät tehonneet toivotulla tavalla. Lopulta lääkärit joutuivat poistamaan Lollan oikean silmän. He suosittelivat myös vasemman silmän poistamista, jotta syöpä ei leviäisi aivoihin.
+  
   Lollan Gazassa oleva Isä kieltäytyi toimenpiteestä, sillä hän piti ajatusta tyttärensä sokeutumisesta lohduttomana.
 </div>
 
@@ -272,17 +291,17 @@ import Map from '~/components/custom/Map.jsx';
   {
     /*
     @TODO
-    Vaihda urlit oikeiksi. Squaret on mobiilii varten. Lisää tekstitys VTT?
+    Vaihda urlit oikeiksi. Squaret on mobiilii varten.
     */
   }
   <Video 
     background="#111"
     caption="Videolla 8-vuotias Luai Abu Asi puhuu isänsä kanssa puhelimessa ja haaveilee kotiinpaluusta. Isän vastaus on lohduton: kotia ei ole enää olemassa, vain kasa betonimurskaa. Video: Benjamin Suomela / Yle"
-    path="assets/vid/UL_Gazan_lapset_PUHELU_1_.mp4"
-    path_square="assets/vid/UL_Gazan_lapset_PUHELU_1_.mp4"
-    poster="assets/img/UL_Gazan_lapset_PUHELU_1_.jpg"
-    poster_square="assets/img/UL_Gazan_lapset_PUHELU_1_.jpg"
-    subtitles=""
+    path="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_PUHELU_1.mp4"
+    path_square="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_PUHELU_NELIO_1.mp4"
+    poster="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_PUHELU_1.mp4.poster.jpg"
+    poster_square="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_PUHELU_1.mp4.poster.jpg"
+    subtitles={video3Vtt}
   />
 </div>
 
@@ -309,7 +328,7 @@ import Map from '~/components/custom/Map.jsx';
 
 <div className="leipis fi">
   ## Jordania pelkää uutta pakolaisaaltoa
-  Israel on jatkanut iskujaan tulitauosta huolimatta. <a href="https://www.unicef.org/press-releases/during-gazas-ceasefire-children-keep-being-killed" target="_blank">Lokakuussa 2025 alkaneen hauraan tulitauon jälkeen yli 100 lasta on kuollut.</a> Silti Jordania palauttaa lapset takaisin kotimaahansa hoitojen päätyttyä.
+  Israel on jatkanut iskujaan tulitauosta huolimatta. <a href="https://www.unicef.org/press-releases/during-gazas-ceasefire-children-keep-being-killed" target="_blank" rel="noopener noreferrer">Lokakuussa 2025 alkaneen hauraan tulitauon jälkeen yli 100 lasta on kuollut.</a> Silti Jordania palauttaa lapset takaisin kotimaahansa hoitojen päätyttyä.
 
   Jordania perustelee linjaansa sillä, että se on jo aiemmin antanut kodin miljoonille palestiinalaispakolaisille, joten sen resurssit ovat jo nyt äärirajoilla. Uusi hallitsematon pakolaisaalto voisi horjuttaa maan sisäistä tasapainoa.
 
@@ -320,17 +339,17 @@ import Map from '~/components/custom/Map.jsx';
   {
     /*
     @TODO
-    Vaihda urlit oikeiksi. Squaret on mobiilii varten. Lisää tekstitys VTT?
+    Vaihda kuva urlit oikeiksi.
     */
   }
   <Video 
     background="#111"
     caption="Videolla Juri Abu Asi muistelee elämää Gazassa ennen sotaa: silloin sai nukkua rauhassa ilman ohjusten ja droonien pelkoa. Video: Benjamin Suomela / Yle"
-    path="assets/vid/UL_Gazan_lapset_HIPPA_1_.mp4"
-    path_square="assets/vid/UL_Gazan_lapset_HIPPA_1_.mp4"
-    poster="assets/img/UL_Gazan_lapset_HIPPA_1_.jpg"
-    poster_square="assets/img/UL_Gazan_lapset_HIPPA_1_.jpg"
-    subtitles=""
+    path="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_HIPPA_2.mp4"
+    path_square="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_HIPPA_NELIO_2.mp4"
+    poster="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_HIPPA_2.mp4.poster.jpg"
+    poster_square="https://yleerilliset.akamaized.net/plus/Feature-videot/2026/05/UL_Gazan_lapset_HIPPA_NELIO_2.mp4.poster.jpg"
+    subtitles={video4Vtt}
   />
 </div>
 
@@ -341,25 +360,12 @@ import Map from '~/components/custom/Map.jsx';
   <p><span className="label">Suomennos:</span>  <span className="value">Sampsa Peltonen </span></p>
   <p><span className="label">Kuvat ja videot:</span>  <span className="value">Benjamin Suomela </span></p>
   <p><span className="label">Ulkoasu:</span> <span className="value">Kiira Natunen </span></p>
-  <p><span className="label">Tekninen toteutus:</span> <span className="value">Teemo Tebest</span></p>
+  <p><span className="label">Tekninen toteutus:</span> <span className="value">Teemo Tebest, Teemu Saravirta</span></p>
   <p><span className="label">Toimittaja:</span> <span className="value">Viivi Berghem</span></p>
   <p><span className="label">Tekstin editointi:</span>  <span className="value">Emilia Heilala </span></p>
-  <p><span className="label">Visuaalinen tuottaja:</span>  <span className="value">Tatu Blomqvist</span></p>
   <p><span className="label">Tuottaja:</span> <span className="value">Marko Lönnqvist </span></p>
 
 </div>
-{
-  /*
-    @TODO
-    Lue myös
-
-    https://areena.yle.fi/1-76512867
-    https://areena.yle.fi/1-77547740
-    https://yle.fi/a/74-20219807
-    */
-  }
-
-
 <LueMyos />
 
 </section>

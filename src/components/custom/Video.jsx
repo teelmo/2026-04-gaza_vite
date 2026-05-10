@@ -10,6 +10,20 @@ function Video({ background, caption, path, path_square, poster, poster_square, 
   const [opacity, setOpacity] = useState(0);
   const [currentBackground, setCurrentBackground] = useState(background);
   const [muted, setMuted] = useState(true);
+  const [subtitlesUrl, setSubtitlesUrl] = useState('');
+
+  // Convert raw VTT content into a same-origin blob URL so cross-origin
+  // embeds (e.g. yle.fi loading from plus.yle.fi) can use the <track>.
+  useEffect(() => {
+    if (!subtitles) {
+      setSubtitlesUrl('');
+      return undefined;
+    }
+    const blob = new Blob([subtitles], { type: 'text/vtt' });
+    const url = URL.createObjectURL(blob);
+    setSubtitlesUrl(url);
+    return () => URL.revokeObjectURL(url);
+  }, [subtitles]);
 
   const toggleMute = () => {
     const video = videoRef.current;
@@ -62,31 +76,29 @@ function Video({ background, caption, path, path_square, poster, poster_square, 
             <div className="video_overlay" ref={videoOverlayRef}></div>
             <video loop muted playsInline preload="auto" ref={videoRef} src={window.innerWidth > 600 ? path : path_square} poster={window.innerWidth > 600 ? poster : poster_square} style={{ opacity }}>
               <source src={window.innerWidth > 600 ? path : path_square} type="video/mp4" />
-              {subtitles !== '' && <track label="Finnish" kind="subtitles" srcLang="fi" src={subtitles} />}
+              {subtitlesUrl !== '' && <track default label="Finnish" kind="subtitles" srcLang="fi" src={subtitlesUrl} />}
             </video>
             <figcaption>{caption}</figcaption>
             {/* Sound toggle button */}
             <div ref={controlRef}>
               <button
-                aria-label="Äänet päälle / pois"
+                aria-label="Toggle mute"
                 onClick={toggleMute}
                 style={{
-                  alignItems: 'center',
+                  position: 'absolute',
+                  top: '1rem',
+                  right: '1rem',
                   background: 'rgba(0, 0, 0, 0.5)',
                   border: '1px solid rgba(255, 255, 255, 0.3)',
                   borderRadius: '50%',
+                  width: '40px',
+                  height: '40px',
                   cursor: 'pointer',
                   display: 'flex',
-                  height: '40px',
+                  alignItems: 'center',
                   justifyContent: 'center',
-                  outline: 'none',
-                  pointerEvents: 'auto',
-                  position: 'absolute',
-                  right: '1rem',
-                  top: '1rem',
                   transition: 'opacity 2s ease, border-color 0.2s ease',
-                  width: '40px',
-                  zIndex: 2
+                  pointerEvents: 'auto'
                 }}
                 type="button"
               >

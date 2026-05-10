@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import PropTypes from "prop-types";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 function MapImage({ map1, map2, texts, points }) {
   const containerRef = useRef(null);
@@ -7,8 +7,10 @@ function MapImage({ map1, map2, texts, points }) {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
-  const lineEnd = 0.95; // Line finishes at 95% of total scroll, last 5% is frozen
+  // Line finishes at 95% of total scroll, last 5% is frozen.
+  const lineEnd = 0.95;
   const phaseSize = 1 / texts.length;
+  // Line starts after three phases.
   const lineStart = phaseSize * 3 - phaseSize * 0.5;
 
   const map1Opacity = Math.max(1 - Math.max(scrollProgress - (phaseSize * 2 - phaseSize * 0.5), 0) / 0.05, 0);
@@ -17,7 +19,8 @@ function MapImage({ map1, map2, texts, points }) {
 
   let mapWidth;
   let mapHeight;
-  // Map dimensions
+
+  // Map dimensions.
   if (dimensions.width / dimensions.height > 1350 / 1110) {
     mapHeight = dimensions.height;
     mapWidth = (dimensions.height * 1350) / 1110;
@@ -28,17 +31,18 @@ function MapImage({ map1, map2, texts, points }) {
   const mapLeft = (dimensions.width - mapWidth) / 2;
   const mapTop = (dimensions.height - mapHeight) / 2;
 
-    // Text opacity helper — fades in then out within each phase
-  const textOpacity = progress => (progress < 0.1 ? progress / 0.1 : progress > 0.8 ? 1 - (progress - 0.8) / 0.2 : 1);
+  // Text opacity helper — fades in then out within each phase.
+  const textOpacity = (progress) => (progress < 0.1 ? progress / 0.1 : progress > 0.8 ? 1 - (progress - 0.8) / 0.2 : 1);
 
+  // Convert percentage positions to actual pixels.
   const toPixel = useCallback(
-    point => ({
+    (point) => ({
       x: (point.x / 100) * mapWidth,
       x_text: (point.x / 100 + 0.02) * mapWidth,
       y: (point.y / 100) * mapHeight,
-      y_text: (point.y / 100) * mapHeight
+      y_text: (point.y / 100) * mapHeight,
     }),
-    [mapWidth, mapHeight]
+    [mapWidth, mapHeight],
   );
 
   const pixelPoints = useMemo(() => (dimensions.width ? points.map(toPixel) : []), [dimensions.width, points, toPixel]);
@@ -47,7 +51,7 @@ function MapImage({ map1, map2, texts, points }) {
   useEffect(() => {
     const controlPoint = (p1, p2) => ({
       x: (p1.x + p2.x) / 2 + (p2.y - p1.y) * 0.2,
-      y: (p1.y + p2.y) / 2 - (p2.x - p1.x) * 0.2
+      y: (p1.y + p2.y) / 2 - (p2.x - p1.x) * 0.2,
     });
     if (!dimensions.width || !canvasRef.current) return;
 
@@ -60,24 +64,24 @@ function MapImage({ map1, map2, texts, points }) {
       canvas.height = Math.min(dimensions.height, (mapWidth * 1110) / 1350);
     }
 
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext("2d");
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     pixelPoints.forEach((point, i) => {
       if (i === 0 || i === pixelPoints.length - 1) {
         ctx.beginPath();
         ctx.arc(point.x, point.y, window.innerWidth > 600 ? 14 : 8, 0, Math.PI * 2);
-        ctx.fillStyle = '#fff';
+        ctx.fillStyle = "#fff";
         ctx.fill();
       }
     });
 
     if (lineProgress === 0) return;
 
-    ctx.strokeStyle = 'rgba(255, 80, 0, 0.9)';
+    ctx.strokeStyle = "#ff623e";
     ctx.lineWidth = window.innerWidth > 600 ? 5 : 3;
-    ctx.lineCap = 'round';
-    ctx.lineJoin = 'round';
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
 
     // Instead of drawnLength based on distance, use segment progress
     const drawnSegments = lineProgress * (pixelPoints.length - 1);
@@ -109,14 +113,14 @@ function MapImage({ map1, map2, texts, points }) {
       if (drawnSegments >= i || (i === 0 && drawnSegments > 0)) {
         ctx.beginPath();
         ctx.arc(point.x, point.y, window.innerWidth > 600 ? 14 : 8, 0, Math.PI * 2);
-        ctx.fillStyle = '#ff623e';
+        ctx.fillStyle = "#ff623e";
         ctx.fill();
       }
       pixelPoints.forEach((point, i) => {
         if (i === 0 || i === pixelPoints.length - 1) {
           ctx.beginPath();
           ctx.arc(point.x, point.y, window.innerWidth > 600 ? 14 : 8, 0, Math.PI * 2);
-          ctx.fillStyle = '#ff623e';
+          ctx.fillStyle = "#ff623e";
           ctx.fill();
         }
       });
@@ -131,12 +135,12 @@ function MapImage({ map1, map2, texts, points }) {
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext("2d");
     pixelPoints.forEach((point, i) => {
       if (i === 0 || i === pixelPoints.length - 1) {
         ctx.beginPath();
         ctx.arc(point.x, point.y, window.innerWidth > 600 ? 14 : 8, 0, Math.PI * 2);
-        ctx.fillStyle = '#fff';
+        ctx.fillStyle = "#fff";
         ctx.fill();
       }
     });
@@ -150,21 +154,25 @@ function MapImage({ map1, map2, texts, points }) {
       const progress = -top / (height - window.innerHeight);
       setScrollProgress(Math.min(Math.max(progress, 0), 1));
     };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const mapStyle = {
     height: mapHeight,
     left: mapLeft,
     top: mapTop,
-    width: mapWidth
+    width: mapWidth,
   };
   return (
-    <div ref={containerRef} style={{ background: scrollProgress > 0 ? 'linear-gradient(to bottom, #111, #000 50%, #111)' : '#111' }} className="container_map_content">
+    <div
+      ref={containerRef}
+      style={{ background: scrollProgress > 0 ? "linear-gradient(to bottom, #111, #000 50%, #111)" : "#111" }}
+      className="container_map_content"
+    >
       <div className="map_content">
-        <img src={map1} alt="" style={{ ...mapStyle, opacity: map1Opacity }} />
-        <img src={map2} alt="" style={{ ...mapStyle, opacity: map2Opacity }} />
+        <img src={`${import.meta.env.BASE_URL}${map1}`} alt="" style={{ ...mapStyle, opacity: map1Opacity }} />
+        <img src={`${import.meta.env.BASE_URL}${map2}`} alt="" style={{ ...mapStyle, opacity: map2Opacity }} />
         <canvas ref={canvasRef} style={{ left: mapLeft, top: mapTop }} />
         {/* Texts */}
         {texts.map((content, i) => {
@@ -172,7 +180,11 @@ function MapImage({ map1, map2, texts, points }) {
           const phaseProgress = Math.min(Math.max((scrollProgress - phaseStart) / phaseSize, 0), 1);
           const textY = 100 - phaseProgress * 200;
           return (
-            <div className="container_scrolling_text" key={content.text} style={{ opacity: textOpacity(phaseProgress), transform: `translateY(${textY}%)` }}>
+            <div
+              className="container_scrolling_text"
+              key={content.text}
+              style={{ opacity: textOpacity(phaseProgress), transform: `translateY(${textY}%)` }}
+            >
               <p>
                 <span className="title">{content.title}</span> <span className="text">{content.text}</span>
               </p>
@@ -183,15 +195,23 @@ function MapImage({ map1, map2, texts, points }) {
         {pixelPoints.map((point, i) => {
           const drawnSegments = lineProgress * (pixelPoints.length - 1);
           const reached = (drawnSegments >= i && map1Opacity < 0.5) || i === 0 || i === pixelPoints.length - 1;
-          if (points[i].label_pos === 'right') {
+          if (points[i].label_pos === "right") {
             return (
-              <div className="container_label_text right" key={points[i].y} style={{ top: mapTop + point.y, left: mapLeft + point.x_text, opacity: reached ? 1 : 0 }}>
+              <div
+                className="container_label_text right"
+                key={points[i].y}
+                style={{ top: mapTop + point.y, left: mapLeft + point.x_text, opacity: reached ? 1 : 0 }}
+              >
                 {points[i].label}
               </div>
             );
           }
           return (
-            <div className="container_label_text center" key={points[i].y} style={{ top: mapTop + point.y, left: mapLeft + point.x, opacity: reached ? 1 : 0 }}>
+            <div
+              className="container_label_text center"
+              key={points[i].y}
+              style={{ top: mapTop + point.y, left: mapLeft + point.x, opacity: reached ? 1 : 0 }}
+            >
               {points[i].label}
             </div>
           );
@@ -209,9 +229,9 @@ MapImage.propTypes = {
     PropTypes.shape({
       x: PropTypes.number.isRequired,
       y: PropTypes.number.isRequired,
-      label: PropTypes.string.isRequired
-    })
-  ).isRequired
+      label: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
 };
 
 export default MapImage;
